@@ -1,0 +1,112 @@
+{
+  "groups": [
+    {
+      "title": "全國經典（哪裡都吃得到）",
+      "items": [
+        {
+          "name": "Pylsur 冰島熱狗",
+          "desc": "羊肉+豬肉+牛肉混合腸，標準吃法「með öllu」（全加：生洋蔥、炸洋蔥酥、番茄醬、甜芥末、雷莫拉醬）。雷克雅維克市區的 Bæjarins Beztu Pylsur（1937年開業）被《衛報》選為歐洲最佳熱狗攤",
+          "priceNote": "約ISK 880／支（約NT$210）；熱狗+可樂套餐約ISK 1,330（約NT$320）",
+          "source": "adventures.is，2026年3月報價"
+        },
+        {
+          "name": "Skyr",
+          "desc": "優格狀傳統乳製品，超市/咖啡廳到處都有，很多人當早餐或點心",
+          "priceNote": "超市日常品，價格未查證，屬便宜等級",
+          "source": null
+        },
+        {
+          "name": "Plokkfiskur",
+          "desc": "奶油白汁魚肉馬鈴薯泥，家常菜代表",
+          "priceNote": "價格未查證",
+          "source": null
+        },
+        {
+          "name": "Kjötsúpa 羊肉湯",
+          "desc": "羊肉、馬鈴薯、紅蘿蔔、蕪菁燉煮，天冷時很多餐廳都有供應",
+          "priceNote": "價格未查證",
+          "source": null
+        },
+        {
+          "name": "Rúgbrauð 地熱黑麥麵包",
+          "desc": "用地熱蒸烤的傳統黑麥麵包，常配奶油或燻鮭魚一起吃",
+          "priceNote": "價格未查證",
+          "source": null
+        },
+        {
+          "name": "Hákarl 發酵鯊魚肉",
+          "desc": "冰島國菜、挑戰型美食，氣味濃烈，通常搭配Brennivín（黑死酒）當作獵奇體驗小份試吃",
+          "priceNote": "價格未查證",
+          "source": null
+        }
+      ]
+    },
+    {
+      "title": "D1 / D8-D10・雷克雅維克",
+      "items": [
+        {
+          "name": "Bæjarins Beztu Pylsur（熱狗攤）",
+          "desc": "市中心Tryggvagata街上的招牌熱狗攤，冰島最知名美食地標之一",
+          "priceNote": "約ISK 880／支（約NT$210）",
+          "source": "adventures.is，2026年3月報價"
+        },
+        {
+          "name": "一般餐廳正餐行情",
+          "desc": "平價餐廳到中價位餐廳的主餐參考行情，方便抓預算",
+          "priceNote": "平價ISK 2,000–3,500（約NT$480–840）／中價位主餐ISK 3,500–7,000（約NT$840–1,680）；Kopar（老港邊）當日鮮魚約ISK 4,990（NT$1,200），牛肋眼約ISK 9,790（NT$2,350）",
+          "source": "whatson.is、reykjavik-trip.com，2026年價格"
+        }
+      ]
+    },
+    {
+      "title": "D3・Vík小鎮",
+      "items": [
+        {
+          "name": "Suður-Vík",
+          "desc": "山坡景觀家庭餐廳，主打披薩，自種大黃做傳統冰島大黃粥，盡量用當地食材/漁獲",
+          "priceNote": "價格未查證",
+          "source": "guidetoiceland.is"
+        },
+        {
+          "name": "Strondin Pub",
+          "desc": "炸魚薯條、北極紅點鮭為招牌，強調當日鮮魚與在地羊肉",
+          "priceNote": "價格未查證",
+          "source": "guidetoiceland.is"
+        }
+      ]
+    },
+    {
+      "title": "D4-D5・Höfn（連住2晚）",
+      "items": [
+        {
+          "name": "Humarhöfnin（龍蝦港海鮮餐廳）",
+          "desc": "Höfn是冰島公認的「龍蝦之都」（實際是海螯蝦langoustine），Humarhöfnin是港邊最知名的專門店，招牌是整隻烤海螯蝦、龍蝦湯、龍蝦披薩，食材直接來自碼頭當日漁獲",
+          "priceNote": "海螯蝦主餐約ISK 7,400–12,000／份（約NT$1,780–2,880），依做法/份量不同",
+          "source": "atlasiceland.com、tripadvisor評論"
+        }
+      ]
+    },
+    {
+      "title": "D6・Borgarnes",
+      "items": [
+        {
+          "name": "Bjargarsteinn",
+          "desc": "1908年老屋改建的小餐廳，主打當地漁夫直送的新鮮海鮮，供應當日漁獲",
+          "priceNote": "價格未查證",
+          "source": "west.is"
+        }
+      ]
+    },
+    {
+      "title": "D7・斯奈山半島",
+      "items": [
+        {
+          "name": "Sker（Ólafsvík）／Arnarbær",
+          "desc": "半島以新鮮海鮮聞名，這兩家主打海鮮湯、炸魚薯條，用料強調當地捕撈",
+          "priceNote": "價格未查證",
+          "source": "guidetoiceland.is"
+        }
+      ]
+    }
+  ]
+}
