@@ -1,0 +1,556 @@
+<title>冰島行程比價評估</title>
+<style>
+  :root {
+    --bg: #F7F5F0;
+    --surface: #FFFFFF;
+    --surface-2: #F0ECE4;
+    --ink: #1B2226;
+    --ink-muted: #5B6570;
+    --ink-faint: #8B9198;
+    --accent: #2F7D68;
+    --accent-soft: #E4EFE9;
+    --accent-2: #4C6E9E;
+    --accent-2-soft: #E7ECF4;
+    --line: #DCD7CC;
+    --line-strong: #C6C0B2;
+    --warn: #9A6B2F;
+    --warn-soft: #F2E9DA;
+    --danger: #B0433D;
+    --danger-soft: #F5E4E2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15181B;
+      --surface: #1D2124;
+      --surface-2: #242829;
+      --ink: #ECEAE4;
+      --ink-muted: #A8AEB3;
+      --ink-faint: #767C81;
+      --accent: #5FCBA8;
+      --accent-soft: #1E332C;
+      --accent-2: #8FB0E0;
+      --accent-2-soft: #1F2A38;
+      --line: #33373A;
+      --line-strong: #43484B;
+      --warn: #E0B368;
+      --warn-soft: #332A19;
+      --danger: #E08A85;
+      --danger-soft: #3A2320;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #15181B;
+    --surface: #1D2124;
+    --surface-2: #242829;
+    --ink: #ECEAE4;
+    --ink-muted: #A8AEB3;
+    --ink-faint: #767C81;
+    --accent: #5FCBA8;
+    --accent-soft: #1E332C;
+    --accent-2: #8FB0E0;
+    --accent-2-soft: #1F2A38;
+    --line: #33373A;
+    --line-strong: #43484B;
+    --warn: #E0B368;
+    --warn-soft: #332A19;
+    --danger: #E08A85;
+    --danger-soft: #3A2320;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Microsoft JhengHei", sans-serif; }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 24px 16px 80px; }
+  h1 { font-size: 1.4rem; margin: 0 0 6px; }
+  .intro { font-size: 0.85rem; color: var(--ink-muted); line-height: 1.7; margin-bottom: 18px; }
+  .intro b { color: var(--ink); }
+
+  .catcard {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+  .cathead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .cathead:hover { background: var(--surface-2); }
+  .cathead .titles { flex: 1; min-width: 0; }
+  .cathead h2 { font-size: 1.02rem; margin: 0 0 2px; }
+  .cathead .ctx { font-size: 0.76rem; color: var(--ink-muted); }
+  .cathead .chev { font-size: 0.8rem; color: var(--ink-faint); transition: transform 0.15s; margin-left: 10px; }
+  .catcard.collapsed .chev { transform: rotate(-90deg); }
+  .catcard.collapsed .catbody { display: none; }
+  .catwarn {
+    margin: 0 16px 12px;
+    padding: 10px 12px;
+    background: var(--warn-soft);
+    border-left: 3px solid var(--warn);
+    border-radius: 0 8px 8px 0;
+    font-size: 0.8rem;
+    color: var(--ink);
+  }
+  .catbody { padding: 0 10px 12px; }
+  .optlist { display: flex; flex-direction: column; gap: 8px; min-height: 10px; }
+  .optlist.dragover { background: var(--accent-soft); border-radius: 8px; }
+
+  .opt {
+    display: grid;
+    grid-template-columns: 22px 20px 1fr;
+    gap: 8px;
+    align-items: start;
+    padding: 10px 10px;
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    cursor: grab;
+  }
+  .opt.dragging { opacity: 0.4; }
+  .opt .draghandle { color: var(--ink-faint); font-size: 0.9rem; padding-top: 2px; cursor: grab; }
+  .opt input[type="checkbox"] { width: 17px; height: 17px; margin-top: 2px; accent-color: var(--accent); cursor: pointer; }
+  .opt .body { min-width: 0; }
+  .opt .row1 { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .opt .source { font-size: 0.72rem; font-weight: 700; color: var(--accent-2); background: var(--accent-2-soft); padding: 1px 7px; border-radius: 5px; }
+  .opt .name { font-weight: 600; font-size: 0.88rem; }
+  .opt .rank { font-size: 0.72rem; font-weight: 700; color: #fff; background: var(--accent); padding: 1px 6px; border-radius: 5px; }
+  .opt .rank.unranked { background: var(--ink-faint); }
+  .opt .stats { font-size: 0.78rem; color: var(--ink-muted); margin-top: 4px; display: flex; flex-wrap: wrap; gap: 4px 12px; }
+  .opt .stats b { color: var(--ink); }
+  .opt .stops { margin-top: 4px; font-size: 0.76rem; }
+  .opt .stops .stoptag { display: inline-block; background: var(--accent-soft); color: var(--accent); padding: 1px 6px; border-radius: 5px; margin: 2px 4px 2px 0; }
+  .opt .gaps { margin-top: 4px; font-size: 0.76rem; color: var(--danger); }
+  .opt .gaps div { margin-top: 2px; }
+  .opt a.link { font-size: 0.78rem; color: var(--accent-2); text-decoration: none; margin-top: 4px; display: inline-block; }
+  .opt .notebtn { font-size: 0.74rem; color: var(--ink-faint); background: none; border: 1px dashed var(--line-strong); border-radius: 6px; padding: 2px 8px; margin-top: 6px; cursor: pointer; }
+  .opt textarea.note {
+    width: 100%; margin-top: 6px; font-size: 0.8rem; padding: 6px 8px;
+    border: 1px solid var(--line); border-radius: 6px; background: var(--surface);
+    color: var(--ink); font-family: inherit; resize: vertical; min-height: 50px;
+  }
+  .opt.liked { border-color: var(--accent); background: var(--accent-soft); }
+
+  .toolbar { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+  .toolbar button {
+    font-size: 0.78rem; padding: 7px 12px; border-radius: 8px; border: 1px solid var(--line);
+    background: var(--surface); color: var(--ink); cursor: pointer;
+  }
+  .toolbar button:hover { background: var(--surface-2); }
+
+  @media (max-width: 560px) {
+    .opt { grid-template-columns: 18px 18px 1fr; }
+  }
+</style>
+
+<div class="wrap">
+  <h1>🧭 冰島行程比價評估</h1>
+  <p class="intro">
+    這份資料是從 Klook、KKday、GetYourGuide、Viator、官方業者、私人業者實際搜尋查回來的，<b>凡查不到的欄位一律標「查無數據」，沒有用猜的補齊</b>；部分平台頁面被防爬蟲機制擋下，只能用搜尋摘要，這種情況都有另外註明。<br>
+    CP值分數只在「同時有價格＋評論分數」時才計算（組內常態化，價格越低分越高、評論越高分越高各佔一半權重），資料不全的一律顯示「資料不足，暫不排序」，不會替你亂猜名次。<br>
+    每個選項可以打勾（複選）、點「＋ 加記事」寫自己的筆記、可以<b>直接拖曳到任何分類底下</b>調整順序或修正分類。所有勾選/記事/排序都會存在你這台瀏覽器裡，關掉重開還在。
+  </p>
+
+  <div class="toolbar">
+    <button id="btnExpandAll">全部展開</button>
+    <button id="btnCollapseAll">全部收合</button>
+    <button id="btnResetOrder">重設排序（清掉我拖過的順序）</button>
+  </div>
+
+  <div id="categories"></div>
+</div>
+
+<script>
+// Structured comparison data. Every number/URL below is taken verbatim from the
+// research reports; anything the agents could not verify is marked dataGaps/⚠️,
+// never invented. cpScore is null when price or review data is missing (unrankable).
+const TOUR_DATA = [
+{
+  id: 'skylagoon', title: '🌋 Sky Lagoon 天空之湖', dayContext: 'D1 抵達當晚（現行程已排）',
+  options: [
+    { id:'sl-gyg1', source:'GetYourGuide', name:'Entrance Pass w/ 7-Step Ritual', price:'US$117起', review:'4.8（7,632則）', duration:null, cancel:null, url:'https://www.getyourguide.com/sky-lagoon-l163902/', cpScore:1.00, stops:[], dataGaps:['取消政策未列出'] },
+    { id:'sl-gyg2', source:'GetYourGuide', name:'Admission with Transfer (2.5hr)', price:'US$153起', review:'4.8（2,648則）', duration:'2.5小時', cancel:null, url:'https://www.getyourguide.com/sky-lagoon-l163902/', cpScore:0.50, stops:[], dataGaps:['取消政策未列出'] },
+    { id:'sl-gyg3', source:'GetYourGuide', name:'Golden Circle, Kerid Crater and Sky Lagoon Tour（組合團）', price:'US$243起', review:'4.9（617則）', duration:null, cancel:null, url:'https://www.getyourguide.com/sky-lagoon-l163902/', cpScore:null, stops:[{name:'Kerið',tag:'D2有去'}], dataGaps:['取消政策未列出','含黃金圈景點，與D2重複'] },
+    { id:'sl-gti', source:'Guide to Iceland（代理）', name:'Sky Lagoon Pure Pass（Saman Pass）', price:'約US$127（15,990 ISK起）', review:'GTI自評9.0/10(3,343)｜TripAdvisor4.6(3,482)｜Google4.8(2,221)', duration:null, cancel:'24小時前可免費取消', url:'https://guidetoiceland.is/book-holiday-trips/sky-lagoon-pure-pass', cpScore:0.36, stops:[], dataGaps:[] },
+    { id:'sl-official', source:'官方 skylagoon.com', name:'Saman Pass', price:'約US$127／€109（15,990 ISK起）', review:null, duration:null, cancel:'查無官網直接數據', url:'https://www.skylagoon.com/packages/', cpScore:null, stops:[], dataGaps:['官網頁面被cookie牆擋下，價格轉引自第三方彙整站','評論分數查無數據','Sér Pass確切價格未查到'] },
+    { id:'sl-kkday-a', source:'KKday', name:'Sky Lagoon Admission "Pure Pass" and Bus Transfer', price:'查詢當下顯示已售完，無金額', review:'4.7（僅顯示「已售100+」，無明確則數）', duration:null, cancel:'4天前(含)可免費取消；0-3天不可取消退款', url:'https://www.kkday.com/en-us/product/123679-sky-lagoon-admission-ticket-pure-pass-and-bus-transfer-iceland', cpScore:null, stops:[], dataGaps:['商品已售完，價格未知'] },
+    { id:'sl-kkday-b', source:'KKday', name:'Sky Lagoon Hot Springs Tour (with Reykjavik City Transfer)', price:'US$157（查詢當下已售完）', review:null, duration:null, cancel:'3天前(含)可免費取消；0-2天不可取消退款', url:'https://www.kkday.com/en-us/product/181703', cpScore:null, stops:[], dataGaps:['已售完','評論分數查無數據','是否含毛巾/泳衣未寫明'] },
+    { id:'sl-klook1', source:'Klook', name:'Sky Lagoon Pass with Optional Transfer', price:'查無數據', review:'查無數據', duration:null, cancel:'查無數據', url:'https://www.klook.com/en-US/activity/98215-sky-lagoon-pass-optional-transfer/', cpScore:null, stops:[], dataGaps:['頁面遭CAPTCHA擋下，全部欄位查無數據，請自行點連結確認'] },
+  ]
+},
+{
+  id: 'bluelagoon', title: '💧 Blue Lagoon 藍湖', dayContext: 'D12 離境前壓軸（現行程已排）',
+  options: [
+    { id:'bl-gyg1', source:'GetYourGuide', name:'Official Blue Lagoon: Comfort admission', price:'US$146起', review:'4.6（6,194則）', duration:null, cancel:null, url:'https://www.getyourguide.com/blue-lagoon-reykjavik-l5049/', cpScore:1.00, stops:[], dataGaps:['取消政策未列出'] },
+    { id:'bl-gyg2', source:'GetYourGuide', name:'Official Blue Lagoon: Premium Admission', price:'US$170起', review:'4.6（652則）', duration:null, cancel:null, url:'https://www.getyourguide.com/blue-lagoon-reykjavik-l5049/', cpScore:0.86, stops:[], dataGaps:['取消政策未列出'] },
+    { id:'bl-gyg3', source:'GetYourGuide', name:'Comfort admission with transfers (5hr)', price:'US$217起', review:'4.4（1,509則）', duration:'5小時', cancel:null, url:'https://www.getyourguide.com/blue-lagoon-reykjavik-l5049/', cpScore:0.08, stops:[], dataGaps:['取消政策未列出'] },
+    { id:'bl-gyg4', source:'GetYourGuide', name:'Golden Circle, Kerid Crater & Blue Lagoon Tour（組合團）', price:'US$260起', review:'4.9（5,990則）', duration:null, cancel:null, url:'https://www.getyourguide.com/blue-lagoon-reykjavik-l5049/', cpScore:null, stops:[{name:'Kerið',tag:'D2有去'}], dataGaps:['含黃金圈景點，與D2重複','取消政策未列出'] },
+    { id:'bl-kkday1', source:'KKday', name:'Blue Lagoon Comfort（自Keflavík機場出發）', price:'US$206.19', review:'4.6（107則，另顯示已售400+）', duration:null, cancel:'3天前(含)可免費取消；0-2天不可退款', url:'https://www.kkday.com/en-us/product/25493-blue-lagoon-ticket-and-bus-transfer-iceland', cpScore:0.65, stops:[], dataGaps:[] },
+    { id:'bl-kkday2', source:'KKday', name:'Blue Lagoon Comfort（自飯店巴士站出發）', price:'US$213.61', review:'4.6（107則）', duration:null, cancel:'3天前(含)可免費取消；0-2天不可退款', url:'https://www.kkday.com/en-us/product/25493-blue-lagoon-ticket-and-bus-transfer-iceland', cpScore:0.60, stops:[], dataGaps:[] },
+    { id:'bl-kkday3', source:'KKday', name:'Blue Lagoon Premium（自Keflavík機場出發）', price:'US$230.94', review:'4.6（107則）', duration:null, cancel:'3天前(含)可免費取消；0-2天不可退款', url:'https://www.kkday.com/en-us/product/25493-blue-lagoon-ticket-and-bus-transfer-iceland', cpScore:0.50, stops:[], dataGaps:[] },
+    { id:'bl-kkday4', source:'KKday', name:'Blue Lagoon Premium（自飯店出發）', price:'US$238.35', review:'4.6（107則）', duration:null, cancel:'3天前(含)可免費取消；0-2天不可退款', url:'https://www.kkday.com/en-us/product/25493-blue-lagoon-ticket-and-bus-transfer-iceland', cpScore:0.46, stops:[], dataGaps:[] },
+    { id:'bl-official', source:'官方 bluelagoon.com', name:'Comfort（動態定價，會依時段浮動）', price:'約US$86（11,990 ISK）', review:null, duration:null, cancel:'官方：提前24小時通知可全額退款（約需10工作天處理）', url:'https://www.iceland.org/blue-lagoon', cpScore:null, stops:[], dataGaps:['官網頁面回傳403，價格轉引自第三方彙整站 iceland.org','評論分數查無數據'] },
+    { id:'bl-official2', source:'官方 bluelagoon.com', name:'Premium／Signature／Retreat Spa套房', price:'約US$107／US$133／US$635起', review:null, duration:null, cancel:'同上', url:'https://www.iceland.org/blue-lagoon', cpScore:null, stops:[], dataGaps:['同上，價格為轉引非官網直接讀取'] },
+    { id:'bl-viator', source:'Viator', name:'Comfort／Premium／含接送套裝', price:'約US$211.50／US$246.78／US$371（含接送套裝較貴）', review:'查無明確評分則數（頁面被CAPTCHA擋下）', duration:null, cancel:'查無數據', url:'https://www.viator.com/en-GB/Reykjavik-attractions/Blue-Lagoon/d905-a2044', cpScore:null, stops:[], dataGaps:['頁面遭CAPTCHA擋下，數字來自搜尋摘要可信度較低'] },
+    { id:'bl-klook', source:'Klook', name:'Blue Lagoon Entry / Admission+Transfer 系列', price:'查無數據', review:'查無數據', duration:null, cancel:'查無數據', url:'https://www.klook.com/en-US/activity/118541-blue-lagoon-entry-ticket/', cpScore:null, stops:[], dataGaps:['頁面遭CAPTCHA擋下，全部欄位查無數據'] },
+    { id:'bl-gti', source:'Guide to Iceland', name:'Blue Lagoon Comfort Ticket', price:'查無數據', review:'查無數據', duration:null, cancel:'查無數據', url:'https://guidetoiceland.is/book-holiday-trips/blue-lagoon-spa-comfort', cpScore:null, stops:[], dataGaps:['本次查詢未取得具體頁面內容'] },
+  ]
+},
+{
+  id: 'icecave', title: '🧊 水晶冰洞探索團', dayContext: 'D5（10/8），出發地Jökulsárlón/Höfn', warning:'⚠️ 冰洞開放季節多數業者標示「10月中旬～3-4月」，10/8剛好在季節邊緣，各官網都查無逐日開放公告，強烈建議出發前1-2週親自致電/email業者確認當天是否已開放，並優先選免費取消方案。',
+  options: [
+    { id:'ic-official', source:'官方 Arctic Adventures (adventures.is)', name:'Crystal Ice Cave（原廠）', price:'US$154起（促銷碼後US$181，兩數字略矛盾）', review:null, duration:'2-3小時', cancel:'24小時前可免費取消，另有最低價保證', url:'https://adventures.is/iceland/day-tours/ice-caves/crystal-ice-cave/', cpScore:null, stops:[], dataGaps:['獨立評論分數頁面未顯示'] },
+    { id:'ic-gyg', source:'GetYourGuide', name:'Crystal Ice Cave Tour from Jökulsárlón', price:'US$174', review:'4.2（1,752則）', duration:'2.5小時', cancel:'24小時前可免費取消，可先訂後付', url:'https://www.getyourguide.com/jokulsarlon-l2030/crystal-ice-cave-tour-from-jokulsarlon-t73050/', cpScore:1.00, stops:[], dataGaps:[] },
+    { id:'ic-gti', source:'Guide to Iceland（轉售Arctic Adventures）', name:'Glacier Caving in Vatnajökull', price:'查無單一明確金額', review:'8.8/10(1,860)｜TripAdvisor4.6｜Google4.8｜Trustpilot4.5', duration:'3小時（可加價升級4小時）', cancel:'24小時前可免費取消', url:'https://guidetoiceland.is/book-holiday-trips/glacier-caving-in-vatnajokull', cpScore:null, stops:[], dataGaps:['價格未顯示明確單一數字'] },
+    { id:'ic-kkday', source:'KKday', name:'Crystal Ice Cave Tour', price:'NT$6,808（約US$220，本次最貴）', review:'查無數據', duration:'3小時', cancel:'出發日1天(含)前免費取消；0天不可退', url:'https://www.kkday.com/zh-tw/product/612835', cpScore:null, stops:[], dataGaps:['評論分數未顯示'] },
+    { id:'ic-klook', source:'Klook', name:'Crystal Ice Cave Tour from Jökulsárlón', price:'約US$154-181（促銷碼顯示混亂）', review:'查無數據（頁面遭CAPTCHA擋下）', duration:'2-3小時', cancel:'查無數據', url:'https://www.klook.com/en-US/activity/116883-crystal-ice-cave-tour-from-jokulsarlon-glacier-lagoon/', cpScore:null, stops:[], dataGaps:['評論分數與取消政策查無數據'] },
+    { id:'ic-glacieradv', source:'Glacier Adventure（獨立業者）', name:'冰洞團（9:30或14:00場次）', price:'29,500 ISK（約US$229，本次官網busi中最高）', review:'查無數據', duration:'3-3.5小時', cancel:'查無數據', url:'https://glacieradventure.is/', cpScore:null, stops:[], dataGaps:['官網未明確標示集合地點是否為Jökulsárlón，需電話+354 571 4577確認','評論與取消政策查無數據'] },
+    { id:'ic-viator', source:'Viator', name:'Crystal Ice Cave Tour from Jökulsárlón Glacier Lagoon', price:'查無數據', review:'查無數據', duration:null, cancel:'查無數據', url:'https://www.viator.com/tours/Reykjavik/Crystal-Ice-Cave-Tour-from-Jokulsarlon-Glacier-Lagoon/d905-5590P46', cpScore:null, stops:[], dataGaps:['頁面遭封鎖，全部欄位查無數據'] },
+  ]
+},
+{
+  id: 'aurora', title: '🌌 夜間極光導覽團', dayContext: 'D5（10/8），必須從Höfn/冰河湖當地出發才銜接得上', warning:'⚠️ Klook/KKday查到的極光團全部是雷克雅維克出發，跟D5人在Höfn地區完全銜接不上，以下標「❌地點不合」的已排除排名，只列出來讓你知道市面上有這些但用不到。真正能用的只有3家Höfn當地私人業者，且多數未公開價格。',
+  options: [
+    { id:'au-peek', source:'Peek.com（代訂私人團）', name:'Private Iceland Aurora Hunting Tour from Höfn', price:'US$351起（需確認是每人或每團）', review:'4.7（198則）', duration:'3小時', cancel:'出發前24小時可全額退款', url:'https://www.peek.com/iceland/r0a7zv/private-iceland-aurora-hunting-tour-experience-northern-lights-in-hofn/a059gg9', cpScore:1.00, stops:[], dataGaps:['價格是每人或每團未確認'] },
+    { id:'au-marina', source:'Marina Travel（Höfn當地官方直訂）', name:'From Höfn Aurora Hunting Photography Private Tour', price:'查無數據，需email hello@marinatravel.is 詢價', review:'查無數據', duration:'3小時', cancel:'出發前1天內取消收100%手續費', url:'https://marinatravel.is/from-hofn-aurora-hunting-photography-private-tour/', cpScore:null, stops:[], dataGaps:['價格與評論皆需自行詢價，本地原廠可能比代訂平台便宜'] },
+    { id:'au-advcol', source:'Adventure Collective（在地導遊Sindri）', name:'Private Aurora Hunting Photography Tour from Höfn', price:'查無數據', review:'查無數據', duration:'3小時', cancel:'查無數據', url:'https://app.advcollective.com/local-experts/private-aurora-hunting-photography-tour-from-hofn-east-iceland', cpScore:null, stops:[], dataGaps:['價格、評論、取消政策皆查無數據，需直接聯繫'] },
+    { id:'au-kkday1', source:'KKday', name:'北極光超級吉普旅行團', price:'HK$1,795（約4小時）', review:null, duration:'約4小時', cancel:null, url:'https://www.kkday.com/zh-hk/product/251208', cpScore:null, stops:[], dataGaps:['❌ 集合地點在雷克雅維克市區，跟D5行程地點不合，銜接不上'] },
+    { id:'au-kkday2', source:'KKday', name:'Northern Lights & Stargazing Tour', price:null, review:null, duration:null, cancel:null, url:'https://m.kkday.com/zh-hk/product/130879-northern-lights-and-stargazing-tour-in-reykjavik-iceland', cpScore:null, stops:[], dataGaps:['❌ 標題即寫明in Reykjavik，跟D5行程地點不合，銜接不上'] },
+    { id:'au-klook1', source:'Klook', name:'Northern Lights Tour from Reykjavik', price:null, review:null, duration:null, cancel:null, url:'https://www.klook.com/en-US/activity/114613-northern-lights-tour-from-reykjavik/', cpScore:null, stops:[], dataGaps:['❌ 雷克雅維克出發，跟D5行程地點不合，銜接不上'] },
+    { id:'au-klook2', source:'Klook', name:'Northern Lights Small Group Tour', price:null, review:null, duration:null, cancel:null, url:'https://www.klook.com/activity/102407-northern-lights-small-gorup-tour-reykjavik/', cpScore:null, stops:[], dataGaps:['❌ 雷克雅維克出發，跟D5行程地點不合，銜接不上'] },
+  ]
+},
+{
+  id: 'goldencircle', title: '⭐ 黃金圈一日遊（跟團替代方案）', dayContext: 'D2（10/5）現行程：Þingvellir、Geysir、Gullfoss、Kerið（自駕）', warning:'提醒：以下這些團的景點幾乎100%跟你們D2自駕行程重複，跟團唯一的價值是省開車/找停車位的力氣，沒有看到新景點。',
+  options: [
+    { id:'gc-gyg', source:'GetYourGuide', name:'Grand Golden Circle Tour with Kerid Crater', price:'US$92起', review:'4.8（27,284則）', duration:'7-8.5小時（12點後班次不停Kerið）', cancel:'24小時前可免費取消', url:'https://www.getyourguide.com/reykjavik-l30/grand-golden-circle-tour-t67012/', cpScore:1.00, stops:[{name:'Þingvellir',tag:'D2有去'},{name:'Geysir',tag:'D2有去'},{name:'Gullfoss',tag:'D2有去'},{name:'Kerið',tag:'D2有去（午後班次不停）'}], dataGaps:[] },
+    { id:'gc-klook', source:'Klook', name:'Golden Circle Tour and Kerid Crater Full Day Tour', price:'US$103.89（巴士站）／US$118.39（飯店接送）', review:'4.6（622則）', duration:'8.5小時', cancel:'查無數據，需洽客服', url:'https://www.klook.com/activity/6530-golden-circle-kerid-crater-bus-tour/', cpScore:0.55, stops:[{name:'Þingvellir',tag:'D2有去'},{name:'Geysir',tag:'D2有去'},{name:'Gullfoss',tag:'D2有去'},{name:'Kerið',tag:'D2有去'}], dataGaps:[] },
+    { id:'gc-gti', source:'Guide to Iceland', name:'Best Value Golden Circle & Kerid Crater Bus Tour', price:'查無基礎價（飯店接送另收1,590 ISK）', review:'9.2/10（912則）', duration:'8.5-9小時（12點後約7小時）', cancel:'24小時前可免費取消', url:'https://guidetoiceland.is/book-holiday-trips/grand-golden-circle-2', cpScore:null, stops:[{name:'Þingvellir',tag:'D2有去'},{name:'Geysir',tag:'D2有去'},{name:'Gullfoss',tag:'D2有去'},{name:'Kerið',tag:'D2有去'}], dataGaps:['基礎票價未顯示'] },
+    { id:'gc-kkday', source:'KKday', name:'6-hour Golden Circle Day Tour', price:'US$110（查詢當下顯示已售罄）', review:'查無數據', duration:'6小時（比其他家短，不含Kerið）', cancel:'出發前3天(含)可免費取消；0-2天不可退', url:'https://www.kkday.com/en-us/product/271267', cpScore:null, stops:[{name:'Þingvellir',tag:'D2有去'},{name:'Geysir',tag:'D2有去'},{name:'Gullfoss',tag:'D2有去'}], dataGaps:['已售罄','缺Kerið景點','評論分數查無數據'] },
+    { id:'gc-viator', source:'Viator', name:'Golden Circle Full-Day Small-Group Minibus Tour（含Kerið）', price:'查無數據（同類含Kerid行程搜尋顯示US$85-131區間，非此團精確價）', review:'2,585則評論，未標示星等', duration:null, cancel:'查無數據', url:'https://www.viator.com/tours/Reykjavik/Your-Golden-Circle-Full-Day-Tour-by-minibus/d905-36855P1', cpScore:null, stops:[{name:'Þingvellir',tag:'D2有去'},{name:'Geysir',tag:'D2有去'},{name:'Gullfoss',tag:'D2有去'},{name:'Kerið',tag:'D2有去'}], dataGaps:['頁面遭CAPTCHA擋下，精確價格查無數據'] },
+  ]
+},
+{
+  id: 'southcoast', title: '🌊 南岸一日遊（跟團替代方案）', dayContext: 'D3西段（10/6）+ D4東段（10/7）現行程：Skógafoss、Sólheimasandur飛機殘骸、Reynisfjara黑沙灘、Dyrhólaey、Fjaðrárgljúfur峽谷、Jökulsárlón冰河湖、鑽石沙灘（自駕）', warning:'⚠️ 沒有任何一團完整涵蓋全部7個既定景點；Fjaðrárgljúfur峽谷幾乎不在任何標準團的行程單上。',
+  options: [
+    { id:'sc-gyg', source:'GetYourGuide', name:'South Coast, Diamond Beach, and Jökulsárlón Tour', price:'US$232起', review:'4.5（1,526則）', duration:'14.5小時（一天做完D3+D4份量）', cancel:'24小時前可免費取消', url:'https://www.getyourguide.com/reykjavik-l30/reykjavik-south-coast-diamond-beach-and-jokulsarlon-tour-t2021/', cpScore:1.00, stops:[{name:'Skógafoss',tag:'D3有去'},{name:'Jökulsárlón',tag:'D4有去'},{name:'鑽石沙灘',tag:'D4有去'}], dataGaps:['未提及Reynisfjara/Dyrhólaey/Sólheimasandur/Fjaðrárgljúfur是否包含，需自行向平台確認'] },
+    { id:'sc-gti', source:'Guide to Iceland', name:'South Coast Waterfalls & Glacier Lagoon Day Trip', price:'查無基礎價（飯店接送另收1,899 ISK）', review:'GTI9.2/10(421)｜TripAdvisor4.6(3,482)｜Google4.8(2,221)', duration:'14-14.5小時', cancel:'24小時前可免費取消', url:'https://guidetoiceland.is/book-holiday-trips/south-coast-jokulsarlon-glacial-lagoon', cpScore:null, stops:[{name:'Skógafoss',tag:'D3有去'},{name:'Sólheimasandur',tag:'D3有去'},{name:'Jökulsárlón',tag:'D4有去'},{name:'鑽石沙灘',tag:'D4有去'}], dataGaps:['基礎票價未顯示','未提及Reynisfjara/Dyrhólaey/Fjaðrárgljúfur'] },
+    { id:'sc-kkday', source:'KKday', name:'South Iceland Coast and Skógafoss Waterfall Tour（僅D3西段，不含D4）', price:'查無數據', review:'查無數據', duration:'最長10小時', cancel:'出發前2天可免費取消', url:'https://www.kkday.com/en-in/product/612240', cpScore:null, stops:[{name:'Reynisfjara',tag:'D3有去'},{name:'Skógafoss',tag:'D3有去'}], dataGaps:['完全不含D4景點','價格與評論查無數據'] },
+    { id:'sc-viator', source:'Viator', name:'Iceland South Coast: Full-Day, Small-Group Tour（僅D3西段，不含D4）', price:'查無數據', review:'6,792則評論，未標示星等', duration:null, cancel:'查無數據', url:'https://www.viator.com/tours/Reykjavik/Your-South-Coast-Full-Day-Tour-by-minibus/d905-36855P2', cpScore:null, stops:[{name:'Skógafoss',tag:'D3有去'},{name:'Reynisfjara',tag:'D3有去'}], dataGaps:['完全不含D4景點','價格查無數據，頁面遭CAPTCHA擋下'] },
+    { id:'sc-klook', source:'Klook', name:'Premium Southern Iceland Small Group Day Tour（僅D3西段，不含D4）', price:'查無數據', review:'查無數據', duration:null, cancel:'查無數據', url:'https://www.klook.com/activity/6454-premium-southern-iceland-small-group-reykjavik/', cpScore:null, stops:[{name:'Skógafoss',tag:'D3有去'},{name:'Reynisfjara',tag:'D3有去'},{name:'Dyrhólaey',tag:'D3有去'}], dataGaps:['完全不含D4景點','頁面遭CAPTCHA擋下，價格與評論查無數據'] },
+  ]
+},
+{
+  id: 'snaefellsnes', title: '⛰️ 斯奈山半島一日遊（跟團替代方案）', dayContext: 'D7（10/10）+ D8（10/11）現行程：教堂山Kirkjufell、Kirkjufellsfoss瀑布、Snæfellsjökull冰川國家公園、黑教堂Búðakirkja、Djúpalónssandur黑沙灘（自駕）',
+  options: [
+    { id:'sn-gti', source:'Guide to Iceland', name:'Small-Group Snæfellsnes Peninsula Day Tour', price:'查無數據（頁面需選日期才顯示）', review:'GTI9.6/10(310)｜TripAdvisor4.6(3,482)｜Google4.8(2,221)', duration:'11-12小時', cancel:'24小時前可免費取消', url:'https://guidetoiceland.is/book-holiday-trips/snaefellsnes-kirkjufell-full-day-small-group-tour', cpScore:null, stops:[{name:'Kirkjufell',tag:'D7有去'},{name:'Kirkjufellsfoss',tag:'D7有去'},{name:'Snæfellsjökull',tag:'D8有去'},{name:'Búðakirkja',tag:'D8有去'},{name:'Djúpalónssandur',tag:'D8有去'}], dataGaps:['價格未顯示，五個既定景點全涵蓋，是資料中吻合度最完整的一團'] },
+    { id:'sn-bustravel', source:'BusTravel Iceland', name:'Snæfellsnes Peninsula Full Day Tour', price:'17,490 ISK起（接送需額外付費）', review:'4.94/5（評論則數未提供）', duration:'約11小時', cancel:'24小時內取消收100%取消費', url:'https://bustravel.is/iceland-tours/snaefellsnes-peninsula-kirkjufell-tour', cpScore:1.00, stops:[{name:'Kirkjufell',tag:'D7有去'},{name:'Kirkjufellsfoss',tag:'D7有去'},{name:'Snæfellsjökull',tag:'D8有去'},{name:'Búðakirkja',tag:'D8有去'},{name:'Djúpalónssandur',tag:'D8有去'}], dataGaps:['接送另計'] },
+    { id:'sn-arctic', source:'Arctic Adventures', name:'Snæfellsnes & Kirkjufell Small Group Tour', price:'US$134（優惠碼後，原US$157）', review:'查無數據', duration:'約11小時', cancel:'24小時前可免費取消', url:'https://adventures.is/iceland/day-tours/sightseeing-tours/snaefellsnes-peninsula-small-group-tour/', cpScore:null, stops:[{name:'Kirkjufell',tag:'D7有去'},{name:'Kirkjufellsfoss',tag:'D7有去'},{name:'Búðakirkja',tag:'D8有去'},{name:'Djúpalónssandur',tag:'D8有去'}], dataGaps:['未明確提及Snæfellsjökull國家公園是否停留，可能僅路過','評論分數查無數據'] },
+    { id:'sn-icelandia', source:'Icelandia（=GetYourGuide t73194）', name:'Wonders of Snæfellsnes', price:'€206', review:'4.8（4,877則，轉引自GYG搜尋摘要）', duration:'11小時', cancel:'Flexible Cancellation（未列出具體時數）', url:'https://www.icelandia.com/tours/wonders-of-snaefellsnes', cpScore:0.62, stops:[{name:'Kirkjufell',tag:'D7有去'},{name:'Snæfellsjökull',tag:'D8有去'},{name:'Búðakirkja',tag:'D8有去'},{name:'Djúpalónssandur',tag:'D8有去'}], dataGaps:['未明確列出Kirkjufellsfoss瀑布是否停留'] },
+    { id:'sn-trollen', source:'Troll.is（英文版）', name:'Snæfellsnes Peninsula Day Tour: Kirkjufell, Black Church & Seals', price:'US$140', review:'查無數據', duration:'12小時', cancel:'24小時前退全額(扣3%手續費)', url:'https://troll.is/day-tour/snaefellsnes-peninsula/', cpScore:null, stops:[{name:'Kirkjufell',tag:'D7有去'},{name:'Búðakirkja',tag:'D8有去'},{name:'Djúpalónssandur',tag:'D8有去'}], dataGaps:['未提及Kirkjufellsfoss瀑布、Snæfellsjökull國家公園是否包含','評論分數查無數據'] },
+    { id:'sn-trollzh', source:'Troll.is（中文導遊版）', name:'Snæfellsnes Peninsula Day Tour（中文團）', price:'US$179（比英文版貴，含中文導遊）', review:'查無數據', duration:'12小時', cancel:'24小時前全額退款', url:'https://troll.is/day-tour/snaefellsnes-peninsula-chinese-day-tour/', cpScore:null, stops:[{name:'Kirkjufell',tag:'D7有去'},{name:'Búðakirkja',tag:'D8有去'},{name:'Djúpalónssandur',tag:'D8有去'}], dataGaps:['未提及Kirkjufellsfoss瀑布、Snæfellsjökull國家公園是否包含','評論分數查無數據'] },
+    { id:'sn-iat', source:'Iceland Adventure Tours', name:'Snæfellsnes Peninsula Small Group Tour', price:'18,900 ISK', review:'查無數據', duration:'11小時', cancel:'24小時前可免費取消', url:'https://icelandadventuretours.is/tours/snaefellsnes-peninsula-small-group-tour/', cpScore:null, stops:[{name:'Kirkjufell',tag:'D7有去'},{name:'Kirkjufellsfoss',tag:'D7有去'},{name:'Snæfellsjökull',tag:'D8有去'},{name:'Djúpalónssandur',tag:'D8有去'}], dataGaps:['未包含黑教堂Búðakirkja','評論分數查無數據'] },
+    { id:'sn-eastwest', source:'EastWest Iceland', name:'Snæfellsnes Peninsula Tour', price:'28,990 ISK起（另有部落格轉述19,000 ISK但來源不可靠，不採用）', review:'自評5.0（則數未列）', duration:'11小時', cancel:'24小時內取消不可退款', url:'https://eastwest.is/snaefellsnes-iceland-tour', cpScore:null, stops:[{name:'Búðakirkja',tag:'D8有去'},{name:'Djúpalónssandur',tag:'D8有去'},{name:'Snæfellsjökull（遠眺）',tag:'D8有去'},{name:'Kirkjufell（不上山）',tag:'D7有去'}], dataGaps:['未包含Kirkjufellsfoss瀑布','評論則數未列出'] },
+    { id:'sn-re', source:'Reykjavik Excursions', name:'The Wonders of Snæfellsnes', price:'查無數據', review:'查無數據', duration:'約11-12小時', cancel:'查無數據', url:'https://www.re.is/tour/2-day-northern-lights-and-snaefellsnes-peninsula/', cpScore:null, stops:[{name:'Snæfellsjökull',tag:'D8有去'},{name:'Djúpalónssandur',tag:'D8有去'},{name:'Kirkjufell（遠眺）',tag:'D7有去'}], dataGaps:['頁面遭擋下，僅有搜尋摘要，未提及瀑布/黑教堂是否包含','價格與評論查無數據'] },
+    { id:'sn-kkday', source:'KKday', name:'斯奈山半島一日遊（中/英文版）', price:'查無數據', review:'查無數據', duration:null, cancel:'查無數據', url:'https://www.kkday.com/zh-hk/product/538722', cpScore:null, stops:[], dataGaps:['頁面反覆遭403擋下，全部欄位查無數據'] },
+  ]
+},
+{
+  id: 'reykjanes', title: '🌋 蕾克雅內斯半島行程（跟團替代方案）', dayContext: 'D11（10/14）現行程：Kleifarvatn火山湖、Gunnuhver地熱噴氣孔、大陸板塊裂谷橋、Reykjanes燈塔（自駕）', warning:'蕾克雅內斯純觀光一日遊團確實少見，市面上多是搭配藍湖或近期火山健行的複合行程。',
+  options: [
+    { id:'rk-arctic', source:'Arctic Adventures', name:'Reykjanes Peninsula Half-day Tour', price:'US$160起', review:'查無數據', duration:'約7小時', cancel:'頁面連結至條款頁，具體天數未列', url:'https://adventures.is/iceland/day-tours/sightseeing-tours/reykjanes-hot-springs/', cpScore:1.00, stops:[{name:'Kleifarvatn',tag:'D11有去'},{name:'Gunnuhver',tag:'D11有去'},{name:'Reykjanes燈塔',tag:'D11有去'},{name:'板塊裂谷橋',tag:'D11有去'}], dataGaps:['評論分數未顯示，是本次資料中景點吻合度最高、且成功以官網原頁確認的行程'] },
+    { id:'rk-gti', source:'Guide to Iceland', name:'Volcano Hike & Reykjanes Peninsula Sightseeing Tour', price:'動態定價，需選日期才顯示', review:'9.2/10(71則，頁面另有3,789則字樣疑為平台整體評論非此團專屬，需人工確認)', duration:'9.5-10小時', cancel:'24小時前可免費取消', url:'https://guidetoiceland.is/book-holiday-trips/active-volcano-and-reykjanes-sightseeing-tour', cpScore:null, stops:[{name:'Reykjanes燈塔',tag:'D11有去'},{name:'板塊裂谷橋',tag:'D11有去'},{name:'Kleifarvatn',tag:'D11有去'},{name:'Gunnuhver',tag:'D11有去'}], dataGaps:['價格未顯示固定金額','評論則數兩個數字矛盾待確認'] },
+    { id:'rk-gyg1', source:'GetYourGuide', name:'Reykjanes Peninsula and Bridge Between the Continents (t557956)', price:'US$1,300/團(4人)，約US$325/人(推估換算)', review:'查無數據', duration:'7小時', cancel:'24小時前可免費取消', url:'https://www.getyourguide.com/reykjanesbaer-l156668/reykjanes-peninsula-and-bridge-between-the-continents-t557956/', cpScore:null, stops:[{name:'Kleifarvatn',tag:'D11有去'},{name:'Gunnuhver',tag:'D11有去'},{name:'Reykjanes燈塔',tag:'D11有去'},{name:'板塊裂谷橋',tag:'D11有去'}], dataGaps:['每人實際定價為換算推估非官方直列','資料來自第三方鏡射頁非GYG原頁(403被擋)'] },
+    { id:'rk-viator1', source:'Viator', name:'The Reykjanes Peninsula tour（私人團）', price:'矛盾：US$796/團(3人) 或 US$929/人（兩來源不一致）', review:'4.5/5，僅3則評論', duration:'約5-6小時', cancel:'24小時前可全額退費', url:'https://www.viator.com/tours/Reykjavik/The-Reykjanes-Peninsula-tour/d905-161018P11', cpScore:null, stops:[{name:'板塊裂谷橋',tag:'D11有去'},{name:'Reykjanes燈塔',tag:'D11有去'},{name:'Kleifarvatn',tag:'D11有去'},{name:'Gunnuhver',tag:'D11有去'}], dataGaps:['價格兩個來源互相矛盾，需人工至Viator頁面確認','評論僅3則，統計意義有限','藍湖門票另計約US$150'] },
+    { id:'rk-klook', source:'Klook', name:'Volcano Eruption Site and Reykjanes Hiking Tour', price:'矛盾：約US$100.80(特價) 或 US$115（兩數字不一致）', review:'矛盾：4.6(1,066則) 或 4.5(85則) 或 4.6(78則)，三個數字互相矛盾', duration:'約11小時', cancel:'24小時前可免費取消', url:'https://www.klook.com/activity/106951-volcano-eruption-site-and-reykjanes-hiking-tour-from-reykjavik/', cpScore:null, stops:[{name:'Gunnuhver',tag:'D11有去'},{name:'Reykjanes燈塔',tag:'D11有去'},{name:'板塊裂谷橋',tag:'D11有去'},{name:'Kleifarvatn',tag:'D11有去'}], dataGaps:['價格與評論數字都有矛盾，懷疑跟GYG是同供應商轉售但數字對不上，需人工至頁面確認'] },
+    { id:'rk-kkday', source:'KKday', name:'Volcanic Wonders & the Blue Lagoon Day Tour', price:'查無數據', review:'查無數據', duration:null, cancel:'查無數據', url:'https://www.kkday.com/en-us/product/158905-reykjavik-volcano-blue-lagoon-tour-iceland', cpScore:null, stops:[{name:'板塊裂谷橋',tag:'D11有去'}], dataGaps:['頁面遭403擋下','未提及Kleifarvatn或Reykjanes燈塔是否包含，需人工確認','Seltún是否等同Gunnuhver不確定'] },
+    { id:'rk-gyg2', source:'GetYourGuide', name:'Blue Lagoon and Reykjanes Peninsula Tour (t632938)', price:'查無數據', review:'查無數據', duration:null, cancel:'查無數據', url:'https://www.getyourguide.com/reykjanesbaer-l156668/from-reykjavik-blue-lagoon-and-reykjanes-peninsula-tour-t632938/', cpScore:null, stops:[{name:'Gunnuhver',tag:'D11有去'},{name:'板塊裂谷橋',tag:'D11有去'}], dataGaps:['未提及Kleifarvatn或Reykjanes燈塔是否包含','藍湖門票需另購','價格評論皆查無數據'] },
+    { id:'rk-viator2', source:'Viator', name:'Half-Day Trip to Reykjanes by Minibus from Reykjavik', price:'查無數據', review:'查無數據', duration:'6小時', cancel:'查無數據（Viator平台通常24小時前可取消）', url:'https://www.viator.com/tours/Reykjavik/Half-Day-Trip-to-Reykjanes-by-Minibus-from-Reykjavik/d905-7205P7', cpScore:null, stops:[], dataGaps:['摘要僅提及「風景湖泊」「地熱區」等模糊描述，無法確認是否為既定景點本尊'] },
+    { id:'rk-context', source:'Context Travel', name:'Full-Day Private Reykjanes Peninsula Tour with Blue Lagoon', price:'私人客製報價，查無固定金額', review:'5則評論，未顯示星等', duration:'全日', cancel:'連結至彈性取消政策頁，具體條款未顯示', url:'https://www.contexttravel.com/cities/reykjavik/tours/full-day-reykjanes-peninsula-day-trip-from-reykjavik-with-lava-tunnel-and-blue-lagoon-premium-entry', cpScore:null, stops:[{name:'Gunnuhver',tag:'D11有去'},{name:'Reykjanes燈塔',tag:'D11有去'}], dataGaps:['未提及Kleifarvatn或板塊裂谷橋是否包含，可能不含'] },
+    { id:'rk-re', source:'Reykjavik Excursions', name:'Reykjanes Peninsula & The Blue Lagoon Small Group Tour', price:'查無數據（頁面為JS動態載入）', review:'查無數據', duration:null, cancel:'查無數據', url:'https://www.re.is/tour/reykjanes-peninsula-and-the-blue-lagoon-small-group-tour/', cpScore:null, stops:[], dataGaps:['頁面動態載入，工具無法讀取，需自行查看或致電+354 599 0000確認'] },
+  ]
+},
+];
+
+</script>
+<script>
+(function () {
+  var STORAGE_KEY = 'iceland-tour-compare-v1';
+
+  function loadState() {
+    try {
+      var raw = localStorage.getItem(STORAGE_KEY);
+      return raw ? JSON.parse(raw) : { liked: {}, notes: {}, order: {} };
+    } catch (e) { return { liked: {}, notes: {}, order: {} }; }
+  }
+  function saveState() {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
+  }
+
+  var state = loadState();
+  state.liked = state.liked || {};
+  state.notes = state.notes || {};
+  state.order = state.order || {}; // optId -> { cat: catId, index: number }
+  state.collapsed = state.collapsed || {};
+
+  // Build lookup: optId -> {catId, option}
+  var allOptions = {};
+  TOUR_DATA.forEach(function (cat) {
+    cat.options.forEach(function (opt) {
+      allOptions[opt.id] = { cat: cat.id, opt: opt };
+    });
+  });
+
+  function computeDisplayOrder() {
+    // groups: catId -> array of optIds, honoring manual overrides in state.order
+    var groups = {};
+    TOUR_DATA.forEach(function (cat) { groups[cat.id] = []; });
+
+    // Start from default: options sorted by cpScore desc (nulls last, keep original order among nulls)
+    var defaultGroups = {};
+    TOUR_DATA.forEach(function (cat) {
+      var opts = cat.options.slice();
+      var scored = opts.filter(function (o) { return o.cpScore !== null && o.cpScore !== undefined; });
+      var unscored = opts.filter(function (o) { return o.cpScore === null || o.cpScore === undefined; });
+      scored.sort(function (a, b) { return b.cpScore - a.cpScore; });
+      defaultGroups[cat.id] = scored.concat(unscored).map(function (o) { return o.id; });
+    });
+
+    // Apply overrides
+    var placed = {};
+    Object.keys(state.order).forEach(function (optId) {
+      if (!allOptions[optId]) return;
+      var ov = state.order[optId];
+      if (!groups[ov.cat]) return;
+      groups[ov.cat].push(optId);
+      placed[optId] = true;
+    });
+    // Fill remaining from default order, respecting original category
+    Object.keys(defaultGroups).forEach(function (catId) {
+      defaultGroups[catId].forEach(function (optId) {
+        if (!placed[optId]) {
+          groups[catId].push(optId);
+          placed[optId] = true;
+        }
+      });
+    });
+    // Sort each group's overridden items by their stored index where present
+    Object.keys(groups).forEach(function (catId) {
+      groups[catId].sort(function (a, b) {
+        var ai = state.order[a] ? state.order[a].index : 999 + defaultGroups[catId].indexOf(a);
+        var bi = state.order[b] ? state.order[b].index : 999 + defaultGroups[catId].indexOf(b);
+        return ai - bi;
+      });
+    });
+    return groups;
+  }
+
+  function scoreColor(score) {
+    if (score === null || score === undefined) return null;
+    return score;
+  }
+
+  function renderOption(optId, rankInGroup) {
+    var entry = allOptions[optId];
+    if (!entry) return document.createDocumentFragment();
+    var opt = entry.opt;
+    var div = document.createElement('div');
+    div.className = 'opt' + (state.liked[optId] ? ' liked' : '');
+    div.draggable = true;
+    div.dataset.optId = optId;
+
+    var rankHtml = '';
+    if (opt.cpScore !== null && opt.cpScore !== undefined) {
+      rankHtml = '<span class="rank">#' + rankInGroup + ' CP值' + Math.round(opt.cpScore * 100) + '</span>';
+    } else {
+      rankHtml = '<span class="rank unranked">資料不足，暫不排序</span>';
+    }
+
+    var statsParts = [];
+    if (opt.price) statsParts.push('💰 <b>' + opt.price + '</b>');
+    if (opt.review) statsParts.push('⭐ ' + opt.review);
+    if (opt.duration) statsParts.push('⏱️ ' + opt.duration);
+    if (opt.cancel) statsParts.push('🔁 ' + opt.cancel);
+
+    var stopsHtml = '';
+    if (opt.stops && opt.stops.length) {
+      stopsHtml = '<div class="stops">' + opt.stops.map(function (s) {
+        return '<span class="stoptag">' + s.name + (s.tag ? '（' + s.tag + '）' : '') + '</span>';
+      }).join('') + '</div>';
+    }
+
+    var gapsHtml = '';
+    if (opt.dataGaps && opt.dataGaps.length) {
+      gapsHtml = '<div class="gaps">' + opt.dataGaps.map(function (g) { return '<div>⚠️ ' + g + '</div>'; }).join('') + '</div>';
+    }
+
+    var noteVal = state.notes[optId] || '';
+
+    div.innerHTML =
+      '<span class="draghandle">⠿</span>' +
+      '<input type="checkbox" class="likecheck" ' + (state.liked[optId] ? 'checked' : '') + '>' +
+      '<div class="body">' +
+        '<div class="row1"><span class="source">' + opt.source + '</span><span class="name">' + opt.name + '</span>' + rankHtml + '</div>' +
+        '<div class="stats">' + statsParts.join(' ｜ ') + '</div>' +
+        stopsHtml + gapsHtml +
+        (opt.url ? '<a class="link popuplink" href="' + opt.url + '" target="_blank" rel="noopener">查看原始頁面 ↗</a>' : '') +
+        '<div><button class="notebtn" type="button">' + (noteVal ? '✎ 編輯記事' : '＋ 加記事') + '</button></div>' +
+        '<textarea class="note" placeholder="寫下你自己的想法…" style="display:' + (noteVal ? 'block' : 'none') + '">' + noteVal + '</textarea>' +
+      '</div>';
+
+    // checkbox
+    div.querySelector('.likecheck').addEventListener('change', function (e) {
+      state.liked[optId] = e.target.checked;
+      div.classList.toggle('liked', e.target.checked);
+      saveState();
+    });
+
+    // note toggle
+    var noteBtn = div.querySelector('.notebtn');
+    var noteArea = div.querySelector('.note');
+    noteBtn.addEventListener('click', function () {
+      var showing = noteArea.style.display !== 'none';
+      noteArea.style.display = showing ? 'none' : 'block';
+      if (!showing) noteArea.focus();
+    });
+    noteArea.addEventListener('input', function () {
+      state.notes[optId] = noteArea.value;
+      noteBtn.textContent = noteArea.value ? '✎ 編輯記事' : '＋ 加記事';
+      saveState();
+    });
+
+    // NOTE: browsers ignore window.open() size/position hints when the page
+    // is running inside a sandboxed iframe (which this Artifact is), so a
+    // "small side popup" isn't achievable here — this just opens a normal tab.
+
+    // drag events
+    div.addEventListener('dragstart', function (e) {
+      div.classList.add('dragging');
+      e.dataTransfer.setData('text/plain', optId);
+      e.dataTransfer.effectAllowed = 'move';
+    });
+    div.addEventListener('dragend', function () {
+      div.classList.remove('dragging');
+    });
+
+    return div;
+  }
+
+  function render() {
+    var container = document.getElementById('categories');
+    container.innerHTML = '';
+    var groups = computeDisplayOrder();
+
+    TOUR_DATA.forEach(function (cat) {
+      var card = document.createElement('div');
+      card.className = 'catcard' + (state.collapsed[cat.id] ? ' collapsed' : '');
+      card.dataset.catId = cat.id;
+
+      var head = document.createElement('div');
+      head.className = 'cathead';
+      head.innerHTML =
+        '<div class="titles"><h2>' + cat.title + '</h2><div class="ctx">' + (cat.dayContext || '') + '</div></div>' +
+        '<span class="chev">▾</span>';
+      head.addEventListener('click', function () {
+        card.classList.toggle('collapsed');
+        state.collapsed[cat.id] = card.classList.contains('collapsed');
+        saveState();
+      });
+      card.appendChild(head);
+
+      var body = document.createElement('div');
+      body.className = 'catbody';
+
+      if (cat.warning) {
+        var w = document.createElement('div');
+        w.className = 'catwarn';
+        w.textContent = cat.warning;
+        body.appendChild(w);
+      }
+
+      var list = document.createElement('div');
+      list.className = 'optlist';
+      list.dataset.catId = cat.id;
+
+      var ids = groups[cat.id] || [];
+      var rank = 0;
+      ids.forEach(function (optId) {
+        var entry = allOptions[optId];
+        if (entry && entry.opt.cpScore !== null && entry.opt.cpScore !== undefined) rank++;
+        list.appendChild(renderOption(optId, rank));
+      });
+
+      // drop zone handlers
+      list.addEventListener('dragover', function (e) {
+        e.preventDefault();
+        list.classList.add('dragover');
+        e.dataTransfer.dropEffect = 'move';
+      });
+      list.addEventListener('dragleave', function () {
+        list.classList.remove('dragover');
+      });
+      list.addEventListener('drop', function (e) {
+        e.preventDefault();
+        list.classList.remove('dragover');
+        var optId = e.dataTransfer.getData('text/plain');
+        if (!optId || !allOptions[optId]) return;
+
+        // figure out drop position: find nearest .opt under pointer
+        var after = null;
+        var children = Array.prototype.slice.call(list.querySelectorAll('.opt'));
+        for (var i = 0; i < children.length; i++) {
+          var rect = children[i].getBoundingClientRect();
+          if (e.clientY < rect.top + rect.height / 2) { after = children[i]; break; }
+        }
+        var targetCat = list.dataset.catId;
+        var newIds = (groups[targetCat] || []).filter(function (id) { return id !== optId; });
+        var insertIdx = after ? newIds.indexOf(after.dataset.optId) : newIds.length;
+        if (insertIdx < 0) insertIdx = newIds.length;
+        newIds.splice(insertIdx, 0, optId);
+
+        // remove from old group if different
+        var oldEntry = allOptions[optId];
+        if (oldEntry) {
+          var oldCatInGroups = null;
+          Object.keys(groups).forEach(function (cId) {
+            if (cId !== targetCat && groups[cId].indexOf(optId) !== -1) {
+              groups[cId] = groups[cId].filter(function (id) { return id !== optId; });
+            }
+          });
+        }
+        groups[targetCat] = newIds;
+
+        // persist full order across all groups
+        Object.keys(groups).forEach(function (cId) {
+          groups[cId].forEach(function (id, idx) {
+            state.order[id] = { cat: cId, index: idx };
+          });
+        });
+        saveState();
+        render();
+      });
+
+      body.appendChild(list);
+      card.appendChild(body);
+      container.appendChild(card);
+    });
+  }
+
+  document.getElementById('btnExpandAll').addEventListener('click', function () {
+    TOUR_DATA.forEach(function (cat) { state.collapsed[cat.id] = false; });
+    saveState(); render();
+  });
+  document.getElementById('btnCollapseAll').addEventListener('click', function () {
+    TOUR_DATA.forEach(function (cat) { state.collapsed[cat.id] = true; });
+    saveState(); render();
+  });
+  document.getElementById('btnResetOrder').addEventListener('click', function () {
+    state.order = {};
+    saveState(); render();
+  });
+
+  render();
+})();
+</script>
