@@ -729,11 +729,172 @@
       ]
     },
     {
-      "title": "D6・Borgarnes（10/9）",
+      "title": "D6・Vík小鎮（第二晚，10/9）",
       "options": [
         {
           "groupName": "pick-d6",
-          "pickKey": "d6-a",
+          "pickKey": "d6b-a",
+          "medal": "🥇",
+          "name": "Hotel Katla by Keahotels",
+          "scoreClass": "score-warn",
+          "scoreText": "4.3／1465則（未達4.5）",
+          "priceText": "💰約ISK 26,000–54,000／晚（約NT$6,200–13,000）",
+          "platformLinks": [],
+          "why": "Vík鎮外開闊農場地帶，評論提及窗邊/停車場可直接看到，戶外地熱溫泉池",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Katla+by+Keahotels+Vik+Iceland"
+        },
+        {
+          "groupName": "pick-d6",
+          "pickKey": "d6b-b",
+          "medal": "🥈",
+          "name": "Volcano Hotel",
+          "scoreClass": "score-unknown",
+          "scoreText": "❓查無Google（Tripadvisor 4.0）",
+          "priceText": "💰約ISK 23,000–43,000／晚（約NT$5,500–10,300）",
+          "platformLinks": [],
+          "why": "老校舍改建，方圓幾英里內幾乎無其他建物與光源，僅7間房適合情侶",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Volcano+Hotel+Vik+Iceland"
+        },
+        {
+          "groupName": "pick-d6",
+          "pickKey": "d6b-c",
+          "medal": "🥉",
+          "name": "Sólheimahjáleiga Guesthouse",
+          "scoreClass": "score-unknown",
+          "scoreText": "❓查無Google（Tripadvisor 4.0）",
+          "priceText": "💰約ISK 17,000–25,000／晚（約NT$4,100–6,000）",
+          "platformLinks": [],
+          "why": "150年家族羊場民宿，開闊鄉間天際線無遮蔽，官網稱9月-4月為極光旺季",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Solheimahjaleiga+Guesthouse+Iceland"
+        },
+        {
+          "groupName": "pick-d6",
+          "pickKey": "d6b-d",
+          "medal": "4",
+          "name": "Mið-Hvoll Cottages",
+          "scoreClass": "score-warn",
+          "scoreText": "Tripadvisor 4／5，237則",
+          "priceText": "概估約NT$4,000–7,000／晚（同類型農場小屋概估，非實際查得的房價） ｜ Airbnb查無房價 連結↗ ｜ Booking.com有房源，查無房價",
+          "platformLinks": [
+            {
+              "platform": "概估",
+              "note": "約NT$4,000–7,000／晚（同類型農場小屋概估，非實際查得的房價）",
+              "url": null
+            },
+            {
+              "platform": "Airbnb",
+              "note": "查無房價",
+              "url": "https://www.airbnb.com.sg/rooms/26618612?check_in=2026-10-06&check_out=2026-10-07&adults=2"
+            },
+            {
+              "platform": "Booking.com",
+              "note": "有房源，查無房價",
+              "url": null
+            }
+          ],
+          "why": "評論標題「Fantastic Cottage equipped with Northern Lights!」，內文提到極光就在臥室窗外起舞；運作中酪農場土地，遠離光害",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mid-Hvoll+Cottages+Vik+Iceland"
+        },
+        {
+          "groupName": "pick-d6",
+          "pickKey": "d6b-e",
+          "medal": "5",
+          "name": "Black Beach Suites",
+          "scoreClass": "score-warn",
+          "scoreText": "Tripadvisor 4／5，351則",
+          "priceText": "概估約NT$4,500–8,000／晚（同類型公寓套房概估，非實際查得的房價） ｜ Agoda查無房價 連結↗ ｜ Booking.com有房源，查無房價",
+          "platformLinks": [
+            {
+              "platform": "概估",
+              "note": "約NT$4,500–8,000／晚（同類型公寓套房概估，非實際查得的房價）",
+              "url": null
+            },
+            {
+              "platform": "Agoda",
+              "note": "查無房價",
+              "url": "https://www.agoda.com/black-beach-suites/hotel/solheimahjaleiga-is.html?checkIn=2026-10-06&los=1&adults=2&rooms=1"
+            },
+            {
+              "platform": "Booking.com",
+              "note": "有房源，查無房價",
+              "url": null
+            }
+          ],
+          "why": "評論標題「amazing northern lights viewing」，往Reynisfjara黑沙灘路上，開闊鄉間、夜空極暗",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Black+Beach+Suites+Vik+Iceland"
+        },
+        {
+          "groupName": "pick-d6",
+          "pickKey": "d6b-f",
+          "medal": "6",
+          "name": "Icelandair Hotel Vík（Hótel Vík í Mýrdal）",
+          "scoreClass": "score-warn",
+          "scoreText": "Tripadvisor 4／5，930則",
+          "priceText": "概估約NT$6,000–11,000／晚（同等級連鎖飯店概估，非實際查得的房價） ｜ 💰查無資料（多個第三方比價網站有列，未取得Booking.com直接連結與房價）",
+          "platformLinks": [
+            {
+              "platform": "概估",
+              "note": "約NT$6,000–11,000／晚（同等級連鎖飯店概估，非實際查得的房價）",
+              "url": null
+            }
+          ],
+          "why": "評論標題「Stunning views and great for the Aurora Borealis」，另有評論提到「reception will call your room in the middle of the night if the lights do show」；位於Vík鎮中心，落地窗可眺望海崖",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Icelandair+Hotel+Vik+Iceland"
+        },
+        {
+          "groupName": "pick-d6",
+          "pickKey": "d6b-g",
+          "medal": "7",
+          "name": "Farmhouse Lodge",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Booking.com 8.5／1508則",
+          "priceText": "概估約NT$5,500–10,000／晚（同等級鄉間旅館概估，非實際查得的房價） ｜ Airbnb查無房價（原連結已失效） 開啟Airbnb搜尋↗ ｜ Booking.com有房源，查無房價",
+          "platformLinks": [
+            {
+              "platform": "概估",
+              "note": "約NT$5,500–10,000／晚（同等級鄉間旅館概估，非實際查得的房價）",
+              "url": null
+            },
+            {
+              "platform": "Airbnb",
+              "note": "查無房價（原連結已失效）",
+              "url": "https://www.airbnb.com/s/homes?query=Farmhouse%20Lodge%20Vik%20Iceland&checkin=2026-10-06&checkout=2026-10-07&adults=2"
+            },
+            {
+              "platform": "Booking.com",
+              "note": "有房源，查無房價",
+              "url": null
+            }
+          ],
+          "why": "鄉間農舍旅館，距Vík約10分鐘，官網/旅遊平台綜合描述指其「without the light or traffic pollution」，證據屬綜合描述而非旅客第一手目擊",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Farmhouse+Lodge+Vik+Iceland"
+        },
+        {
+          "groupName": "pick-d6",
+          "pickKey": "d6b-h",
+          "medal": "8",
+          "name": "Hótel Kría",
+          "scoreClass": "score-warn",
+          "scoreText": "Tripadvisor 4／5，約833則",
+          "priceText": "概估約NT$6,500–11,000／晚（同等級精品飯店概估，非實際查得的房價） ｜ 💰查無資料（未取得任一平台可靠連結）",
+          "platformLinks": [
+            {
+              "platform": "概估",
+              "note": "約NT$6,500–11,000／晚（同等級精品飯店概估，非實際查得的房價）",
+              "url": null
+            }
+          ],
+          "why": "⚠️證據來自旅遊部落格評測文而非住客評論：「big windows in the rooms meaning you might even catch the aurora without leaving your bed」，證據強度弱於其他候選，僅供參考",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Kria+Vik+Iceland"
+        }
+      ]
+    },
+    {
+      "title": "D7・Borgarnes（10/10）",
+      "options": [
+        {
+          "groupName": "pick-d7",
+          "pickKey": "d7-a",
           "medal": "🥇",
           "name": "Hraunsnef Country Hotel",
           "scoreClass": "score-ok",
@@ -744,8 +905,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hraunsnef+Country+Hotel+Iceland"
         },
         {
-          "groupName": "pick-d6",
-          "pickKey": "d6-b",
+          "groupName": "pick-d7",
+          "pickKey": "d7-b",
           "medal": "🥈",
           "name": "Hótel Hamar",
           "scoreClass": "score-unknown",
@@ -756,8 +917,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Hamar+Borgarnes+Iceland"
         },
         {
-          "groupName": "pick-d6",
-          "pickKey": "d6-c",
+          "groupName": "pick-d7",
+          "pickKey": "d7-c",
           "medal": "🥉",
           "name": "Bjarg Borgarnes",
           "scoreClass": "score-unknown",
@@ -768,8 +929,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bjarg+Borgarnes+Iceland"
         },
         {
-          "groupName": "pick-d6",
-          "pickKey": "d6-d",
+          "groupName": "pick-d7",
+          "pickKey": "d7-d",
           "medal": "4",
           "name": "Jaðar Farm",
           "scoreClass": "score-ok",
@@ -801,8 +962,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jadar+Farm+Borgarnes+Iceland"
         },
         {
-          "groupName": "pick-d6",
-          "pickKey": "d6-e",
+          "groupName": "pick-d7",
+          "pickKey": "d7-e",
           "medal": "5",
           "name": "Fossatún Country Hotel",
           "scoreClass": "score-ok",
@@ -824,8 +985,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fossatun+Country+Hotel+Iceland"
         },
         {
-          "groupName": "pick-d6",
-          "pickKey": "d6-f",
+          "groupName": "pick-d7",
+          "pickKey": "d7-f",
           "medal": "6",
           "name": "Ensku Húsin Guesthouse",
           "scoreClass": "score-warn",
@@ -842,8 +1003,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ensku+Husin+Guesthouse+Borgarnes+Iceland"
         },
         {
-          "groupName": "pick-d6",
-          "pickKey": "d6-g",
+          "groupName": "pick-d7",
+          "pickKey": "d7-g",
           "medal": "7",
           "name": "Lambalækur Guesthouse",
           "scoreClass": "score-ok",
@@ -867,11 +1028,11 @@
       ]
     },
     {
-      "title": "D7・斯奈山半島（10/10）",
+      "title": "D8・斯奈山半島（10/11）",
       "options": [
         {
-          "groupName": "pick-d7",
-          "pickKey": "d7-a",
+          "groupName": "pick-d8",
+          "pickKey": "d8-a",
           "medal": "🥇",
           "name": "Hótel Búðir",
           "scoreClass": "score-ok",
@@ -882,8 +1043,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Budir+Iceland"
         },
         {
-          "groupName": "pick-d7",
-          "pickKey": "d7-b",
+          "groupName": "pick-d8",
+          "pickKey": "d8-b",
           "medal": "🥈",
           "name": "Kambur Cottages",
           "scoreClass": "score-ok",
@@ -894,8 +1055,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kambur+Cottages+Iceland"
         },
         {
-          "groupName": "pick-d7",
-          "pickKey": "d7-c",
+          "groupName": "pick-d8",
+          "pickKey": "d8-c",
           "medal": "🥉",
           "name": "Helgafell Farmhouse",
           "scoreClass": "score-unknown",
@@ -906,8 +1067,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Helgafell+Farmhouse+Iceland"
         },
         {
-          "groupName": "pick-d7",
-          "pickKey": "d7-d",
+          "groupName": "pick-d8",
+          "pickKey": "d8-d",
           "medal": "4",
           "name": "Hotel Langaholt",
           "scoreClass": "score-ok",
@@ -929,8 +1090,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Langaholt+Stadarstadur+Iceland"
         },
         {
-          "groupName": "pick-d7",
-          "pickKey": "d7-e",
+          "groupName": "pick-d8",
+          "pickKey": "d8-e",
           "medal": "5",
           "name": "Fosshotel Hellnar",
           "scoreClass": "score-ok",
@@ -957,8 +1118,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fosshotel+Hellnar+Iceland"
         },
         {
-          "groupName": "pick-d7",
-          "pickKey": "d7-f",
+          "groupName": "pick-d8",
+          "pickKey": "d8-f",
           "medal": "6",
           "name": "Arnarstapi Hotel",
           "scoreClass": "score-warn",
@@ -985,8 +1146,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Arnarstapi+Hotel+Iceland"
         },
         {
-          "groupName": "pick-d7",
-          "pickKey": "d7-g",
+          "groupName": "pick-d8",
+          "pickKey": "d8-g",
           "medal": "7",
           "name": "Arnarstapi Cottages",
           "scoreClass": "score-warn",
@@ -1015,11 +1176,11 @@
       ]
     },
     {
-      "title": "D8-D10・雷克雅維克（10/11-10/13，連住3晚）",
+      "title": "D9-D10・雷克雅維克（10/12-10/13，連住2晚）",
       "options": [
         {
-          "groupName": "pick-d810",
-          "pickKey": "d810-a",
+          "groupName": "pick-d910",
+          "pickKey": "d910-a",
           "medal": "🥇",
           "name": "住雷克雅維克市區＋開車追極光",
           "scoreClass": "score-unknown",
@@ -1029,8 +1190,8 @@
           "why": "市區沒有住宿本身能看極光又達標的選項；方便步行逛哈爾格林姆教堂等景點，晚上開車10-15分到Grótta燈塔等暗空點，是最務實的做法"
         },
         {
-          "groupName": "pick-d810",
-          "pickKey": "d810-b",
+          "groupName": "pick-d910",
+          "pickKey": "d910-b",
           "medal": "🥈",
           "name": "Víðines Guesthouse",
           "scoreClass": "score-unknown",
@@ -1041,8 +1202,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vidines+Guesthouse+Iceland"
         },
         {
-          "groupName": "pick-d810",
-          "pickKey": "d810-c",
+          "groupName": "pick-d910",
+          "pickKey": "d910-c",
           "medal": "🥉",
           "name": "Esjuberg Farm",
           "scoreClass": "score-unknown",
@@ -1053,8 +1214,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Esjuberg+Farm+Kjalarnes+Iceland"
         },
         {
-          "groupName": "pick-d810",
-          "pickKey": "d810-d",
+          "groupName": "pick-d910",
+          "pickKey": "d910-d",
           "medal": "4",
           "name": "Hlid Fisherman's Village（Álftanes）",
           "scoreClass": "score-ok",
@@ -1081,8 +1242,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hlid+Fisherman+Village+Alftanes+Iceland"
         },
         {
-          "groupName": "pick-d810",
-          "pickKey": "d810-e",
+          "groupName": "pick-d910",
+          "pickKey": "d910-e",
           "medal": "5",
           "name": "Grótta Northern Lights Apartment & Rooms（Seltjarnarnes）",
           "scoreClass": "score-ok",
@@ -1114,8 +1275,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Grotta+Northern+Lights+Apartment+Seltjarnarnes+Iceland"
         },
         {
-          "groupName": "pick-d810",
-          "pickKey": "d810-f",
+          "groupName": "pick-d910",
+          "pickKey": "d910-f",
           "medal": "6",
           "name": "Icelandic Apartments by Heimaleiga（Kópavogur）",
           "scoreClass": "score-ok",
@@ -1142,8 +1303,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Icelandic+Apartments+Heimaleiga+Kopavogur+Iceland"
         },
         {
-          "groupName": "pick-d810",
-          "pickKey": "d810-g",
+          "groupName": "pick-d910",
+          "pickKey": "d910-g",
           "medal": "7",
           "name": "Gunnarsholmi Guesthouse（Kópavogur農場）",
           "scoreClass": "score-ok",
@@ -1160,8 +1321,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gunnarsholmi+Guesthouse+Kopavogur+Iceland"
         },
         {
-          "groupName": "pick-d810",
-          "pickKey": "d810-h",
+          "groupName": "pick-d910",
+          "pickKey": "d910-h",
           "medal": "8",
           "name": "Hotel Viking（Hafnarfjörður港邊）",
           "scoreClass": "score-warn",
@@ -1188,8 +1349,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Viking+Hafnarfjordur+Iceland"
         },
         {
-          "groupName": "pick-d810",
-          "pickKey": "d810-i",
+          "groupName": "pick-d910",
+          "pickKey": "d910-i",
           "medal": "9",
           "name": "North Star Apartments（Kópavogur）",
           "scoreClass": "score-warn",
@@ -1370,8 +1531,8 @@
     {
       "heading": "景點門票與預訂總覽（1 ISK≈NT$0.24）",
       "items": [
-        "需事先線上預訂：Sky Lagoon（D1，US$100起）、水晶冰洞探索團（D5，US$107–275，⚠️10月初天然冰洞可能尚未開放，務必提前跟業者確認，很可能只能改參加「藍冰川健行團」）、極光導覽團（D5，平價巴士團約US$42起、Super Jeep約US$160）、Blue Lagoon（D12，ISK 11,990起，現場不接受walk-in）",
-        "收門票但現場買即可：Kerið火山口湖（D2，約400–700 ISK，官網也可訂但非必要）、哈爾格林姆教堂登塔觀景台（D9，成人1,500 ISK）、Harpa導覽團（D9，5,200 ISK，⚠️但建築大廳/商店/咖啡廳本身免費進出，不參加導覽不用買票）",
+        "需事先線上預訂：Sky Lagoon（D10，US$100起）、水晶冰洞探索團（D5，US$107–275，⚠️10月初天然冰洞可能尚未開放，務必提前跟業者確認，很可能只能改參加「藍冰川健行團」）、極光導覽團（D5，平價巴士團約US$42起、Super Jeep約US$160）、Blue Lagoon（D12，ISK 11,990起，現場不接受walk-in）",
+        "收門票但現場買即可：Kerið火山口湖（D7，約400–700 ISK，官網也可訂但非必要）、哈爾格林姆教堂登塔觀景台（D10，成人1,500 ISK）、Harpa導覽團（D10，5,200 ISK，⚠️但建築大廳/商店/咖啡廳本身免費進出，不參加導覽不用買票）",
         "入場完全免費：Þingvellir、Geysir、Gullfoss、Seljalandsfoss、Skógafoss、Reynisfjara、Dyrhólaey、Fjaðrárgljúfur、Jökulsárlón、鑽石沙灘、Kirkjufell、Snæfellsjökull國家公園、Búðakirkja、Djúpalónssandur、彩虹街、太陽航海者、Kleifarvatn、Gunnuhver、板塊裂谷橋、Reykjanes燈塔——這些景點本身不收門票，只有部分停車場收費（多為現場機台或App付款，約700–1,200 ISK不等）",
         "Sólheimasandur飛機殘骸：徒步往返仍完全免費（約8公里/2小時），付費接駁車（成人3,400 ISK）只是省時間的選項，非必要",
         "Dyrhólaey鳥類繁殖季封閉時間為每年5月中–6月底，10月造訪不受影響",
@@ -1391,7 +1552,7 @@
     {
       "heading": "行程預訂確認",
       "items": [
-        "Sky Lagoon（Day10，機動彈性日內，可選）、Blue Lagoon（Day12）場次預約",
+        "Sky Lagoon（Day10，市區觀光日午後）、Blue Lagoon（Day12）場次預約",
         "水晶冰洞探索團（Day5）— 10月初可能尚未正式開團，出發前1-2週再次確認開放狀態",
         "極光導覽團（Day5）預訂與接送方式確認",
         "12晚住宿全數訂妥，並填入本頁各天「實際住宿」欄位",
@@ -1457,56 +1618,56 @@
       "callout": null,
       "rows": [
         {
-          "time": "08:30",
+          "time": "10:00",
           "what": "飯店出發",
           "note": null,
           "photo": null
         },
         {
-          "time": "09:15",
-          "what": "辛格韋德利國家公園（Þingvellir）約1小時",
-          "note": "短程步道，可走到北美/歐亞板塊裂谷步道段",
-          "photo": "images/day2/row1.jpg"
+          "time": "10:00",
+          "what": "車程前往 辛格韋德利國家公園約45分",
+          "note": null,
+          "photo": null
         },
         {
-          "time": "10:15",
+          "time": "10:45",
+          "what": "辛格韋德利國家公園（Þingvellir）約1小時",
+          "note": "短程步道，可走到北美/歐亞板塊裂谷步道段",
+          "photo": "images/day2/row2.jpg"
+        },
+        {
+          "time": "11:45",
           "what": "車程前往 Geysir蓋錫爾間歇泉約45分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:00",
-          "what": "蓋錫爾間歇泉區（Geysir）約45分",
+          "time": "12:30",
+          "what": "蓋錫爾間歇泉區（Geysir）約1小時",
           "note": null,
-          "photo": "images/day2/row3.jpg"
+          "photo": "images/day2/row4.jpg"
         },
         {
-          "time": "11:45",
+          "time": "13:30",
           "what": "車程前往 Gullfoss黃金瀑布約10分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:55",
-          "what": "Gullfoss 黃金瀑布 + 午餐約50分",
+          "time": "13:40",
+          "what": "Gullfoss 黃金瀑布 + 午餐約1小時45分",
           "note": null,
-          "photo": "images/day2/row5.jpg"
+          "photo": "images/day2/row6.jpg"
         },
         {
-          "time": "12:45",
-          "what": "車程前往 Kerið凱瑞斯火口湖約50分",
+          "time": "15:25",
+          "what": "車程前往 Selfoss 住宿區約50分",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:35",
-          "what": "凱瑞斯火口湖（Kerið）約40分",
-          "note": "環火山口步道走一圈或下到湖畔，紅黑火山岩配藍綠湖水，順路加碼💰入場費約400–700 ISK（各來源數字不一，以現場售票亭標價為準），現場購票即可，停車免費",
-          "photo": "images/day2/row7.jpg"
-        },
-        {
-          "time": "14:15",
-          "what": "車程前往 Selfoss 住宿區約15分",
+          "time": "16:15",
+          "what": "Check-in 休息",
           "note": null,
           "photo": null
         },
@@ -1530,7 +1691,7 @@
     {
       "num": 3,
       "date": "10/6（二）",
-      "title": "南岸西段：瀑布、黑沙灘、燈塔",
+      "title": "南岸西段：雙瀑布、飛機殘骸",
       "tags": [
         "必玩景點",
         "短程步道"
@@ -1539,74 +1700,56 @@
       "callout": null,
       "rows": [
         {
-          "time": "08:30",
+          "time": "10:00",
           "what": "出發",
           "note": null,
           "photo": null
         },
         {
-          "time": "09:30",
-          "what": "塞里雅蘭瀑布（Seljalandsfoss）約45分",
-          "note": "可走到瀑布後方，記得帶雨衣",
-          "photo": "images/day3/row1.jpg"
+          "time": "10:00",
+          "what": "車程前往 塞里雅蘭瀑布約1小時",
+          "note": null,
+          "photo": null
         },
         {
-          "time": "10:15",
+          "time": "11:00",
+          "what": "塞里雅蘭瀑布（Seljalandsfoss）約1小時30分",
+          "note": "可走到瀑布後方，記得帶雨衣",
+          "photo": "images/day3/row2.jpg"
+        },
+        {
+          "time": "12:30",
           "what": "車程往 Skógafoss斯科加瀑布約25分",
           "note": null,
           "photo": null
         },
         {
-          "time": "10:40",
-          "what": "斯科加瀑布（Skógafoss）約45分",
+          "time": "12:55",
+          "what": "斯科加瀑布（Skógafoss）約1小時30分",
           "note": "底部觀景即可，不需爬371階頂部",
-          "photo": "images/day3/row3.jpg"
+          "photo": "images/day3/row4.jpg"
         },
         {
-          "time": "11:25",
-          "what": "午餐（Skógar 周邊）約35分",
+          "time": "14:25",
+          "what": "午餐（Skógar 周邊）約45分",
           "note": null,
           "photo": null
         },
         {
-          "time": "12:00",
+          "time": "15:10",
           "what": "車程往飛機殘骸停車場約10分",
           "note": null,
           "photo": null
         },
         {
-          "time": "12:10",
-          "what": "Sólheimasandur 飛機殘骸約1小時15分",
+          "time": "15:20",
+          "what": "Sólheimasandur 飛機殘骸約1小時30分",
           "note": "停車750-1000 ISK（約台幣191–255元）＋搭接駁小巴來回(每30分一班，單程10-15分)＋拍照，不可自行開車進入、不建議步行(單程4km)",
-          "photo": "images/day3/row6.jpg"
+          "photo": "images/day3/row7.jpg"
         },
         {
-          "time": "13:25",
-          "what": "車程往 Reynisfjara約25分",
-          "note": null,
-          "photo": null
-        },
-        {
-          "time": "13:50",
-          "what": "Reynisfjara 黑沙灘約45分",
-          "note": "注意浪況警示牌，不靠近水際線",
-          "photo": "images/day3/row8.jpg"
-        },
-        {
-          "time": "14:35",
-          "what": "車程往 Dyrhólaey迪霍拉里約15分",
-          "note": null,
-          "photo": null
-        },
-        {
-          "time": "14:50",
-          "what": "迪霍拉里燈塔景觀台（Dyrhólaey）約40分",
-          "note": null,
-          "photo": "images/day3/row10.jpg"
-        },
-        {
-          "time": "15:30",
-          "what": "車程進 Vík 小鎮 Check-in約15分",
+          "time": "16:50",
+          "what": "車程進 Vík 小鎮 Check-in約25分",
           "note": null,
           "photo": null
         },
@@ -1638,49 +1781,55 @@
       "callout": null,
       "rows": [
         {
-          "time": "09:00",
+          "time": "10:00",
           "what": "Vík 出發",
           "note": null,
           "photo": null
         },
         {
           "time": "10:00",
-          "what": "羽毛河峽谷觀景步道（Fjaðrárgljúfur）約40分",
-          "note": "走到觀景台即可，不下切谷底",
-          "photo": "images/day4/row1.jpg"
+          "what": "車程往 羽毛河峽谷約1小時",
+          "note": null,
+          "photo": null
         },
         {
-          "time": "10:40",
+          "time": "11:00",
+          "what": "羽毛河峽谷觀景步道（Fjaðrárgljúfur）約1小時",
+          "note": "走到觀景台即可，不下切谷底",
+          "photo": "images/day4/row2.jpg"
+        },
+        {
+          "time": "12:00",
           "what": "車程往 Jökulsárlón傑古沙龍冰河湖約1小時20分",
           "note": null,
           "photo": null
         },
         {
-          "time": "12:00",
+          "time": "13:20",
           "what": "午餐（遊客中心）約1小時",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:00",
-          "what": "傑古沙龍冰河湖（Jökulsárlón）約1小時",
+          "time": "14:20",
+          "what": "傑古沙龍冰河湖（Jökulsárlón）約1小時30分",
           "note": "湖畔平緩步道，浮冰拍照",
-          "photo": "images/day4/row4.jpg"
+          "photo": "images/day4/row5.jpg"
         },
         {
-          "time": "14:00",
-          "what": "步行/車程往鑽石沙灘約10–15分",
+          "time": "15:50",
+          "what": "步行/車程往鑽石沙灘約15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "14:20",
+          "time": "16:05",
           "what": "鑽石沙灘（Diamond Beach）約1小時",
           "note": null,
-          "photo": "images/day4/row6.jpg"
+          "photo": "images/day4/row7.jpg"
         },
         {
-          "time": "15:20",
+          "time": "17:05",
           "what": "車程往 Höfn Check-in約50分",
           "note": null,
           "photo": null
@@ -1752,34 +1901,121 @@
     {
       "num": 6,
       "date": "10/9（五）",
-      "title": "緩衝返程日",
+      "title": "回程①：南岸黑沙灘、Dyrhólaey（順路）",
       "tags": [
-        "彈性緩衝日",
-        "長途移動"
+        "長途移動",
+        "必玩景點"
       ],
-      "stay": "住宿：Borgarnes（斯奈山半島門戶，不繞回雷克雅維克） 建議：Hraunsnef Country Hotel（✅Google 4.7／619則）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：Vík 小鎮（第二晚） 建議：同D3候選名單（皆已依極光可見度篩選）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
-          "time": "09:00",
-          "what": "Höfn 出發，沿南岸原路西返約5小時含休息",
-          "note": "可重遊喜歡的點位，或直接開，不排硬性行程",
+          "time": "10:00",
+          "what": "Höfn 出發，沿南岸原路西返",
+          "note": "拆成兩段拉車，中途Kirkjubæjarklaustur休息，單段皆在2小時內",
           "photo": null
         },
         {
-          "time": "14:00",
-          "what": "午餐（路途中，如 Vík 或 Selfoss）",
+          "time": "10:00",
+          "what": "車程往 Kirkjubæjarklaustur休息點約1小時30分",
           "note": null,
           "photo": null
         },
         {
-          "time": "14:30",
-          "what": "續開往 Borgarnes約2.5–3小時",
-          "note": "直接開到Borgarnes，不進雷克雅維克市區，隔天可直接銜接斯奈山半島",
+          "time": "11:30",
+          "what": "咖啡/休息約30分",
+          "note": null,
           "photo": null
         },
         {
-          "time": "17:30",
+          "time": "12:00",
+          "what": "車程往 Reynisfjara約1小時",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "13:00",
+          "what": "Reynisfjara 黑沙灘約1小時30分",
+          "note": "注意浪況警示牌，不靠近水際線",
+          "photo": "images/day6/row4.jpg"
+        },
+        {
+          "time": "14:30",
+          "what": "車程往 Dyrhólaey迪霍拉里約15分",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "14:45",
+          "what": "迪霍拉里燈塔景觀台（Dyrhólaey）約1小時",
+          "note": null,
+          "photo": "images/day6/row6.jpg"
+        },
+        {
+          "time": "15:45",
+          "what": "車程進 Vík 小鎮 Check-in約15分",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "18:30",
+          "what": "晚餐",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "夜間",
+          "what": "視天氣自駕追極光（Vík 周邊光害少，第二次入住）",
+          "note": null,
+          "photo": null
+        }
+      ],
+      "lat": 63.4186,
+      "lon": -19.006,
+      "regionName": "Vík 南岸"
+    },
+    {
+      "num": 7,
+      "date": "10/10（六）",
+      "title": "回程②：凱瑞斯火口湖（順路）、續往Borgarnes",
+      "tags": [
+        "長途移動"
+      ],
+      "stay": "住宿：Borgarnes（斯奈山半島門戶） 建議：Hraunsnef Country Hotel（✅Google 4.7／619則）在Maps開啟↗ ｜ 實際訂房：",
+      "callout": null,
+      "rows": [
+        {
+          "time": "10:00",
+          "what": "Vík 出發，續往西返程",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "10:00",
+          "what": "車程往 Kerið凱瑞斯火口湖／Selfoss方向約2小時",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "12:00",
+          "what": "凱瑞斯火口湖（Kerið）約1小時",
+          "note": "環火山口步道走一圈或下到湖畔，紅黑火山岩配藍綠湖水，順路加碼💰入場費約400–700 ISK（各來源數字不一，以現場售票亭標價為準），現場購票即可，停車免費",
+          "photo": "images/day7/row2.jpg"
+        },
+        {
+          "time": "13:00",
+          "what": "午餐（Selfoss 周邊）約45分",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "13:45",
+          "what": "車程續往 Borgarnes約2小時",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "15:45",
           "what": "Check-in 休息",
           "note": null,
           "photo": null
@@ -1796,8 +2032,8 @@
       "regionName": "Borgarnes"
     },
     {
-      "num": 7,
-      "date": "10/10（六）",
+      "num": 8,
+      "date": "10/11（日）",
       "title": "斯奈山半島① 教堂山",
       "tags": [
         "必玩景點"
@@ -1806,32 +2042,38 @@
       "callout": null,
       "rows": [
         {
-          "time": "09:00",
+          "time": "10:00",
           "what": "Borgarnes 出發前往教堂山方向約1小時",
-          "note": "從Borgarnes出發比從雷克雅維克近，不重複繞路",
+          "note": null,
           "photo": null
         },
         {
-          "time": "10:40",
-          "what": "Kirkjufell 教堂山 + Kirkjufellsfoss 瀑布約50分",
+          "time": "11:00",
+          "what": "Kirkjufell 教堂山 + Kirkjufellsfoss 瀑布約1小時30分",
           "note": "瀑布就在山腳步行5分鐘，冰島最上鏡角度",
-          "photo": "images/day7/row1.jpg"
+          "photo": "images/day8/row1.jpg"
         },
         {
-          "time": "11:30",
+          "time": "12:30",
           "what": "午餐（Grundarfjörður 小鎮）約45分",
           "note": null,
           "photo": null
         },
         {
-          "time": "12:15",
+          "time": "13:15",
           "what": "沿海熔岩地貌景點約1小時15分",
           "note": "可多點停留拍照",
           "photo": null
         },
         {
-          "time": "13:30",
+          "time": "14:30",
           "what": "車程往住宿區約30分",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "15:00",
+          "what": "Check-in 休息",
           "note": null,
           "photo": null
         },
@@ -1847,8 +2089,8 @@
       "regionName": "斯奈山半島"
     },
     {
-      "num": 8,
-      "date": "10/11（日）",
+      "num": 9,
+      "date": "10/12（一）",
       "title": "斯奈山半島② 冰川、黑教堂、黑沙灘",
       "tags": [
         "必玩景點",
@@ -1858,55 +2100,67 @@
       "callout": null,
       "rows": [
         {
-          "time": "09:00",
+          "time": "10:00",
           "what": "出發",
           "note": null,
           "photo": null
         },
         {
-          "time": "09:30",
-          "what": "Snæfellsjökull 冰川國家公園約45分",
+          "time": "10:30",
+          "what": "Snæfellsjökull 冰川國家公園約1小時",
           "note": null,
-          "photo": "images/day8/row1.jpg"
+          "photo": "images/day9/row1.jpg"
         },
         {
-          "time": "10:15",
+          "time": "11:30",
           "what": "車程往 Búðakirkja布迪爾黑教堂約30分",
           "note": null,
           "photo": null
         },
         {
-          "time": "10:45",
-          "what": "布迪爾黑教堂（Búðakirkja）約30分",
+          "time": "12:00",
+          "what": "布迪爾黑教堂（Búðakirkja）約1小時",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:15",
+          "time": "13:00",
           "what": "車程往 Djúpalónssandur黑沙灘約30分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:45",
-          "what": "Djúpalónssandur 黑沙灘約45分",
+          "time": "13:30",
+          "what": "Djúpalónssandur 黑沙灘約1小時",
           "note": null,
           "photo": null
         },
         {
-          "time": "12:30",
-          "what": "午餐約45分",
+          "time": "14:30",
+          "what": "午餐約30分",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:15",
-          "what": "車程返回雷克雅維克方向約2.5–3小時",
+          "time": "15:00",
+          "what": "車程往 Borgarnes休息點約1小時15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "16:00",
+          "time": "16:15",
+          "what": "短暫休息約20分",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "16:35",
+          "what": "車程往雷克雅維克約1小時15分",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "17:50",
           "what": "Check-in",
           "note": null,
           "photo": null
@@ -1923,51 +2177,70 @@
       "regionName": "斯奈山半島"
     },
     {
-      "num": 9,
-      "date": "10/12（一）",
-      "title": "雷克雅維克市區悠閒日",
+      "num": 10,
+      "date": "10/13（二）",
+      "title": "雷克雅維克市區悠閒日 · 天空之湖",
       "tags": [
         "步行為主",
-        "追極光"
+        "追極光",
+        "溫泉"
       ],
       "stay": "住宿：雷克雅維克 建議：同D8市區住宿，開車追極光 ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
-          "time": "09:30",
+          "time": "10:00",
           "what": "步行出發（市區不需開車）",
           "note": null,
           "photo": null
         },
         {
-          "time": "09:30",
+          "time": "10:00",
           "what": "哈爾格林姆教堂（含登頂觀景台）約45分",
           "note": null,
-          "photo": "images/day9/row1.jpg"
+          "photo": "images/day10/row1.jpg"
         },
         {
-          "time": "10:15",
+          "time": "10:45",
           "what": "彩虹街 + 周邊咖啡廳約45分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:00",
+          "time": "11:30",
           "what": "太陽航海者雕塑 + 海濱步道約45分",
           "note": null,
-          "photo": "images/day9/row3.jpg"
+          "photo": "images/day10/row3.jpg"
         },
         {
-          "time": "11:45",
-          "what": "午餐 + 自由逛街（Laugavegur 購物街）約1小時15分",
+          "time": "12:15",
+          "what": "午餐 + 自由逛街（Laugavegur 購物街）約1小時",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:00",
+          "time": "13:15",
           "what": "Harpa 音樂廳參觀約1小時",
           "note": null,
-          "photo": "images/day9/row5.jpg"
+          "photo": "images/day10/row5.jpg"
+        },
+        {
+          "time": "14:15",
+          "what": "車程前往 Sky Lagoon約20分",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "14:35",
+          "what": "Sky Lagoon 泡湯（可選）約1小時50分",
+          "note": "從D1移到這天，避開抵達當天的長途飛行疲勞，時間更從容；無邊際泳池看海景💰須事先線上預訂：Saman Pass起約US$100、Sér Pass起約US$123.49，秋冬旺季名額會滿⚠️若前一天極光/冰洞需要這天補行程，這個時段可直接取消，不影響退款（依預訂時選擇的方案而定）",
+          "photo": null
+        },
+        {
+          "time": "16:25",
+          "what": "車程返回市區住宿約20分",
+          "note": null,
+          "photo": null
         },
         {
           "time": "18:30",
@@ -1987,34 +2260,6 @@
       "regionName": "雷克雅維克"
     },
     {
-      "num": 10,
-      "date": "10/13（二）",
-      "title": "機動彈性日 · 天空之湖（可選）",
-      "tags": [
-        "溫泉",
-        "無固定行程"
-      ],
-      "stay": "住宿：雷克雅維克 建議：同D8市區住宿，開車追極光 ｜ 實際訂房：",
-      "callout": "優先順序：①若前面極光/冰洞因天候取消，這天優先用來補上 ②都順利的話，下方Sky Lagoon時段可安排；不想去也完全OK，改純休息、加開第二次極光團、或自由採購紀念品都可以，全天不排死時間表。",
-      "rows": [
-        {
-          "time": "11:00",
-          "what": "Sky Lagoon 泡湯（可選）約1小時50分",
-          "note": "從D1移到這天，避開抵達當天的長途飛行疲勞，時間更從容；無邊際泳池看海景💰須事先線上預訂：Saman Pass起約US$100、Sér Pass起約US$123.49，秋冬旺季名額會滿⚠️若前一天極光/冰洞需要這天補行程，這個時段可直接取消，不影響退款（依預訂時選擇的方案而定）",
-          "photo": null
-        },
-        {
-          "time": "13:00",
-          "what": "午餐 + 自由活動彈性",
-          "note": "剩餘時間純休息、逛街採購紀念品，或視前幾天狀況加開第二次極光團",
-          "photo": null
-        }
-      ],
-      "lat": 64.1466,
-      "lon": -21.9426,
-      "regionName": "雷克雅維克"
-    },
-    {
       "num": 11,
       "date": "10/14（三）",
       "title": "蕾克雅內斯半島（近機場）",
@@ -2025,61 +2270,61 @@
       "callout": null,
       "rows": [
         {
-          "time": "09:30",
+          "time": "10:00",
           "what": "雷克雅維克出發約45分",
           "note": null,
           "photo": null
         },
         {
-          "time": "10:15",
-          "what": "Kleifarvatn 火山湖約30分",
+          "time": "10:45",
+          "what": "Kleifarvatn 火山湖約1小時",
           "note": null,
           "photo": "images/day11/row1.jpg"
         },
         {
-          "time": "10:45",
+          "time": "11:45",
           "what": "車程往 Gunnuhver約40分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:25",
-          "what": "Gunnuhver 地熱噴氣孔約35分",
+          "time": "12:25",
+          "what": "Gunnuhver 地熱噴氣孔約1小時",
           "note": null,
           "photo": "images/day11/row3.png"
         },
         {
-          "time": "12:00",
+          "time": "13:25",
           "what": "車程往板塊裂谷橋約30分",
           "note": null,
           "photo": null
         },
         {
-          "time": "12:30",
+          "time": "13:55",
           "what": "北美/歐亞板塊裂谷橋約30分",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:00",
+          "time": "14:25",
           "what": "午餐約1小時",
           "note": null,
           "photo": null
         },
         {
-          "time": "14:00",
+          "time": "15:25",
           "what": "車程往 Reykjanes 燈塔約30分",
           "note": null,
           "photo": null
         },
         {
-          "time": "14:30",
-          "what": "Reykjanes 燈塔 + 海岸景觀約45分",
+          "time": "15:55",
+          "what": "Reykjanes 燈塔 + 海岸景觀約1小時",
           "note": null,
           "photo": "images/day11/row8.jpg"
         },
         {
-          "time": "15:15",
+          "time": "16:55",
           "what": "車程往 Grindavík Check-in約30分",
           "note": null,
           "photo": null
