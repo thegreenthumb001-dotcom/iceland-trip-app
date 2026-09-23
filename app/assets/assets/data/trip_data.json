@@ -1591,7 +1591,19 @@
         },
         {
           "time": "19:45",
-          "what": "車程前往雷克雅維克住宿約45分",
+          "what": "車程前往超市約20分",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "20:05",
+          "what": "超市採買（Bónus / Krónan，雷克雅維克）約15分",
+          "note": "建議先採買水、零食與隔天早餐，冰島超市多8-9點打烊，晚到store可能已關 地圖↗",
+          "photo": null
+        },
+        {
+          "time": "20:20",
+          "what": "車程前往住宿約10分",
           "note": null,
           "photo": null
         },
@@ -1644,7 +1656,7 @@
         {
           "time": "12:30",
           "what": "蓋錫爾間歇泉區（Geysir）約1小時",
-          "note": null,
+          "note": "Geysir Center 內有伴手禮店（羊毛衣、紀念品）與咖啡廳，可順道逛逛",
           "photo": "images/day2/row4.jpg"
         },
         {
@@ -1669,6 +1681,12 @@
           "time": "16:15",
           "what": "Check-in 休息",
           "note": null,
+          "photo": null
+        },
+        {
+          "time": "17:00",
+          "what": "超市採買（Bónus，Selfoss）約20分",
+          "note": "備齊零食、水與隔天早餐 地圖↗",
           "photo": null
         },
         {
@@ -1754,6 +1772,12 @@
           "photo": null
         },
         {
+          "time": "17:35",
+          "what": "超市採買（Nettó / Krónan，Vík）約15分",
+          "note": "地圖↗",
+          "photo": null
+        },
+        {
           "time": "18:30",
           "what": "晚餐",
           "note": null,
@@ -1807,7 +1831,7 @@
         {
           "time": "13:20",
           "what": "午餐（遊客中心）約1小時",
-          "note": null,
+          "note": "遊客中心內附設小型紀念品店，可順道採買伴手禮",
           "photo": null
         },
         {
@@ -1837,7 +1861,7 @@
         {
           "time": "18:30",
           "what": "晚餐（推薦龍蝦湯 Lobster Soup）",
-          "note": null,
+          "note": "餐廳附近步行可達 Nettó 超市，飯後可順道補給",
           "photo": null
         }
       ],
@@ -1958,9 +1982,21 @@
           "photo": null
         },
         {
+          "time": "16:15",
+          "what": "伴手禮：Icewear Vík 羊毛衣暢貨中心約30分",
+          "note": "冰島羊毛衣（lopapeysa）等紀念品，Vík最知名的暢貨中心 地圖↗",
+          "photo": null
+        },
+        {
+          "time": "16:50",
+          "what": "超市採買（Nettó / Krónan，Vík）約15分",
+          "note": "地圖↗",
+          "photo": null
+        },
+        {
           "time": "18:30",
-          "what": "晚餐",
-          "note": null,
+          "what": "晚餐推薦 Suður-Vík Restaurant（居高臨下可看黑沙灘海景）",
+          "note": "推薦 Suður-Vík Restaurant（居高臨下可看黑沙灘海景）",
           "photo": null
         },
         {
@@ -2021,6 +2057,18 @@
           "photo": null
         },
         {
+          "time": "16:15",
+          "what": "Landnámssetrið 冰島定居博物館・紀念品店＋咖啡約30分",
+          "note": "博物館附設咖啡廳與紀念品店，Borgarnes代表性順遊點 地圖↗",
+          "photo": null
+        },
+        {
+          "time": "16:50",
+          "what": "超市採買（Bónus，Borgarnes）約15分",
+          "note": "地圖↗",
+          "photo": null
+        },
+        {
           "time": "18:30",
           "what": "晚餐",
           "note": null,
@@ -2056,7 +2104,7 @@
         {
           "time": "12:30",
           "what": "午餐（Grundarfjörður 小鎮）約45分",
-          "note": null,
+          "note": "小鎮上有幾間紀念品/手工藝小店，可順道逛逛",
           "photo": null
         },
         {
@@ -2075,6 +2123,12 @@
           "time": "15:00",
           "what": "Check-in 休息",
           "note": null,
+          "photo": null
+        },
+        {
+          "time": "15:30",
+          "what": "超市採買（當地超市，斯奈山半島）約15分",
+          "note": "地圖↗",
           "photo": null
         },
         {
@@ -2166,6 +2220,12 @@
           "photo": null
         },
         {
+          "time": "18:00",
+          "what": "超市採買（Bónus，雷克雅維克）約15分",
+          "note": "地圖↗",
+          "photo": null
+        },
+        {
           "time": "19:00",
           "what": "晚餐",
           "note": null,
@@ -2215,7 +2275,7 @@
         {
           "time": "12:15",
           "what": "午餐 + 自由逛街（Laugavegur 購物街）約1小時",
-          "note": null,
+          "note": "此區是伴手禮最密集的地段（Rammagerðin、羊毛衣專賣店、設計小店），建議在此集中採買",
           "photo": null
         },
         {
@@ -2327,6 +2387,12 @@
           "time": "16:55",
           "what": "車程往 Grindavík Check-in約30分",
           "note": null,
+          "photo": null
+        },
+        {
+          "time": "17:40",
+          "what": "超市採買（Krónan，Grindavík）約15分",
+          "note": "地圖↗",
           "photo": null
         },
         {
