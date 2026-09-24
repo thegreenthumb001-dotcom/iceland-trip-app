@@ -561,7 +561,7 @@
       ]
     },
     {
-      "title": "D4-D5・冰河湖/Höfn（10/7-10/8，連住2晚）",
+      "title": "D4-D5・冰河湖／赫本（Höfn）（10/7-10/8，連住2晚）",
       "options": [
         {
           "groupName": "pick-d45",
@@ -723,7 +723,7 @@
               "url": "https://www.booking.com/hotel/is/brunnholl-country-guesthouse.html?checkin=2026-10-07&checkout=2026-10-09&group_adults=2&no_rooms=1"
             }
           ],
-          "why": "冰河湖與Höfn之間農場旅館，提供極光晨喚服務（if the sky comes alive after you have gone to bed, they will knock）；⚠️農場在11月中至1月底冬季最暗時段會歇業，需留意營運月份",
+          "why": "冰河湖與赫本（Höfn）之間農場旅館，提供極光晨喚服務（if the sky comes alive after you have gone to bed, they will knock）；⚠️農場在11月中至1月底冬季最暗時段會歇業，需留意營運月份",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Brunnholl+Country+Guesthouse+Iceland"
         }
       ]
@@ -890,7 +890,7 @@
       ]
     },
     {
-      "title": "D7・Borgarnes（10/10）",
+      "title": "D7・博爾加內斯（Borgarnes）（10/10）",
       "options": [
         {
           "groupName": "pick-d7",
@@ -1532,7 +1532,7 @@
       "heading": "景點門票與預訂總覽（1 ISK≈NT$0.24）",
       "items": [
         "需事先線上預訂：Sky Lagoon（D10，US$100起）、水晶冰洞探索團（D5，US$107–275，⚠️10月初天然冰洞可能尚未開放，務必提前跟業者確認，很可能只能改參加「藍冰川健行團」）、極光導覽團（D5，平價巴士團約US$42起、Super Jeep約US$160）、Blue Lagoon（D12，ISK 11,990起，現場不接受walk-in）",
-        "收門票但現場買即可：Kerið火山口湖（D7，約400–700 ISK，官網也可訂但非必要）、哈爾格林姆教堂登塔觀景台（D10，成人1,500 ISK）、Harpa導覽團（D10，5,200 ISK，⚠️但建築大廳/商店/咖啡廳本身免費進出，不參加導覽不用買票）",
+        "收門票但現場買即可：Kerið火山口湖（D7，約400–700 ISK，官網也可訂但非必要）、哈爾格林姆教堂登塔觀景台（D10，成人1,500 ISK）、音樂廳（Harpa）導覽團（D10，5,200 ISK，⚠️但建築大廳/商店/咖啡廳本身免費進出，不參加導覽不用買票）",
         "入場完全免費：Þingvellir、Geysir、Gullfoss、Seljalandsfoss、Skógafoss、Reynisfjara、Dyrhólaey、Fjaðrárgljúfur、Jökulsárlón、鑽石沙灘、Kirkjufell、Snæfellsjökull國家公園、Búðakirkja、Djúpalónssandur、彩虹街、太陽航海者、Kleifarvatn、Gunnuhver、板塊裂谷橋、Reykjanes燈塔——這些景點本身不收門票，只有部分停車場收費（多為現場機台或App付款，約700–1,200 ISK不等）",
         "Sólheimasandur飛機殘骸：徒步往返仍完全免費（約8公里/2小時），付費接駁車（成人3,400 ISK）只是省時間的選項，非必要",
         "Dyrhólaey鳥類繁殖季封閉時間為每年5月中–6月底，10月造訪不受影響",
@@ -1626,7 +1626,7 @@
         "必玩景點",
         "短程步道"
       ],
-      "stay": "住宿：Selfoss 或黃金圈周邊 建議：Hótel Grímsborgir（✅Google 4.5／589則）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：塞爾福斯（Selfoss）或黃金圈周邊 建議：Hótel Grímsborgir（✅Google 4.5／589則）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -1644,7 +1644,7 @@
         {
           "time": "10:45",
           "what": "辛格韋德利國家公園（Þingvellir）約1小時",
-          "note": "短程步道，可走到北美/歐亞板塊裂谷步道段",
+          "note": "短程步道，可走到北美/歐亞板塊裂谷步道段；推薦拍照點：Almannagjá峽谷觀景台（掛冰島國旗處）與Öxarárfoss瀑布 地圖↗",
           "photo": "images/day2/row2.jpg"
         },
         {
@@ -1673,7 +1673,7 @@
         },
         {
           "time": "15:25",
-          "what": "車程前往 Selfoss 住宿區約50分",
+          "what": "車程前往 塞爾福斯（Selfoss）住宿區約50分",
           "note": null,
           "photo": null
         },
@@ -1685,8 +1685,8 @@
         },
         {
           "time": "17:00",
-          "what": "超市採買（Bónus，Selfoss）約20分",
-          "note": "備齊零食、水與隔天早餐 地圖↗",
+          "what": "超市採買（Bónus，塞爾福斯 Selfoss）約20分",
+          "note": "備齊零食、水與隔天早餐；⚠️營業時間為 10:00–20:00（非全天到21:00，17:00到達仍在營業時間內） 地圖↗",
           "photo": null
         },
         {
@@ -1750,19 +1750,19 @@
         {
           "time": "14:25",
           "what": "午餐（Skógar 周邊）約45分",
-          "note": null,
+          "note": "推薦 Skógafoss Bistro & Bar（Hótel Skógafoss內），CP值高、可邊用餐邊看瀑布景 地圖↗",
           "photo": null
         },
         {
           "time": "15:10",
           "what": "車程往飛機殘骸停車場約10分",
-          "note": null,
+          "note": "停車場即接駁車搭乘處 地圖↗",
           "photo": null
         },
         {
           "time": "15:20",
           "what": "Sólheimasandur 飛機殘骸約1小時30分",
-          "note": "停車750-1000 ISK（約台幣191–255元）＋搭接駁小巴來回(每30分一班，單程10-15分)＋拍照，不可自行開車進入、不建議步行(單程4km)",
+          "note": "停車750-1000 ISK（約台幣191–255元）＋搭接駁小巴來回(每30分一班，單程10-15分)＋拍照，不可自行開車進入、不建議步行(單程4km)；⚠️接駁車營業時間約10:00–17:00（依日照調整，10月建議提早出發保留彈性，實際班次以現場/官網為準）",
           "photo": "images/day3/row7.jpg"
         },
         {
@@ -1773,8 +1773,8 @@
         },
         {
           "time": "17:35",
-          "what": "超市採買（Nettó / Krónan，Vík）約15分",
-          "note": "地圖↗",
+          "what": "超市採買（Krónan，Vík）約15分",
+          "note": "⚠️查證後Vík鎮上僅有Krónan（未確認有Nettó門市），營業時間09:00–21:00 地圖↗",
           "photo": null
         },
         {
@@ -1786,7 +1786,7 @@
         {
           "time": "夜間",
           "what": "視天氣自駕追極光（Vík 周邊光害少）",
-          "note": null,
+          "note": "若想改參加當地團：目前查到的極光團多從Reykjavík/Seljalandsfoss一帶出發（例如Brú Basecamp接駁範圍為850/851/860/861郵遞區號，不含Vík的870），暫未查到穩定的Vík鎮內出發團；建議出發前到GetYourGuide搜尋「Vik Northern Lights」查即時場次，或直接詢問入住旅館是否代訂接送",
           "photo": null
         }
       ],
@@ -1801,7 +1801,7 @@
       "tags": [
         "必玩景點"
       ],
-      "stay": "住宿：Höfn 或冰河湖周邊 建議：Fosshotel Glacier Lagoon（✅Google 4.5／約2000則）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：赫本（Höfn）或冰河湖周邊 建議：Fosshotel Glacier Lagoon（✅Google 4.5／約2000則）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -1831,37 +1831,37 @@
         {
           "time": "13:20",
           "what": "午餐（遊客中心）約1小時",
-          "note": "遊客中心內附設小型紀念品店，可順道採買伴手禮",
+          "note": "遊客中心內附設小型紀念品店，可順道採買伴手禮 地圖↗",
           "photo": null
         },
         {
           "time": "14:20",
-          "what": "傑古沙龍冰河湖（Jökulsárlón）約1小時30分",
-          "note": "湖畔平緩步道，浮冰拍照",
+          "what": "傑古沙龍冰河湖（Jökulsárlón）約1小時",
+          "note": "湖畔平緩步道，浮冰拍照；與後面的鑽石沙灘是分開兩站（隔著馬路橋），此為冰河湖本身、非鑽石沙灘 地圖↗",
           "photo": "images/day4/row5.jpg"
         },
         {
-          "time": "15:50",
+          "time": "15:20",
           "what": "步行/車程往鑽石沙灘約15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "16:05",
-          "what": "鑽石沙灘（Diamond Beach）約1小時",
-          "note": null,
+          "time": "15:35",
+          "what": "鑽石沙灘（Diamond Beach）約1小時30分",
+          "note": "黑沙灘／鑽石沙灘的最佳光線是日出日落，10月午後到傍晚這段時間光線已經偏斜柔和，比正中午平光更好看",
           "photo": "images/day4/row7.jpg"
         },
         {
           "time": "17:05",
-          "what": "車程往 Höfn Check-in約50分",
+          "what": "車程往 赫本（Höfn）Check-in約50分",
           "note": null,
           "photo": null
         },
         {
           "time": "18:30",
           "what": "晚餐（推薦龍蝦湯 Lobster Soup）",
-          "note": "⭐ Kaffi Hornið（Höfn，CP值高的平價龍蝦湯人氣店，離住宿區近）；想吃正式龍蝦大餐可改訂 Humarhöfnin（價位較高） 地圖↗ ｜ 餐廳附近步行可達 Nettó 超市，飯後可順道補給",
+          "note": "⭐ Kaffi Hornið（赫本 Höfn，CP值高的平價龍蝦湯人氣店，離住宿區近，營業時間11:30–21:00）；想吃正式龍蝦大餐可改訂 Humarhöfnin（價位較高） 地圖↗ ｜ 餐廳附近步行可達 Nettó 超市（週一至五09:00–19:00，週六日10:00–19:00），飯後可順道補給 地圖↗",
           "photo": null
         }
       ],
@@ -1878,7 +1878,7 @@
         "極光團",
         "需事先確認開放"
       ],
-      "stay": "住宿：Höfn 或冰河湖周邊 建議：Fosshotel Glacier Lagoon（同前一晚，✅Google 4.5）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：赫本（Höfn）或冰河湖周邊 建議：Fosshotel Glacier Lagoon（同前一晚，✅Google 4.5）在Maps開啟↗ ｜ 實際訂房：",
       "callout": "⚠️ 10月初部分冰洞可能尚未正式開團，出發前1–2週務必向業者確認並保留 Day10 作為備案調整日。",
       "rows": [
         {
@@ -1890,7 +1890,7 @@
         {
           "time": "09:00",
           "what": "水晶冰洞探索團約4小時（含接駁）",
-          "note": "付費導覽，走動時間短，畫面最震撼⚠️2026/9/19查證更新：天然冰洞旺季一般為11月–3月，業者（extremeiceland/glacierguides/arcanum）目前查無2026年10月已公告的具體開團日期，這類公告通常9月底~10月初才會釋出，請務必直接聯絡業者詢問今年10月是否已排定開團；價格約US$107–275（依團種而異）備案：Vík附近的Katla冰洞（Mýrdalsjökull冰川下，火山灰混合冰層較穩定）開放季節較長、10月通常已可探索，若水晶冰洞真的還沒開，可考慮改訂這個，且離D3-D4住宿更近",
+          "note": "付費導覽，走動時間短，畫面最震撼⚠️2026/9/19查證更新：天然冰洞旺季一般為11月–3月，業者（extremeiceland/glacierguides/arcanum）目前查無2026年10月已公告的具體開團日期，這類公告通常9月底~10月初才會釋出，請務必直接聯絡業者詢問今年10月是否已排定開團；價格約US$107–275（依團種而異，約NT$3,400–8,800，依當日匯率而定）備案：Vík附近的Katla冰洞（Mýrdalsjökull冰川下，火山灰混合冰層較穩定）開放季節較長、10月通常已可探索，若水晶冰洞真的還沒開，可考慮改訂這個，且離D3-D4住宿更近",
           "photo": "images/day5/row1.jpg"
         },
         {
@@ -1935,74 +1935,98 @@
       "rows": [
         {
           "time": "10:00",
-          "what": "Höfn 出發，沿南岸原路西返",
-          "note": "拆成兩段拉車，中途Kirkjubæjarklaustur休息，單段皆在2小時內",
+          "what": "赫本（Höfn）出發，沿南岸原路西返",
+          "note": "⚠️原估算的Höfn→Kirkjubæjarklaustur單段車程有誤（實際約2.5小時，超過單段2小時上限），已改在Skaftafell中途拆成兩段拉車💡備案：若D5水晶冰洞還沒開放，Vík附近的Katla冰洞（全年開放、離這裡住宿更近）是很好的替代方案，可考慮把冰洞行程改到這附近的日期參加",
           "photo": null
         },
         {
           "time": "10:00",
-          "what": "車程往 Kirkjubæjarklaustur休息點約1小時30分",
+          "what": "車程往 Skaftafell約1小時40分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:30",
-          "what": "咖啡/休息約30分",
+          "time": "11:40",
+          "what": "短暫休息（Skaftafell遊客中心，上廁所/伸展）約15分",
+          "note": "地圖↗",
+          "photo": null
+        },
+        {
+          "time": "11:55",
+          "what": "車程往 Kirkjubæjarklaustur約50分",
           "note": null,
           "photo": null
         },
         {
-          "time": "12:00",
-          "what": "車程往 Reynisfjara約1小時",
+          "time": "12:45",
+          "what": "Kirkjubæjarklaustur 午餐/休息約45分",
+          "note": "推薦 Systrakaffi（每日12:00–21:00營業，北極紅點鮭Arctic Char評價高） 地圖↗",
+          "photo": null
+        },
+        {
+          "time": "13:30",
+          "what": "車程往 Reynisfjara約55分",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:00",
+          "time": "14:25",
           "what": "Reynisfjara 黑沙灘約1小時30分",
           "note": "注意浪況警示牌，不靠近水際線",
-          "photo": "images/day6/row4.jpg"
+          "photo": "images/day6/row6.jpg"
         },
         {
-          "time": "14:30",
+          "time": "15:55",
           "what": "車程往 Dyrhólaey迪霍拉里約15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "14:45",
+          "time": "16:10",
           "what": "迪霍拉里燈塔景觀台（Dyrhólaey）約1小時",
           "note": null,
-          "photo": "images/day6/row6.jpg"
+          "photo": "images/day6/row8.jpg"
         },
         {
-          "time": "15:45",
-          "what": "車程進 Vík 小鎮 Check-in約15分",
+          "time": "17:10",
+          "what": "車程進 Vík 小鎮約15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "16:15",
-          "what": "伴手禮：Icewear Vík 羊毛衣暢貨中心約30分",
-          "note": "冰島羊毛衣（lopapeysa）等紀念品，Vík最知名的暢貨中心 地圖↗",
+          "time": "17:25",
+          "what": "私房景點：Víkurfjara沙灘約20分",
+          "note": "Reynisfjall山另一側，跟Reynisfjara同樣的海蝕柱景觀但遊客少很多，海浪較平緩、免費停車，當地人更推薦這裡散步 地圖↗",
           "photo": null
         },
         {
-          "time": "16:50",
-          "what": "超市採買（Nettó / Krónan，Vík）約15分",
-          "note": "地圖↗",
+          "time": "17:45",
+          "what": "Check-in 休息",
+          "note": null,
           "photo": null
         },
         {
-          "time": "18:30",
-          "what": "晚餐推薦 Suður-Vík Restaurant（居高臨下可看黑沙灘海景）",
-          "note": "推薦 Suður-Vík Restaurant（居高臨下可看黑沙灘海景）",
+          "time": "17:45",
+          "what": "伴手禮：Icewear Vík 羊毛衣暢貨中心約25分",
+          "note": "冰島羊毛衣（lopapeysa）等紀念品，Vík最知名的暢貨中心；營業時間08:00–22:00 地圖↗",
+          "photo": null
+        },
+        {
+          "time": "18:10",
+          "what": "超市採買（Krónan，Vík）約15分",
+          "note": "⚠️查證後Vík鎮上僅有Krónan（未確認有Nettó門市），營業時間09:00–21:00 地圖↗",
+          "photo": null
+        },
+        {
+          "time": "18:45",
+          "what": "晚餐推薦 Suður-Vík Restaurant（居高臨下可看黑沙灘海景） 地圖↗",
+          "note": "推薦 Suður-Vík Restaurant（居高臨下可看黑沙灘海景） 地圖↗",
           "photo": null
         },
         {
           "time": "夜間",
           "what": "視天氣自駕追極光（Vík 周邊光害少，第二次入住）",
-          "note": null,
+          "note": "若想改參加當地團，做法同D3：目前查到的極光團多從Reykjavík/Seljalandsfoss一帶出發，暫未查到穩定的Vík鎮內出發團，建議出發前到GetYourGuide搜尋「Vik Northern Lights」查即時場次",
           "photo": null
         }
       ],
@@ -2013,11 +2037,11 @@
     {
       "num": 7,
       "date": "10/10（六）",
-      "title": "回程②：凱瑞斯火口湖（順路）、續往Borgarnes",
+      "title": "回程②：凱瑞斯火口湖（順路）、續往博爾加內斯（Borgarnes）",
       "tags": [
         "長途移動"
       ],
-      "stay": "住宿：Borgarnes（斯奈山半島門戶） 建議：Hraunsnef Country Hotel（✅Google 4.7／619則）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：博爾加內斯（Borgarnes）（斯奈山半島門戶） 建議：Hraunsnef Country Hotel（✅Google 4.7／619則）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -2028,43 +2052,43 @@
         },
         {
           "time": "10:00",
-          "what": "車程往 Kerið凱瑞斯火口湖／Selfoss方向約2小時",
+          "what": "車程往 Kerið凱瑞斯火口湖／塞爾福斯（Selfoss）方向約2小時",
           "note": null,
           "photo": null
         },
         {
           "time": "12:00",
-          "what": "凱瑞斯火口湖（Kerið）約1小時",
-          "note": "環火山口步道走一圈或下到湖畔，紅黑火山岩配藍綠湖水，順路加碼💰入場費約400–700 ISK（各來源數字不一，以現場售票亭標價為準），現場購票即可，停車免費",
+          "what": "凱瑞斯火口湖（Kerið）約1小時30分",
+          "note": "環火山口步道走一圈或下到湖畔，紅黑火山岩配藍綠湖水，順路加碼💰入場費官網標示700 ISK（約NT$168，12歲以下免費），現場刷卡機自助付款即可，停車免費",
           "photo": "images/day7/row2.jpg"
         },
         {
-          "time": "13:00",
-          "what": "午餐（Selfoss 周邊）約45分",
+          "time": "13:30",
+          "what": "午餐（塞爾福斯 Selfoss 周邊）約1小時",
+          "note": "推薦 Skalli（份量大、價位親民，漢堡/魚薯條/披薩） 地圖↗",
+          "photo": null
+        },
+        {
+          "time": "14:30",
+          "what": "車程續往 博爾加內斯（Borgarnes）約2小時",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:45",
-          "what": "車程續往 Borgarnes約2小時",
-          "note": null,
-          "photo": null
-        },
-        {
-          "time": "15:45",
+          "time": "16:30",
           "what": "Check-in 休息",
           "note": null,
           "photo": null
         },
         {
-          "time": "16:15",
+          "time": "17:00",
           "what": "Landnámssetrið 冰島定居博物館・紀念品店＋咖啡約30分",
-          "note": "博物館附設咖啡廳與紀念品店，Borgarnes代表性順遊點 地圖↗",
+          "note": "博物館附設咖啡廳與紀念品店，博爾加內斯（Borgarnes）代表性順遊點；營業時間每日10:00–21:00；館外本身外觀與周邊小鎮景觀也很適合拍照，不進館也可以在外面拍 地圖↗",
           "photo": null
         },
         {
-          "time": "16:50",
-          "what": "超市採買（Bónus，Borgarnes）約15分",
+          "time": "17:30",
+          "what": "超市採買（Bónus，博爾加內斯 Borgarnes）約15分",
           "note": "地圖↗",
           "photo": null
         },
@@ -2086,31 +2110,31 @@
       "tags": [
         "必玩景點"
       ],
-      "stay": "住宿：Stykkishólmur / Hellissandur 建議：Hótel Búðir（✅Google 4.6／539則）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：斯蒂基斯霍爾米（Stykkishólmur）／海利桑度（Hellissandur） 建議：Hótel Búðir（✅Google 4.6／539則）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
           "time": "10:00",
-          "what": "Borgarnes 出發前往教堂山方向約1小時",
+          "what": "博爾加內斯（Borgarnes）出發前往教堂山方向約1小時",
           "note": null,
           "photo": null
         },
         {
           "time": "11:00",
           "what": "Kirkjufell 教堂山 + Kirkjufellsfoss 瀑布約1小時30分",
-          "note": "瀑布就在山腳步行5分鐘，冰島最上鏡角度",
+          "note": "瀑布就在山腳步行5分鐘，冰島最上鏡角度📸拍照點①瀑布觀景橋南側（山+瀑布經典構圖） 地圖↗ 拍照點②教堂山對面小湖倒影（水位夠時） 地圖↗",
           "photo": "images/day8/row1.jpg"
         },
         {
           "time": "12:30",
           "what": "午餐（Grundarfjörður 小鎮）約45分",
-          "note": "小鎮上有幾間紀念品/手工藝小店，可順道逛逛",
+          "note": "推薦 Kirkjufell Knitting（羊毛手工藝品專賣），小鎮上還有幾間紀念品小店可順道逛逛 地圖↗",
           "photo": null
         },
         {
           "time": "13:15",
           "what": "沿海熔岩地貌景點約1小時15分",
-          "note": "可多點停留拍照",
+          "note": "可多點停留拍照；推薦Route 54沿線觀景點，可拍到古熔岩流搭配遠方教堂山的景色 地圖↗",
           "photo": null
         },
         {
@@ -2127,8 +2151,8 @@
         },
         {
           "time": "15:30",
-          "what": "超市採買（當地超市，斯奈山半島）約15分",
-          "note": "地圖↗",
+          "what": "超市採買（Kassinn，Ólafsvík）約15分",
+          "note": "今日為週日，Kassinn週日營業時間13:00–17:00，15:30抵達仍在營業時間內 地圖↗",
           "photo": null
         },
         {
@@ -2174,7 +2198,7 @@
         {
           "time": "12:00",
           "what": "布迪爾黑教堂（Búðakirkja）約1小時",
-          "note": null,
+          "note": "地圖↗",
           "photo": null
         },
         {
@@ -2186,25 +2210,25 @@
         {
           "time": "13:30",
           "what": "Djúpalónssandur 黑沙灘約1小時",
-          "note": null,
+          "note": "地圖↗",
           "photo": null
         },
         {
           "time": "14:30",
           "what": "午餐約30分",
-          "note": null,
+          "note": "推薦 Matarlist（Ólafsvík，每日10:00–17:00營業，在地新鮮料理） 地圖↗",
           "photo": null
         },
         {
           "time": "15:00",
-          "what": "車程往 Borgarnes休息點約1小時15分",
+          "what": "車程往 博爾加內斯（Borgarnes）休息點約1小時15分",
           "note": null,
           "photo": null
         },
         {
           "time": "16:15",
           "what": "短暫休息約20分",
-          "note": null,
+          "note": "地圖↗",
           "photo": null
         },
         {
@@ -2222,7 +2246,7 @@
         {
           "time": "18:00",
           "what": "超市採買（Bónus，雷克雅維克）約15分",
-          "note": "地圖↗",
+          "note": "雷克雅維克各分店營業時間不一（多數10:00–20:00或到21:00），以實際門市為準 地圖↗",
           "photo": null
         },
         {
@@ -2263,7 +2287,7 @@
         {
           "time": "10:45",
           "what": "彩虹街 + 周邊咖啡廳約45分",
-          "note": null,
+          "note": "最佳拍照位置在Skólavörðustígur下段往教堂方向拍 地圖↗",
           "photo": null
         },
         {
@@ -2293,7 +2317,7 @@
         {
           "time": "14:35",
           "what": "Sky Lagoon 泡湯（可選）約1小時50分",
-          "note": "從D1移到這天，避開抵達當天的長途飛行疲勞，時間更從容；無邊際泳池看海景💰須事先線上預訂：Saman Pass起約US$100、Sér Pass起約US$123.49，秋冬旺季名額會滿⚠️若前一天極光/冰洞需要這天補行程，這個時段可直接取消，不影響退款（依預訂時選擇的方案而定）",
+          "note": "從D1移到這天，避開抵達當天的長途飛行疲勞，時間更從容；無邊際泳池看海景💰須事先線上預訂：Saman Pass起約US$100（約NT$3,200）、Sér Pass起約US$123.49（約NT$3,950），秋冬旺季名額會滿⚠️若前一天極光/冰洞需要這天補行程，這個時段可直接取消，不影響退款（依預訂時選擇的方案而定）",
           "photo": null
         },
         {
@@ -2304,8 +2328,8 @@
         },
         {
           "time": "18:30",
-          "what": "晚餐（市區海鮮餐廳）",
-          "note": null,
+          "what": "晚餐（市區海鮮餐廳）推薦 Sægreifinn／海霸王（老港邊，招牌龍蝦湯評價極高，平價）或 Messinn（鑄鐵鍋魚料理，較正式） 地圖↗",
+          "note": "推薦 Sægreifinn／海霸王（老港邊，招牌龍蝦湯評價極高，平價）或 Messinn（鑄鐵鍋魚料理，較正式） 地圖↗",
           "photo": null
         },
         {
@@ -2343,7 +2367,7 @@
         },
         {
           "time": "11:45",
-          "what": "車程往 Gunnuhver約40分",
+          "what": "車程往 地熱噴氣孔（Gunnuhver）約40分",
           "note": null,
           "photo": null
         },
@@ -2362,13 +2386,13 @@
         {
           "time": "13:55",
           "what": "北美/歐亞板塊裂谷橋約30分",
-          "note": null,
+          "note": "地圖↗",
           "photo": null
         },
         {
           "time": "14:25",
           "what": "午餐約1小時",
-          "note": null,
+          "note": "推薦 Salthúsið（Grindavík，近藍湖，海鮮/羊排評價高）；⚠️Grindavík因火山活動曾多次臨時休業，出發前建議先查該店是否正常營業 地圖↗",
           "photo": null
         },
         {
@@ -2385,14 +2409,14 @@
         },
         {
           "time": "16:55",
-          "what": "車程往 Grindavík Check-in約30分",
+          "what": "車程往 Garður Check-in約20分",
           "note": null,
           "photo": null
         },
         {
-          "time": "17:40",
-          "what": "超市採買（Krónan，Grindavík）約15分",
-          "note": "地圖↗",
+          "time": "17:30",
+          "what": "超市採買（Nettó，Keflavík）約15分",
+          "note": "⚠️原規劃誤植Grindavík超市，但今晚住宿是Garður、不是Grindavík，已改為順路的Keflavík機場周邊分店，營業時間10:00–21:00 地圖↗",
           "photo": null
         },
         {
@@ -2419,7 +2443,7 @@
       "rows": [
         {
           "time": "16:00",
-          "what": "前往 Blue Lagoon約15–20分",
+          "what": "前往 藍湖（Blue Lagoon）約15–20分",
           "note": null,
           "photo": null
         },
