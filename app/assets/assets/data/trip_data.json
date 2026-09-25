@@ -1034,144 +1034,37 @@
           "groupName": "pick-d8",
           "pickKey": "d8-a",
           "medal": "🥇",
-          "name": "Hótel Búðir",
+          "name": "Adventure Hotel Hellissandur",
           "scoreClass": "score-ok",
-          "scoreText": "✅4.6／539則",
-          "priceText": "💰約ISK 28,700–68,500／晚（約NT$6,900–16,400）",
+          "scoreText": "✅Booking.com 8.5／484則；Google 3.7／87則",
+          "priceText": "💰約US$223／晚（約ISK 37,700）（約NT$9,000）",
           "platformLinks": [],
-          "why": "官網明確使用「zero light pollution」，提供極光晨喚服務，孤立熔岩地教堂旁",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Budir+Iceland"
+          "why": "住客評論原話「I saw the northern lights from my bedroom window!」，位於半島最西端，光害少",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Adventure+Hotel+Hellissandur+Iceland"
         },
         {
           "groupName": "pick-d8",
           "pickKey": "d8-b",
           "medal": "🥈",
-          "name": "Kambur Cottages",
+          "name": "The Freezer Hostel & Culture Center",
           "scoreClass": "score-ok",
-          "scoreText": "✅5.0（樣本少）／Airbnb 4.93/563則",
-          "priceText": "💰約ISK 48,300／晚起（約NT$11,600；為整棟4房小屋出租價，非單間）",
+          "scoreText": "✅Booking.com 8.4／687則",
+          "priceText": "💰約US$32–100／晚（依房型，背包客通舖到獨立客房）（約NT$770–2,400）",
           "platformLinks": [],
-          "why": "Búðir-Arnarstapi間馬場獨棟小屋，評論提到可在門廊/後院直接看到極光",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kambur+Cottages+Iceland"
+          "why": "Rif漁業加工廠改建的藝文青旅，員工評價9.1、性價比8.2，適合預算有限或想省錢留給其他行程的人",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Freezer+Hostel+Rif+Hellissandur+Iceland"
         },
         {
           "groupName": "pick-d8",
           "pickKey": "d8-c",
           "medal": "🥉",
-          "name": "Helgafell Farmhouse",
-          "scoreClass": "score-unknown",
-          "scoreText": "❓查無Google（Tripadvisor 5/5，第三方9.4-9.7）",
-          "priceText": "💰約ISK 37,100／晚起（約NT$8,900；為整棟3房農舍出租價，非單間）",
+          "name": "VestMar（Ólafsvík）",
+          "scoreClass": "score-warn",
+          "scoreText": "Booking.com 8.0／226則；⚠️Google僅2.5／226則，落差大",
+          "priceText": "約US$196–331／晚（約NT$4,700–7,900）",
           "platformLinks": [],
-          "why": "Stykkishólmur郊區獨立農莊，遠離鎮中心光害",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Helgafell+Farmhouse+Iceland"
-        },
-        {
-          "groupName": "pick-d8",
-          "pickKey": "d8-d",
-          "medal": "4",
-          "name": "Hotel Langaholt",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 8.4／1231則",
-          "priceText": "概估約NT$6,500–12,000／晚（同等級旅館概估，非實際查得的房價） ｜ Booking.com有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$6,500–12,000／晚（同等級旅館概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": "https://www.booking.com/hotel/is/langaholt.html?checkin=2026-10-10&checkout=2026-10-11&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "住客評論原話「We arrived and saw the Northern Lights within hours」、「seeing the Northern Lights from our balcony made the visit even more special」，周邊完全無路燈",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Langaholt+Stadarstadur+Iceland"
-        },
-        {
-          "groupName": "pick-d8",
-          "pickKey": "d8-e",
-          "medal": "5",
-          "name": "Fosshotel Hellnar",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 8.5／631則；Agoda 8.9／126則",
-          "priceText": "概估約NT$7,000–13,000／晚（同等級Fosshotel連鎖概估，非實際查得的房價） ｜ Agoda有房源，查無房價 連結↗ ｜ Booking.com有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$7,000–13,000／晚（同等級Fosshotel連鎖概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Agoda",
-              "note": "有房源，查無房價",
-              "url": "https://www.agoda.com/hotel-hellnar/hotel/hellnar-is.html?checkIn=2026-10-10&los=1&adults=2&rooms=1"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": "https://www.booking.com/hotel/is/hellnar.html?checkin=2026-10-10&checkout=2026-10-11&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "評論提到「no artificial light pollution helps set the scene for northern lights viewing」，且櫃檯人員會敲門通知客人極光出現（等同晨/夜喚服務）",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fosshotel+Hellnar+Iceland"
-        },
-        {
-          "groupName": "pick-d8",
-          "pickKey": "d8-f",
-          "medal": "6",
-          "name": "Arnarstapi Hotel",
-          "scoreClass": "score-warn",
-          "scoreText": "Booking.com 8.7／518則；Tripadvisor 3／5",
-          "priceText": "概估約NT$6,000–11,000／晚（同等級旅館概估，非實際查得的房價） ｜ Agoda有房源，查無房價 連結↗ ｜ Booking.com有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$6,000–11,000／晚（同等級旅館概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Agoda",
-              "note": "有房源，查無房價",
-              "url": "https://www.agoda.com/en-sg/arnarstapi-hotel/hotel/arnarstapi-is.html?checkIn=2026-10-10&los=1&adults=2&rooms=1"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": "https://www.booking.com/hotel/is/arnarstapi.html?checkin=2026-10-10&checkout=2026-10-11&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "評論提到「spacious rooms with great views, where you can see the northern lights from behind your room」",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Arnarstapi+Hotel+Iceland"
-        },
-        {
-          "groupName": "pick-d8",
-          "pickKey": "d8-g",
-          "medal": "7",
-          "name": "Arnarstapi Cottages",
-          "scoreClass": "score-warn",
-          "scoreText": "Booking.com 7.9／490則；Tripadvisor 3／5",
-          "priceText": "概估約NT$5,500–10,000／晚（同等級小屋房型概估，非實際查得的房價） ｜ Agoda有房源，查無房價 連結↗ ｜ Booking.com有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$5,500–10,000／晚（同等級小屋房型概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Agoda",
-              "note": "有房源，查無房價",
-              "url": "https://www.agoda.com/en-au/arnarstapi-cottages/hotel/arnarstapi-is.html?checkIn=2026-10-10&los=1&adults=2&rooms=1"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": "https://www.booking.com/hotel/is/arnarstapi-cottages.html?checkin=2026-10-10&checkout=2026-10-11&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "與Arnarstapi Hotel同集團的獨立小屋房型，評論標題「Great view for Northern Lights」",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Arnarstapi+Cottages+Iceland"
+          "why": "評論提到房間大、附設餐廳，但Google評分明顯偏低，訂房前建議再查最新評論",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=VestMar+Olafsvik+Iceland"
         }
       ]
     },
@@ -2110,7 +2003,7 @@
       "tags": [
         "必玩景點"
       ],
-      "stay": "住宿：斯蒂基斯霍爾米（Stykkishólmur）／海利桑度（Hellissandur） 建議：Hótel Búðir（✅Google 4.6／539則）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：海利桑度（Hellissandur）／Ólafsvík 建議：Adventure Hotel Hellissandur（✅Booking.com 8.5／484則）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
