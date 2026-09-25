@@ -2080,7 +2080,7 @@
           "time": "10:30",
           "what": "黑沙灘（Djúpalónssandur）約1小時",
           "note": "地圖↗",
-          "photo": null
+          "photo": "images/day9/row1.jpg"
         },
         {
           "time": "11:30",
@@ -2104,7 +2104,7 @@
           "time": "13:00",
           "what": "布迪爾黑教堂（Búðakirkja）約1小時",
           "note": "Djúpalónssandur和冰川國家公園都在半島西端彼此很近，Búðakirkja在較東邊的Búðir，這樣先西後東走完全程不繞路 地圖↗",
-          "photo": null
+          "photo": "images/day9/row5.jpg"
         },
         {
           "time": "14:00",
@@ -2120,7 +2120,7 @@
         },
         {
           "time": "15:45",
-          "what": "短暫休息約20分",
+          "what": "短暫休息（N1 Borgarnes加油站休息站）約20分",
           "note": "地圖↗",
           "photo": null
         },
@@ -2181,40 +2181,52 @@
           "time": "10:45",
           "what": "彩虹街 + 周邊咖啡廳約45分",
           "note": "最佳拍照位置在Skólavörðustígur下段往教堂方向拍 地圖↗",
-          "photo": null
+          "photo": "images/day10/row2.jpg"
         },
         {
           "time": "11:30",
-          "what": "太陽航海者雕塑 + 海濱步道約45分",
-          "note": "地圖↗",
+          "what": "冰島國會大廈（Alþingishúsið）約15分",
+          "note": "1881年建成的玄武岩石造建築，位於Austurvöllur廣場旁；國會開議期間內部不開放參觀，僅能外觀拍照 地圖↗",
           "photo": "images/day10/row3.jpg"
         },
         {
-          "time": "12:15",
-          "what": "午餐 + 自由逛街（Laugavegur 購物街）約1小時",
-          "note": "此區是伴手禮最密集的地段（Rammagerðin、羊毛衣專賣店、設計小店），建議在此集中採買",
-          "photo": null
+          "time": "11:45",
+          "what": "市政廳（Ráðhús Reykjavíkur）約15分",
+          "note": "Tjörnin湖畔的現代建築，湖面平靜時可拍出建築倒影；內部有冰島立體地形模型，免費參觀 地圖↗",
+          "photo": "images/day10/row4.jpg"
         },
         {
-          "time": "13:15",
-          "what": "音樂廳（Harpa）參觀約1小時",
+          "time": "12:00",
+          "what": "太陽航海者雕塑 + 海濱步道約45分",
           "note": "地圖↗",
           "photo": "images/day10/row5.jpg"
         },
         {
-          "time": "14:15",
+          "time": "12:45",
+          "what": "午餐 + 自由逛街（Laugavegur 購物街）約1小時",
+          "note": "推薦午餐：Arabian Taste（敘利亞沙威瑪，平價套餐） 地圖↗ 或 Grillhúsið（漢堡/羊排，份量大） 地圖↗此區是伴手禮最密集的地段，推薦逛：Rammagerðin（老字號紀念品店） 地圖↗ 66°North（冰島戶外品牌旗艦店） 地圖↗",
+          "photo": null
+        },
+        {
+          "time": "13:45",
+          "what": "音樂廳（Harpa）參觀約1小時",
+          "note": "拍照重點：從建築側邊海堤望向玻璃帷幕，無風時海面能拍出Harpa的完整倒影 地圖↗",
+          "photo": "images/day10/row7.jpg"
+        },
+        {
+          "time": "14:45",
           "what": "車程前往 Sky Lagoon約20分",
           "note": null,
           "photo": null
         },
         {
-          "time": "14:35",
+          "time": "15:05",
           "what": "天空之湖（Sky Lagoon）泡湯（可選）約1小時50分",
-          "note": "從D1移到這天，避開抵達當天的長途飛行疲勞，時間更從容；無邊際泳池看海景💰須事先線上預訂：Saman Pass起約US$100（約NT$3,200）、Sér Pass起約US$123.49（約NT$3,950），秋冬旺季名額會滿⚠️若前一天極光/冰洞需要這天補行程，這個時段可直接取消，不影響退款（依預訂時選擇的方案而定）",
-          "photo": null
+          "note": "從D1移到這天，避開抵達當天的長途飛行疲勞，時間更從容；無邊際泳池看海景🕐營業時間約08:00–23:00（依季節微調，最後入場為關門前1小時）💰須事先線上官網purchase：Saman Pass起約US$100（約NT$3,200）、Sér Pass起約US$123.49（約NT$3,950），秋冬旺季名額會滿，官網skylagoon.com/tickets或skylagooniceland.is線上刷卡購買、選定入場時段⚠️若前一天極光/冰洞需要這天補行程，這個時段可直接取消，不影響退款（依預訂時選擇的方案而定）",
+          "photo": "images/day10/row9.jpg"
         },
         {
-          "time": "16:25",
+          "time": "16:55",
           "what": "車程返回市區住宿約20分",
           "note": null,
           "photo": null
@@ -2272,36 +2284,42 @@
         },
         {
           "time": "13:25",
-          "what": "車程往板塊裂谷橋約30分",
+          "what": "車程往 Reykjanes 燈塔約10分",
+          "note": "Gunnuhver與燈塔相距僅約1公里",
+          "photo": null
+        },
+        {
+          "time": "13:35",
+          "what": "燈塔（Reykjanes）+ 海岸景觀約1小時",
+          "note": "地圖↗",
+          "photo": "images/day11/row5.jpg"
+        },
+        {
+          "time": "14:35",
+          "what": "車程往 板塊裂谷橋約20分",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:55",
+          "time": "14:55",
           "what": "北美/歐亞板塊裂谷橋約30分",
-          "note": "地圖↗",
-          "photo": null
-        },
-        {
-          "time": "14:25",
-          "what": "午餐約1小時",
-          "note": "推薦 Salthúsið（Grindavík，近藍湖，海鮮/羊排評價高）；⚠️Grindavík因火山活動曾多次臨時休業，出發前建議先查該店是否正常營業 地圖↗",
-          "photo": null
+          "note": "已從燈塔前面調整到後面，避免多繞一趟路 地圖↗",
+          "photo": "images/day11/row7.jpg"
         },
         {
           "time": "15:25",
-          "what": "車程往 Reykjanes 燈塔約30分",
+          "what": "車程往 Grindavík午餐約15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "15:55",
-          "what": "燈塔（Reykjanes）+ 海岸景觀約1小時",
-          "note": "地圖↗",
-          "photo": "images/day11/row8.jpg"
+          "time": "15:40",
+          "what": "午餐約1小時",
+          "note": "⚠️Salthúsið已歇業，改推薦 Bryggjan Grindavík（港邊平價海鮮，招牌吃到飽龍蝦濃湯，CP值高） 地圖↗",
+          "photo": null
         },
         {
-          "time": "16:55",
+          "time": "16:40",
           "what": "車程往 Garður Check-in約20分",
           "note": null,
           "photo": null
