@@ -2140,7 +2140,7 @@
         {
           "time": "14:30",
           "what": "車程往住宿區約30分",
-          "note": null,
+          "note": "⚠️這段預設走Fróðárheiði山路（Route 54直線最短），10月風大時可能封閉或強側風，出發前查road.is；若封閉可改走沿海Route 574經Rif繞行，會多花一些時間但比較安全",
           "photo": null
         },
         {
@@ -2185,21 +2185,21 @@
         },
         {
           "time": "10:30",
-          "what": "冰川國家公園（Snæfellsjökull）約1小時",
+          "what": "黑沙灘（Djúpalónssandur）約1小時",
           "note": "地圖↗",
-          "photo": "images/day9/row1.jpg"
+          "photo": null
         },
         {
           "time": "11:30",
-          "what": "車程往 Djúpalónssandur黑沙灘約15分",
+          "what": "車程往 冰川國家公園遊客中心（Malarrif）約15分",
           "note": null,
           "photo": null
         },
         {
           "time": "11:45",
-          "what": "黑沙灘（Djúpalónssandur）約1小時",
+          "what": "冰川國家公園（Snæfellsjökull）約1小時",
           "note": "地圖↗",
-          "photo": null
+          "photo": "images/day9/row3.jpg"
         },
         {
           "time": "12:45",
@@ -2210,7 +2210,7 @@
         {
           "time": "13:00",
           "what": "布迪爾黑教堂（Búðakirkja）約1小時",
-          "note": "⚠️與Djúpalónssandur順序對調：兩站都在半島西端彼此很近，Búðakirkja其實在較東邊的Búðir，原順序會多繞一趟路 地圖↗",
+          "note": "Djúpalónssandur和冰川國家公園都在半島西端彼此很近，Búðakirkja在較東邊的Búðir，這樣先西後東走完全程不繞路 地圖↗",
           "photo": null
         },
         {
