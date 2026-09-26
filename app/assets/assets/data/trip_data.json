@@ -204,7 +204,7 @@
           "scoreText": "✅Google 4.7／177則",
           "priceText": "💰10/6房價待查（同一間10/9查到NT$6,326，Booking.com；請用10/6日期再查）",
           "platformLinks": [],
-          "why": "📌依你指定排第一：看完飛機殘骸往回開約20分（斯科加瀑布以西、1號公路旁），D6也住這間；隔天往羽毛河峽谷約1小時35分；🌌Google評論：「a great way to watch the auroras from right there」",
+          "why": "📌依你指定排第一：看完飛機殘骸往回開約20分（斯科加瀑布以西、1號公路旁）；隔天往羽毛河峽谷約1小時35分；🌌Google評論：「a great way to watch the auroras from right there」",
           "mapUrl": "https://maps.app.goo.gl/eVs1h9Zd3tFbfCGXA"
         },
         {
@@ -352,12 +352,24 @@
       ]
     },
     {
-      "title": "D6・維克（Vík）以西（10/9）⚠️查無NT$5,000以下，已放寬取最接近",
+      "title": "D6・南岸 Hvolsvöllur（10/9）",
       "options": [
         {
           "groupName": "pick-d6",
-          "pickKey": "d6b-a",
+          "pickKey": "d6h-a",
           "medal": "🥇",
+          "name": "Hótel Hvolsvöllur",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.1／643則",
+          "priceText": "💰NT$4,826／晚（Agoda，含早餐，Google Hotels 10/9日期實價，9/26查；Hotels.com雙床房含早餐NT$5,725、10/7前免費取消NT$6,221）",
+          "platformLinks": [],
+          "why": "📌依你指定排第一，且四個條件都符合：Hvolsvöllur鎮上、1號公路旁，隔天到凱瑞斯火口湖約1小時；附設餐廳（17:00–21:00）與2座戶外熱水池、免費停車；🌌Google評論「極光」主題22則，例如「Great big field behind where u can catch the northern lights」、「you can see northern lights right above the hotel」；⚠️沒有電梯；雙人房為2張單人床",
+          "mapUrl": "https://maps.app.goo.gl/hzyChQDCz5CEqptd9"
+        },
+        {
+          "groupName": "pick-d6",
+          "pickKey": "d6b-a",
+          "medal": "🥈",
           "name": "Guesthouse Rauðafell",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.7／177則",
@@ -369,7 +381,7 @@
         {
           "groupName": "pick-d6",
           "pickKey": "d6b-b",
-          "medal": "🥈",
+          "medal": "🥉",
           "name": "Eystri Sólheimar",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.6／63則",
@@ -381,7 +393,7 @@
         {
           "groupName": "pick-d6",
           "pickKey": "d6b-c",
-          "medal": "🥉",
+          "medal": "4",
           "name": "Hótel Vík",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.4／918則",
@@ -393,7 +405,7 @@
         {
           "groupName": "pick-d6",
           "pickKey": "d6b-d",
-          "medal": "4",
+          "medal": "5",
           "name": "Hótel Dyrhólaey",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.2／1,404則",
@@ -405,7 +417,7 @@
         {
           "groupName": "pick-d6",
           "pickKey": "d6b-e",
-          "medal": "5",
+          "medal": "6",
           "name": "Vík HI Hostel（維克）",
           "scoreClass": "score-warn",
           "scoreText": "✅Google 3.9／376則",
@@ -811,7 +823,7 @@
         "必玩景點",
         "短程步道"
       ],
-      "stay": "住宿：斯科加瀑布以西 Rauðafell 建議：Guesthouse Rauðafell（✅Google 4.7／177則，10/6房價待查；D6也住這間）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：斯科加瀑布以西 Rauðafell 建議：Guesthouse Rauðafell（✅Google 4.7／177則，10/6房價待查）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -1027,13 +1039,13 @@
         "長途移動",
         "必玩景點"
       ],
-      "stay": "住宿：維克（Vík）以西 Rauðafell 建議：Guesthouse Rauðafell（✅Google 4.7／177則，⚠️NT$6,326，D3也住這間，第二次入住）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：南岸 Hvolsvöllur 建議：Hótel Hvolsvöllur（✅Google 4.1／643則，NT$4,826含早餐，評論提到飯店後方空地就能看極光）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
           "time": "10:00",
           "what": "赫本（Höfn）出發，沿南岸西返",
-          "note": "⚠️改從赫本出發後，今天總車程約4小時25分，超過每天4小時的原則約25分；若想縮短，可略過維克鎮上的停留（Víkurfjara／Icewear／Krónan），從黑沙灘直接去迪霍拉里，約可省20分💡備案：若D5水晶冰洞還沒開放，維克附近的Katla冰洞（全年開放）是很好的替代方案，可考慮把冰洞行程改到這附近的日期參加",
+          "note": "⚠️今天總車程約4小時35分（從赫本出發、住宿在Hvolsvöllur），超過每天4小時的原則約35分；已略過維克鎮上的停留（維克沙灘／Icewear／Krónan）來縮短車程💡備案：若D5水晶冰洞還沒開放，維克附近的Katla冰洞（全年開放）是很好的替代方案，可考慮把冰洞行程改到這附近的日期參加",
           "photo": null
         },
         {
@@ -1074,68 +1086,50 @@
         },
         {
           "time": "15:25",
-          "what": "車程進維克小鎮約15分",
+          "what": "車程往 Dyrhólaey迪霍拉里約15分",
           "note": null,
           "photo": null
         },
         {
           "time": "15:40",
-          "what": "私房景點：維克沙灘（Víkurfjara）約20分",
-          "note": "Reynisfjall山另一側，跟Reynisfjara同樣的海蝕柱景觀但遊客少很多，海浪較平緩、免費停車，當地人更推薦這裡散步 地圖↗",
-          "photo": null
-        },
-        {
-          "time": "16:00",
-          "what": "伴手禮：Icewear Vík 羊毛衣暢貨中心約25分",
-          "note": "冰島羊毛衣（lopapeysa）等紀念品，維克最知名的暢貨中心；營業時間08:00–22:00 地圖↗",
-          "photo": null
-        },
-        {
-          "time": "16:25",
-          "what": "超市採買（Krónan，維克）約15分",
-          "note": "今晚住Rauðafell農場民宿，周邊沒有超市，晚餐食材在這裡一起買好；⚠️查證後維克鎮上僅有Krónan（未確認有Nettó門市），營業時間09:00–21:00 地圖↗",
-          "photo": null
+          "what": "迪霍拉里燈塔景觀台（Dyrhólaey）約1小時",
+          "note": "地圖↗",
+          "photo": "images/day6/row8.jpg"
         },
         {
           "time": "16:40",
-          "what": "車程往 Dyrhólaey迪霍拉里約20分",
+          "what": "車程往 Hvolsvöllur 住宿（1號公路往西）約55分",
           "note": null,
           "photo": null
         },
         {
-          "time": "17:00",
-          "what": "迪霍拉里燈塔景觀台（Dyrhólaey）約45分",
-          "note": "地圖↗",
-          "photo": "images/day6/row12.jpg"
-        },
-        {
-          "time": "17:45",
-          "what": "車程往 Rauðafell 住宿（維克以西，1號公路旁）約25分",
-          "note": null,
-          "photo": null
-        },
-        {
-          "time": "18:10",
+          "time": "17:35",
           "what": "Check-in 休息",
-          "note": "比18:00晚約10分；換來隔天往凱瑞斯火口湖少開約30分",
+          "note": "Hótel Hvolsvöllur 15:00起可入住；有2座戶外熱水池",
           "photo": null
         },
         {
-          "time": "18:45",
-          "what": "晚餐住宿自炊（Krónan買好的食材），或開約10分到斯科加（Skógar）一帶用餐",
-          "note": "住宿自炊（Krónan買好的食材），或開約10分到斯科加（Skógar）一帶用餐",
+          "time": "17:50",
+          "what": "超市採買（Krónan，Hvolsvöllur）約15分",
+          "note": "每天09:00–19:00（kronan.is），同鎮上開車幾分鐘；💡維克的Icewear這次略過，雷克雅維克Laugavegur購物街也有門市，D10可以逛 地圖↗",
+          "photo": null
+        },
+        {
+          "time": "19:00",
+          "what": "晚餐飯店附設 Restaurant & Bar（每天17:00–21:00，Google 4.6），不用再開車",
+          "note": "飯店附設 Restaurant & Bar（每天17:00–21:00，Google 4.6），不用再開車",
           "photo": null
         },
         {
           "time": "夜間",
-          "what": "視天氣在住宿外看極光",
-          "note": "Rauðafell是鄉間農場民宿、周邊無光害，住客評論提到在住宿旁就能看極光",
+          "what": "視天氣在飯店後方空地看極光",
+          "note": "住客評論多次提到飯店後方有大片空地、光害少，可直接看到極光；Google評論「極光」主題22則",
           "photo": null
         }
       ],
-      "lat": 63.4186,
-      "lon": -19.006,
-      "regionName": "Vík 南岸"
+      "lat": 63.7505,
+      "lon": -20.2275,
+      "regionName": "南岸 Hvolsvöllur"
     },
     {
       "num": 7,
@@ -1149,48 +1143,48 @@
       "rows": [
         {
           "time": "10:00",
-          "what": "Rauðafell出發，續往西返程",
+          "what": "Hvolsvöllur出發，續往西返程",
           "note": null,
           "photo": null
         },
         {
           "time": "10:00",
-          "what": "車程往 Kerið凱瑞斯火口湖／塞爾福斯（Selfoss）方向約1小時30分",
+          "what": "車程往 Kerið凱瑞斯火口湖／塞爾福斯（Selfoss）方向約1小時",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:30",
+          "time": "11:00",
           "what": "凱瑞斯火口湖（Kerið）約1小時30分",
           "note": "環火山口步道走一圈或下到湖畔，紅黑火山岩配藍綠湖水，順路加碼💰入場費官網標示700 ISK（約NT$168，12歲以下免費），現場刷卡機自助付款即可，停車免費 地圖↗",
           "photo": "images/day7/row2.jpg"
         },
         {
-          "time": "13:00",
+          "time": "12:30",
           "what": "午餐（塞爾福斯 Selfoss 周邊）約1小時",
           "note": "推薦 Skalli（份量大、價位親民，漢堡/魚薯條/披薩） 地圖↗",
           "photo": null
         },
         {
-          "time": "14:00",
+          "time": "13:30",
           "what": "車程續往 博爾加內斯（Borgarnes）約2小時",
           "note": null,
           "photo": null
         },
         {
-          "time": "16:00",
+          "time": "15:30",
           "what": "Check-in 休息",
           "note": null,
           "photo": null
         },
         {
-          "time": "16:30",
+          "time": "16:00",
           "what": "冰島定居博物館（Landnámssetrið）・紀念品店＋咖啡約30分",
           "note": "博物館附設咖啡廳與紀念品店，博爾加內斯（Borgarnes）代表性順遊點；營業時間每日10:00–21:00；館外本身外觀與周邊小鎮景觀也很適合拍照，不進館也可以在外面拍 地圖↗",
           "photo": null
         },
         {
-          "time": "17:00",
+          "time": "16:30",
           "what": "超市採買（Bónus，博爾加內斯 Borgarnes）約15分",
           "note": "地圖↗",
           "photo": null
