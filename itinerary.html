@@ -323,6 +323,10 @@
     cursor: pointer;
   }
   .lodgeopt .medal { font-size: 1.2rem; line-height: 1.3; }
+  .lodgeopt .lnbtn { font-size: 0.74rem; color: var(--ink-faint); background: none; border: 1px dashed var(--line-strong, var(--line)); border-radius: 6px; padding: 2px 8px; margin-top: 6px; cursor: pointer; font-family: inherit; }
+  .lodgeopt .lnbtn:hover { color: var(--ink); }
+  .lodgeopt .lnbtn.has { color: var(--accent); border-color: var(--accent); }
+  .lodgeopt textarea.lnote { display: block; width: 100%; box-sizing: border-box; margin-top: 6px; font-size: 0.8rem; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); font-family: inherit; resize: vertical; min-height: 50px; cursor: text; }
   .lodgeopt .medal.rank { font-size: 0.85rem; font-weight: 700; color: var(--ink-faint); text-align: center; }
   .lodgeopt .oprice.oplat { font-weight: 500; }
   .lodgeopt .oprice.oplat b { font-weight: 700; color: var(--ink); }
@@ -2465,6 +2469,47 @@
         picks[group] = key;
         savePicks(picks);
       }
+    });
+  });
+})();
+
+(function () {
+  var NOTE_KEY = 'iceland-lodging-notes-v1';
+  var notes = {};
+  try { notes = JSON.parse(localStorage.getItem(NOTE_KEY) || '{}') || {}; } catch (e) { notes = {}; }
+  function save() { try { localStorage.setItem(NOTE_KEY, JSON.stringify(notes)); } catch (e) {} }
+  document.querySelectorAll('label.lodgeopt').forEach(function (lab) {
+    var radio = lab.querySelector('input[data-pick-key]');
+    var body = lab.querySelector(':scope > div');
+    if (!radio || !body) return;
+    var key = radio.getAttribute('data-pick-key');
+    var val = notes[key] || '';
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'lnbtn' + (val ? ' has' : '');
+    btn.textContent = val ? '✎ 編輯記事' : '＋ 加記事';
+    var ta = document.createElement('textarea');
+    ta.className = 'lnote';
+    ta.placeholder = '寫下你的備忘（訂房狀況、聯絡方式、想問的事…）';
+    ta.value = val;
+    ta.style.display = val ? 'block' : 'none';
+    var wrap = document.createElement('div');
+    wrap.appendChild(btn); wrap.appendChild(ta);
+    body.appendChild(wrap);
+    // keep clicks inside the note area from toggling the lodging radio
+    wrap.addEventListener('click', function (e) { e.preventDefault(); e.stopPropagation(); });
+    btn.addEventListener('click', function (e) {
+      e.preventDefault(); e.stopPropagation();
+      var showing = ta.style.display !== 'none';
+      ta.style.display = showing ? 'none' : 'block';
+      if (!showing) ta.focus();
+    });
+    ta.addEventListener('click', function (e) { e.stopPropagation(); });
+    ta.addEventListener('input', function () {
+      if (ta.value) notes[key] = ta.value; else delete notes[key];
+      btn.textContent = ta.value ? '✎ 編輯記事' : '＋ 加記事';
+      btn.classList.toggle('has', !!ta.value);
+      save();
     });
   });
 })();
