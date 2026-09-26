@@ -63,7 +63,7 @@
   ],
   "lodging": [
     {
-      "title": "D1・KEF機場周邊 Garður（10/4）",
+      "title": "D1・KEF機場周邊 Garður（10/4）　✅已訂：Lighthouse Inn（NT$5,264）",
       "options": [
         {
           "groupName": "pick-d1",
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "title": "D2・黃金圈→南岸 Hella（10/5）",
+      "title": "D2・黃金圈→南岸 Hella（10/5）　✅已訂：Árhús Cottage（NT$4,653）",
       "options": [
         {
           "groupName": "pick-d2",
@@ -193,7 +193,7 @@
       ]
     },
     {
-      "title": "D3・斯科加瀑布以西 Rauðafell（10/6）",
+      "title": "D3・斯科加瀑布以西 Rauðafell（10/6）　✅已訂：Guesthouse Rauðafell（NT$6,344）",
       "options": [
         {
           "groupName": "pick-d3",
@@ -246,7 +246,7 @@
       ]
     },
     {
-      "title": "D4・赫本（Höfn）（10/7）",
+      "title": "D4・赫本（Höfn）（10/7）　✅已訂：Central stay Höfn（2晚NT$17,735）",
       "options": [
         {
           "groupName": "pick-d4",
@@ -299,7 +299,7 @@
       ]
     },
     {
-      "title": "D5・赫本（Höfn）（10/8）",
+      "title": "D5・赫本（Höfn）（10/8）　✅已訂：Central stay Höfn（續住）",
       "options": [
         {
           "groupName": "pick-d5",
@@ -352,7 +352,7 @@
       ]
     },
     {
-      "title": "D6・南岸 Hvolsvöllur（10/9）",
+      "title": "D6・南岸 Hvolsvöllur（10/9）　✅已訂：Hótel Hvolsvöllur（NT$5,230，含早餐）",
       "options": [
         {
           "groupName": "pick-d6",
@@ -429,7 +429,7 @@
       ]
     },
     {
-      "title": "D7・博爾加內斯（Borgarnes）（10/10）",
+      "title": "D7・博爾加內斯（Borgarnes）（10/10）　✅已訂：Englendingavík（NT$4,992）",
       "options": [
         {
           "groupName": "pick-d7",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "title": "D8・斯奈山半島 Ólafsvík（10/11）",
+      "title": "D8・斯奈山半島 Ólafsvík（10/11）　✅已訂：Hotel Vest Mar（NT$5,122）",
       "options": [
         {
           "groupName": "pick-d8",
@@ -701,7 +701,7 @@
       "tags": [
         "抵達日"
       ],
-      "stay": "住宿：KEF機場周邊（Garður） 建議：Lighthouse Inn（✅Google 4.7／860則，NT$5,009，櫃檯會叫醒住客看極光）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：KEF機場周邊（Garður） 建議：Lighthouse Inn（✅Google 4.7／860則，NT$5,009，櫃檯會叫醒住客看極光）在Maps開啟↗ ｜ 實際訂房：✅Lighthouse Inn（NT$5,264）",
       "callout": null,
       "rows": [
         {
@@ -742,9 +742,9 @@
         },
         {
           "time": "20:25",
-          "what": "Check-in 休息",
-          "note": null,
-          "photo": null
+          "what": "🏨 Check-in：Lighthouse Inn（Garður）✅已訂房",
+          "note": "💰NT$5,264／無早餐🕒入住15:00起（需出示有照片的身分證件＋信用卡）／退房12:00前 地圖↗",
+          "photo": "images/day1/row6.jpg"
         },
         {
           "time": "夜間",
@@ -765,13 +765,13 @@
         "必玩景點",
         "短程步道"
       ],
-      "stay": "住宿：海拉（Hella） 建議：Árhús Cottage - Camping & Restaurant（NT$4,762；入住17:00–21:00／退房06:00–10:00）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：海拉（Hella） 建議：Árhús Cottage - Camping & Restaurant（NT$4,762；入住17:00–21:00／退房06:00–10:00）在Maps開啟↗ ｜ 實際訂房：✅Árhús Cottage（NT$4,653）",
       "callout": null,
       "rows": [
         {
           "time": "10:00",
           "what": "Garður出發",
-          "note": "從機場區出發第一段車程較長（約1.5小時），午餐時間會偏晚，可在Geysir Center先吃點輕食",
+          "note": "今天全天車程約4小時15分（從機場區出發，第一段就要約1小時40分），午餐會偏晚，可在Geysir Center先吃點輕食",
           "photo": null
         },
         {
@@ -788,39 +788,39 @@
         },
         {
           "time": "12:30",
-          "what": "車程前往 Geysir蓋錫爾間歇泉約45分",
+          "what": "車程前往 Geysir蓋錫爾間歇泉約1小時05分",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:15",
+          "time": "13:35",
           "what": "蓋錫爾間歇泉區（Geysir）約1小時",
           "note": "Geysir Center 內有伴手禮店（羊毛衣、紀念品）與咖啡廳，可順道逛逛 地圖↗",
           "photo": "images/day2/row4.jpg"
         },
         {
-          "time": "14:15",
+          "time": "14:35",
           "what": "車程前往 Gullfoss黃金瀑布約10分",
           "note": null,
           "photo": null
         },
         {
-          "time": "14:25",
+          "time": "14:45",
           "what": "黃金瀑布（Gullfoss） + 午餐約1小時45分",
           "note": "地圖↗",
           "photo": "images/day2/row6.jpg"
         },
         {
-          "time": "16:10",
-          "what": "車程前往 海拉（Hella）住宿約1小時15分",
+          "time": "16:30",
+          "what": "車程前往 海拉（Hella）住宿約1小時20分",
           "note": null,
           "photo": null
         },
         {
-          "time": "17:25",
-          "what": "Check-in 休息",
-          "note": "Árhús 入住17:00–21:00／退房06:00–10:00（17:00前到無法入住）；Hella鎮上有Kjarval超市可補貨",
-          "photo": null
+          "time": "17:45",
+          "what": "🏨 Check-in：Árhús Cottage - Camping & Restaurant（Hella）✅已訂房",
+          "note": "💰NT$4,653／無早餐🕒入住17:00–21:00（需提前告知抵達時間）／退房06:00–10:00💡Hella鎮上有Kjarval超市可補貨 地圖↗",
+          "photo": "images/day2/row8.jpg"
         },
         {
           "time": "19:00",
@@ -847,7 +847,7 @@
         "必玩景點",
         "短程步道"
       ],
-      "stay": "住宿：斯科加瀑布以西 Rauðafell 建議：Guesthouse Rauðafell（✅Google 4.7／177則，10/6房價待查）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：斯科加瀑布以西 Rauðafell 建議：Guesthouse Rauðafell（✅Google 4.7／177則，10/6房價待查）在Maps開啟↗ ｜ 實際訂房：✅Guesthouse Rauðafell（NT$6,344）",
       "callout": null,
       "rows": [
         {
@@ -906,9 +906,9 @@
         },
         {
           "time": "16:45",
-          "what": "Check-in 休息",
-          "note": "Rauðafell周邊沒有超市；D1在Nettó買的早餐還夠，隔天早上往東會經過維克，可停Krónan補貨（09:00–21:00）",
-          "photo": null
+          "what": "🏨 Check-in：Guesthouse Rauðafell✅已訂房",
+          "note": "💰NT$6,344／共用衛浴／無早餐🕒入住16:00–21:00／退房08:00–10:00💡Rauðafell周邊沒有超市；D1在Nettó買的早餐還夠，隔天早上往東會經過維克，可停Krónan補貨（09:00–21:00） 地圖↗",
+          "photo": "images/day3/row9.jpg"
         },
         {
           "time": "18:30",
@@ -934,7 +934,7 @@
       "tags": [
         "必玩景點"
       ],
-      "stay": "住宿：赫本（Höfn） 建議：Central stay Höfn（Google 4.0／10則，NT$10,843，D4-D5連住2晚；⚠️查無極光評論）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：赫本（Höfn） 建議：Central stay Höfn（Google 4.0／10則，NT$10,843，D4-D5連住2晚；⚠️查無極光評論）在Maps開啟↗ ｜ 實際訂房：✅Central stay Höfn（2晚NT$17,735）",
       "callout": null,
       "rows": [
         {
@@ -986,6 +986,12 @@
           "photo": null
         },
         {
+          "time": "17:50",
+          "what": "🏨 Check-in：Central stay Höfn✅已訂房",
+          "note": "💰2晚共NT$17,735（每晚約NT$8,868，9/28付款，實際刷卡金額可能略有不同）／無早餐🕒入住16:00–24:00／退房10:00前（D6 08:30出發） 地圖↗",
+          "photo": "images/day4/row8.jpg"
+        },
+        {
           "time": "18:30",
           "what": "晚餐（推薦龍蝦湯 Lobster Soup）",
           "note": "⭐ Kaffi Hornið（赫本 Höfn，CP值高的平價龍蝦湯人氣店，營業時間11:30–21:00）；想吃正式龍蝦大餐可改訂 Humarhöfnin（價位較高） 地圖↗ ｜ 住宿沒有廚房，步行可達 Nettó 超市（週一至五09:00–19:00，週六日10:00–19:00）補零食飲水 地圖↗",
@@ -1005,7 +1011,7 @@
         "極光團",
         "需事先確認開放"
       ],
-      "stay": "住宿：赫本（Höfn） 建議：同前一晚 Central stay Höfn（NT$8,783）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：赫本（Höfn） 建議：同前一晚 Central stay Höfn（NT$8,783）在Maps開啟↗ ｜ 實際訂房：✅Central stay Höfn（續住）",
       "callout": "⚠️ 10月初部分冰洞可能尚未正式開團，出發前1–2週務必向業者確認並保留 Day10 作為備案調整日。",
       "rows": [
         {
@@ -1040,9 +1046,9 @@
         },
         {
           "time": "16:50",
-          "what": "回住宿休息",
-          "note": "續住，不用換房；為晚上極光團儲備體力",
-          "photo": null
+          "what": "🏨 回住宿休息：Central stay Höfn✅已訂房",
+          "note": "💰續住第2晚（2晚共NT$17,735）／無早餐🕒續住，不用換房／隔天（D6）退房10:00前 地圖↗",
+          "photo": "images/day5/row5.jpg"
         },
         {
           "time": "18:00",
@@ -1064,7 +1070,7 @@
         },
         {
           "time": "23:00後",
-          "what": "返回住宿休息",
+          "what": "返回住宿休息（Central stay Höfn）",
           "note": null,
           "photo": null
         }
@@ -1081,7 +1087,7 @@
         "長途移動",
         "必玩景點"
       ],
-      "stay": "住宿：南岸 Hvolsvöllur 建議：Hótel Hvolsvöllur（✅Google 4.1／643則，NT$4,826含早餐，評論提到飯店後方空地就能看極光）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：南岸 Hvolsvöllur 建議：Hótel Hvolsvöllur（✅Google 4.1／643則，NT$4,826含早餐，評論提到飯店後方空地就能看極光）在Maps開啟↗ ｜ 實際訂房：✅Hótel Hvolsvöllur（NT$5,230，含早餐）",
       "callout": null,
       "rows": [
         {
@@ -1146,9 +1152,9 @@
         },
         {
           "time": "17:15",
-          "what": "Check-in 休息",
-          "note": "Hótel Hvolsvöllur 15:00起可入住；有2座戶外熱水池",
-          "photo": null
+          "what": "🏨 Check-in：Hótel Hvolsvöllur✅已訂房",
+          "note": "💰NT$5,230／含早餐（06:30–10:00）🕒入住15:00–24:00／退房07:00–11:00💡有2座戶外熱水池 地圖↗",
+          "photo": "images/day6/row10.jpg"
         },
         {
           "time": "17:30",
@@ -1180,13 +1186,13 @@
       "tags": [
         "長途移動"
       ],
-      "stay": "住宿：博爾加內斯（Borgarnes）（斯奈山半島門戶） 建議：Englendingavík（✅Google 4.5／785則，NT$4,977起，評論提到後院暗處看到超強極光）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：博爾加內斯（Borgarnes）（斯奈山半島門戶） 建議：Englendingavík（✅Google 4.5／785則，NT$4,977起，評論提到後院暗處看到超強極光）在Maps開啟↗ ｜ 實際訂房：✅Englendingavík（NT$4,992）",
       "callout": null,
       "rows": [
         {
           "time": "10:00",
           "what": "Hvolsvöllur出發，續往西返程",
-          "note": null,
+          "note": "飯店含早餐（06:30–10:00），吃完再出發",
           "photo": null
         },
         {
@@ -1197,9 +1203,15 @@
         },
         {
           "time": "11:00",
-          "what": "凱瑞斯火口湖（Kerið）約1小時30分",
+          "what": "凱瑞斯火口湖（Kerið）約1小時10分",
           "note": "環火山口步道走一圈或下到湖畔，紅黑火山岩配藍綠湖水，順路加碼💰入場費官網標示700 ISK（約NT$168，12歲以下免費），現場刷卡機自助付款即可，停車免費 地圖↗",
           "photo": "images/day7/row2.jpg"
+        },
+        {
+          "time": "12:10",
+          "what": "車程往 塞爾福斯（Selfoss）約20分",
+          "note": null,
+          "photo": null
         },
         {
           "time": "12:30",
@@ -1215,9 +1227,9 @@
         },
         {
           "time": "15:30",
-          "what": "Check-in 休息",
-          "note": null,
-          "photo": null
+          "what": "🏨 Check-in：Englendingavík（Borgarnes老城）✅已訂房",
+          "note": "💰海景雙床房 NT$4,992／共用衛浴／無早餐🕒入住14:00–21:00（需提前告知抵達時間）／退房08:00–11:00 地圖↗",
+          "photo": "images/day7/row6.jpg"
         },
         {
           "time": "16:00",
@@ -1249,50 +1261,50 @@
       "tags": [
         "必玩景點"
       ],
-      "stay": "住宿：奧拉夫斯維克（Ólafsvík） 建議：Hotel Vest Mar（✅Google 4.7／32則，NT$4,668，16:00起入住；⚠️查無極光評論）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：奧拉夫斯維克（Ólafsvík） 建議：Hotel Vest Mar（✅Google 4.7／32則，NT$4,668，16:00起入住；⚠️查無極光評論）在Maps開啟↗ ｜ 實際訂房：✅Hotel Vest Mar（NT$5,122）",
       "callout": null,
       "rows": [
         {
           "time": "10:00",
-          "what": "博爾加內斯（Borgarnes）出發前往教堂山方向約1小時",
+          "what": "博爾加內斯（Borgarnes）出發前往教堂山方向約1小時45分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:00",
+          "time": "11:45",
           "what": "教堂山（Kirkjufell） + 教堂山瀑布（Kirkjufellsfoss）約1小時30分",
           "note": "瀑布就在山腳步行5分鐘，冰島最上鏡角度📸拍照點①瀑布觀景橋南側（山+瀑布經典構圖） 地圖↗ 拍照點②教堂山對面小湖倒影（水位夠時） 地圖↗",
           "photo": "images/day8/row1.jpg"
         },
         {
-          "time": "12:30",
+          "time": "13:15",
           "what": "午餐（Grundarfjörður 小鎮）約45分",
           "note": "推薦 Kirkjufell Knitting（羊毛手工藝品專賣），小鎮上還有幾間紀念品小店可順道逛逛 地圖↗",
           "photo": null
         },
         {
-          "time": "13:15",
-          "what": "沿海熔岩地貌景點約1小時15分",
+          "time": "14:00",
+          "what": "沿海熔岩地貌景點約1小時",
           "note": "可多點停留拍照；推薦Route 54沿線觀景點，可拍到古熔岩流搭配遠方教堂山的景色 地圖↗",
           "photo": null
         },
         {
-          "time": "14:30",
+          "time": "15:00",
           "what": "車程往住宿區約30分",
           "note": "⚠️這段預設走Fróðárheiði山路（Route 54直線最短），10月風大時可能封閉或強側風，出發前查road.is；若封閉可改走沿海Route 574經Rif繞行，會多花一些時間但比較安全",
           "photo": null
         },
         {
-          "time": "15:00",
+          "time": "15:30",
           "what": "超市採買（Kassinn，Ólafsvík）約15分",
           "note": "今日為週日，Kassinn週日營業時間13:00–17:00，先來採買 地圖↗",
           "photo": null
         },
         {
           "time": "16:00",
-          "what": "Check-in 休息",
-          "note": "Hotel Vest Mar 16:00才開放入住（密碼門鎖，需先告知抵達時間）；15:15–16:00可在Ólafsvík港邊散步",
-          "photo": null
+          "what": "🏨 Check-in：Hotel Vest Mar（Ólafsvík）✅已訂房",
+          "note": "💰海景豪華雙人房（1張加大雙人床，36㎡）NT$5,122／無早餐🕒入住16:00–23:30（需提前告知抵達時間）／退房10:00前💡15:45–16:00可在Ólafsvík港邊散步 地圖↗",
+          "photo": "images/day8/row6.jpg"
         },
         {
           "time": "18:30",
@@ -1342,13 +1354,13 @@
         },
         {
           "time": "12:45",
-          "what": "車程往 Búðakirkja布迪爾黑教堂約15分",
+          "what": "車程往 Búðakirkja布迪爾黑教堂約30分",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:00",
-          "what": "布迪爾黑教堂（Búðakirkja）約1小時",
+          "time": "13:15",
+          "what": "布迪爾黑教堂（Búðakirkja）約45分",
           "note": "Djúpalónssandur和冰川國家公園都在半島西端彼此很近，Búðakirkja在較東邊的Búðir，這樣先西後東走完全程不繞路 地圖↗",
           "photo": "images/day9/row5.jpg"
         },
@@ -1360,30 +1372,30 @@
         },
         {
           "time": "14:30",
-          "what": "車程往 博爾加內斯（Borgarnes）休息點約1小時15分",
+          "what": "車程往 博爾加內斯（Borgarnes）休息點約1小時40分",
           "note": null,
           "photo": null
         },
         {
-          "time": "15:45",
+          "time": "16:10",
           "what": "短暫休息（N1 Borgarnes加油站休息站）約20分",
           "note": "地圖↗",
           "photo": null
         },
         {
-          "time": "16:05",
+          "time": "16:30",
           "what": "車程往雷克雅維克約1小時15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "17:20",
+          "time": "17:45",
           "what": "Check-in",
           "note": null,
           "photo": null
         },
         {
-          "time": "18:00",
+          "time": "18:15",
           "what": "超市採買（Bónus，雷克雅維克）約15分",
           "note": "雷克雅維克各分店營業時間不一（多數10:00–20:00或到21:00），以實際門市為準 地圖↗",
           "photo": null
@@ -1518,31 +1530,31 @@
         },
         {
           "time": "11:45",
-          "what": "車程往 地熱噴氣孔（Gunnuhver）約40分",
+          "what": "車程往 地熱噴氣孔（Gunnuhver）約50分",
           "note": null,
           "photo": null
         },
         {
-          "time": "12:25",
+          "time": "12:35",
           "what": "地熱噴氣孔（Gunnuhver）約1小時",
           "note": "地圖↗",
           "photo": "images/day11/row3.png"
         },
         {
-          "time": "13:25",
+          "time": "13:35",
           "what": "車程往 Reykjanes 燈塔約10分",
           "note": "Gunnuhver與燈塔相距僅約1公里",
           "photo": null
         },
         {
-          "time": "13:35",
+          "time": "13:45",
           "what": "燈塔（Reykjanes）+ 海岸景觀約1小時",
           "note": "地圖↗",
           "photo": "images/day11/row5.jpg"
         },
         {
-          "time": "14:35",
-          "what": "車程往 板塊裂谷橋約20分",
+          "time": "14:45",
+          "what": "車程往 板塊裂谷橋約10分",
           "note": null,
           "photo": null
         },
@@ -1600,7 +1612,7 @@
       "rows": [
         {
           "time": "16:00",
-          "what": "前往 藍湖（Blue Lagoon）約15–20分",
+          "what": "前往 藍湖（Blue Lagoon）約30分",
           "note": null,
           "photo": null
         },
@@ -1612,7 +1624,7 @@
         },
         {
           "time": "19:30",
-          "what": "車程返回機場周邊住宿約20–30分",
+          "what": "車程返回機場周邊住宿約30分",
           "note": null,
           "photo": null
         },
