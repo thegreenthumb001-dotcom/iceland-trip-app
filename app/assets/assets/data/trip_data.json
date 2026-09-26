@@ -63,31 +63,31 @@
   ],
   "lodging": [
     {
-      "title": "D1・KEF機場周邊（10/4）",
+      "title": "D1・KEF機場周邊 Garður（10/4）",
       "options": [
         {
           "groupName": "pick-d1",
-          "pickKey": "d1k-a",
+          "pickKey": "d1k-b",
           "medal": "🥇",
+          "name": "Lighthouse Inn（Garður）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.7／860則",
+          "priceText": "💰NT$5,009／晚（Google Hotels 10/4日期實價，9/26查；⚠️超出預算NT$9）",
+          "platformLinks": [],
+          "why": "📌依你指定排第一（只超出預算NT$9）；機場周邊極光證據最強：🌌Google評論「saw the northern lights」，Google評論「極光」主題69則，住客提到櫃檯會叫醒大家看極光；距機場約15分，海岬燈塔區光害低",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lighthouse+Inn+Gardur+Iceland"
+        },
+        {
+          "groupName": "pick-d1",
+          "pickKey": "d1k-a",
+          "medal": "🥈",
           "name": "Eldey Airport Hotel（Ásbrú）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.0／404則",
           "priceText": "💰NT$4,791／晚（Google Hotels 10/4日期實價，9/26查，全部房型私人衛浴）",
           "platformLinks": [],
-          "why": "機場周邊唯一「NT$5,000以內＋有極光評論＋評分3.3以上」都符合的一間：距航廈約4分，取車後最快入住；有熱水池、三溫暖；🌌Tripadvisor評論提到住客「lucky enough to see the Northern Lights」（⚠️極光證據較弱，另一則是參加極光團時看到）",
+          "why": "機場周邊唯一NT$5,000以內又有極光評論的一間：距航廈約4分，取車後最快入住；有熱水池、三溫暖；🌌Tripadvisor評論提到住客「lucky enough to see the Northern Lights」（⚠️極光證據較弱，另一則是參加極光團時看到）",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Eldey+Airport+Hotel+Asbru+Iceland"
-        },
-        {
-          "groupName": "pick-d1",
-          "pickKey": "d1k-b",
-          "medal": "🥈",
-          "name": "Lighthouse Inn（Garður）",
-          "scoreClass": "score-warn",
-          "scoreText": "✅Google 4.7／860則",
-          "priceText": "💰NT$5,009／晚（Google Hotels 10/4日期實價，9/26查；⚠️超出預算NT$9）",
-          "platformLinks": [],
-          "why": "⚠️僅供參考（超出預算），但極光證據最強：🌌Google評論「saw the northern lights」，Google評論「極光」主題69則，住客提到櫃檯會叫醒大家看極光；距機場約15分，海岬燈塔區光害低",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lighthouse+Inn+Gardur+Iceland"
         },
         {
           "groupName": "pick-d1",
@@ -665,7 +665,7 @@
       "tags": [
         "抵達日"
       ],
-      "stay": "住宿：KEF機場周邊（Ásbrú） 建議：Eldey Airport Hotel（✅Google 4.0／404則，NT$4,791，距航廈約4分）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：KEF機場周邊（Garður） 建議：Lighthouse Inn（✅Google 4.7／860則，NT$5,009，櫃檯會叫醒住客看極光）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -700,12 +700,12 @@
         },
         {
           "time": "20:10",
-          "what": "車程前往 Ásbrú 住宿約10分",
+          "what": "車程前往 Garður 住宿約15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "20:20",
+          "time": "20:25",
           "what": "Check-in 休息",
           "note": null,
           "photo": null
@@ -713,13 +713,13 @@
         {
           "time": "夜間",
           "what": "視天氣在住宿外看極光",
-          "note": "Eldey附設熱水池可邊泡邊等；Ásbrú緊鄰機場、光害中等，若想更暗可開約15分到Garðskagi燈塔一帶海岬觀察",
+          "note": "Garður海岬燈塔區光害低，Lighthouse Inn櫃檯會在極光出現時通知住客；也可步行到Garðskagi燈塔一帶看",
           "photo": null
         }
       ],
-      "lat": 63.9678,
-      "lon": -22.5884,
-      "regionName": "KEF機場周邊（Ásbrú）"
+      "lat": 64.0785,
+      "lon": -22.6842,
+      "regionName": "KEF機場周邊（Garður）"
     },
     {
       "num": 2,
@@ -734,7 +734,7 @@
       "rows": [
         {
           "time": "10:00",
-          "what": "Ásbrú（機場周邊）出發",
+          "what": "Garður出發",
           "note": "從機場區出發第一段車程較長（約1.5小時），午餐時間會偏晚，可在Geysir Center先吃點輕食",
           "photo": null
         },
