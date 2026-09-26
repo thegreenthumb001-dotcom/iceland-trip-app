@@ -63,756 +63,320 @@
   ],
   "lodging": [
     {
-      "title": "D1・機場周邊 Garður（10/4）",
+      "title": "D1・雷克雅維克近郊 Mosfellsbær（10/4）",
       "options": [
         {
           "groupName": "pick-d1",
           "pickKey": "d1-a",
           "medal": "🥇",
-          "name": "Lighthouse Inn Garður",
+          "name": "Hotel Laxnes（Mosfellsbær）",
           "scoreClass": "score-ok",
-          "scoreText": "✅Google 4.70／634則",
-          "priceText": "💰約US$100–155／晚（約NT$3,200–5,000）",
+          "scoreText": "✅Google 4.4／502則",
+          "priceText": "💰NT$4,395／晚（Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "機場北方約12分車程，不在Grindavík火山警戒區；多則住客評論提到櫃檯晚上會敲門通知極光出現，周邊是海岬燈塔區、光害低；與D11-D12同一間",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lighthouse+Inn+Gardur+Iceland"
+          "why": "就在往辛格韋德利的36號公路起點，隔天到辛格韋德利約30分、完全順路（繞路約1–2分）；🌌Google評論：「We could observe northern lights from the balcony」，Google評論「極光」主題39則",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Laxnes+Mosfellsbaer+Iceland"
         },
         {
           "groupName": "pick-d1",
           "pickKey": "d1-b",
           "medal": "🥈",
-          "name": "Ocean Break Cabins（Sandgerði）",
+          "name": "Snorri's Guesthouse（雷克雅維克）",
           "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 9.1／871則",
-          "priceText": "💰約US$237–322／晚（約NT$7,600–10,300）",
+          "scoreText": "✅Google 4.3／185則",
+          "priceText": "💰NT$4,323／晚（Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "距機場約10公里，緊鄰高爾夫球場、周邊無路燈；住客評論原話「no intrusive light pollution」、極光「absolutely spectacular」；每棟小屋附私人熱水池可邊泡邊看",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ocean+Break+Cabins+Sandgerdi+Iceland"
+          "why": "市區，距穿城主幹道繞路約5分；🌌Tripadvisor評論標題「Northern lights splendor」；市區光害較高，要看極光需開車到郊外",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Snorris+Guesthouse+Reykjavik+Iceland"
         },
         {
           "groupName": "pick-d1",
           "pickKey": "d1-c",
           "medal": "🥉",
-          "name": "Hótel Berg（Keflavík）",
-          "scoreClass": "score-unknown",
-          "scoreText": "❓查無Google（Tripadvisor 4/5，Keflavík #2）",
-          "priceText": "💰約US$151–298／晚（約NT$4,800–9,500，旺淡季價差大）",
+          "name": "Hotel Viking（Hafnarfjörður）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.1／1,236則",
+          "priceText": "💰NT$4,976／晚（Google Hotels日期實價，9/26查；⚠️只比上限低NT$24，訂前再查）",
           "platformLinks": [],
-          "why": "距機場約5分鐘，屋頂溫水池可泡湯看極光；但在Keflavík鎮上港邊，光害比Garður/Sandgerði高，也有住客反映屋頂池比照片小、易擁擠",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Berg+Keflavik+Iceland"
+          "why": "41號公路旁繞路約5分；維京主題旅館；🌌Tripadvisor評論標題「Northern Lights between the Years」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Viking+Hafnarfjordur+Iceland"
         },
         {
           "groupName": "pick-d1",
           "pickKey": "d1-d",
           "medal": "4",
-          "name": "Airport Hotel Aurora Star",
-          "scoreClass": "score-warn",
-          "scoreText": "HotelsCombined 8.3／9,490則；Tripadvisor評價兩極",
-          "priceText": "💰約US$150–255／晚（約NT$4,800–8,200）",
+          "name": "Eldey Airport Hotel（Ásbrú）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.0／404則",
+          "priceText": "💰NT$4,791／晚（Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "航廈旁步行100公尺，落地最省事；有住客提到在飯店門口看到極光，但緊鄰機場燈光、光害最重，也有「性價比差」的評論",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Aurora+Hotel+Keflavik+Airport+Iceland"
-        },
-        {
-          "groupName": "pick-d1",
-          "pickKey": "d1-e",
-          "medal": "5",
-          "name": "Northern Light Inn",
-          "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 4.5／1,281則；Booking.com 8.4／940則",
-          "priceText": "💰約ISK 40,000–48,000／晚（約NT$9,600–11,500）",
-          "platformLinks": [],
-          "why": "官方提供極光叫醒服務、評論有「Northern lights 10/10」；⚠️位於Grindavík火山警戒區，火山有動靜時通往飯店的道路可能臨時封閉、短時間通知停業，距機場約20分",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Northern+Light+Inn+Grindavik+Iceland"
+          "why": "機場旁，取車後最快入住；⚠️極光證據較弱（評論提到的是參加極光團時看到），隔天到辛格韋德利約1小時15分",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Eldey+Airport+Hotel+Iceland"
         }
       ]
     },
     {
-      "title": "D2・黃金圈（10/5）",
+      "title": "D2・黃金圈 雷克霍特（Reykholt）周邊（10/5）",
       "options": [
         {
           "groupName": "pick-d2",
           "pickKey": "d2-a",
           "medal": "🥇",
-          "name": "Hótel Grímsborgir",
+          "name": "Blue Hotel Fagrilundur（Reykholt）",
           "scoreClass": "score-ok",
-          "scoreText": "✅4.5／589則",
-          "priceText": "💰約ISK 24,000–36,000／晚（約NT$5,800–8,600）",
+          "scoreText": "✅Google 4.8／536則",
+          "priceText": "💰NT$4,884–4,970／晚（Bluepillow／Agoda，Google Hotels日期實價，9/26查；⚠️官網NT$5,731、Expedia NT$5,038超標，請用這兩個平台訂）",
           "platformLinks": [],
-          "why": "每間房都有專屬陽台/露台，官方認證極光地點＋免費晨喚服務",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Grimsborgir+Iceland"
+          "why": "黃金瀑布後順路約25分，隔天到塞里雅蘭瀑布約1小時25分；🌌評論：「we saw the aurora behind the geysir going off!」、「Perfect location for chasing northern lights!」（HotelsCombined評論摘錄）",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Blue+Hotel+Fagrilundur+Reykholt+Iceland"
         },
         {
           "groupName": "pick-d2",
           "pickKey": "d2-b",
           "medal": "🥈",
-          "name": "Efstidalur II",
+          "name": "Klettar Tower（Flúðir）",
           "scoreClass": "score-ok",
-          "scoreText": "✅4.7／2416則（含餐廳複合評分）",
-          "priceText": "💰約ISK 22,000–28,000／晚（約NT$5,300–6,700）",
+          "scoreText": "✅Google 4.8／117則",
+          "priceText": "💰NT$4,946／晚（官網，Google Hotels日期實價，9/26查；房型未標示）",
           "platformLinks": [],
-          "why": "家族酪農場旅館，玻璃溫室座位區專門賞極光，僅約10間房建議提早訂",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Efstidalur+II+Iceland"
+          "why": "30號公路旁繞路約2分；頂樓有360度觀景室；🌌評論：「It would definitely be awesome to look for Northern lights from here!」，Google評論「極光」主題17則",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Klettar+Tower+Fludir+Iceland"
         },
         {
           "groupName": "pick-d2",
           "pickKey": "d2-c",
           "medal": "🥉",
-          "name": "Golden Circle Luxury Cottages Lake View",
-          "scoreClass": "score-unknown",
-          "scoreText": "❓查無Google（Booking 8.6）",
-          "priceText": "💰約ISK 100,000+／晚（約NT$24,000+；為獨棟豪華小屋價，非單間雙人房）",
+          "name": "Brekkugerði Guesthouse（Laugarás）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.7／287則",
+          "priceText": "💰NT$3,741–4,327／晚（官網／Booking.com，Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "湖畔獨棟小屋群，開闊視野，評論提到適合賞極光",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Golden+Circle+Luxury+Cottages+Iceland"
+          "why": "繞路約7分；極光證據最強：🌌Google評論「on both evenings, the Northern Lights illuminated the sky above the house」，「極光」主題21則；⚠️共用衛浴",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Brekkugerdi+Guesthouse+Laugaras+Iceland"
         },
         {
           "groupName": "pick-d2",
           "pickKey": "d2-d",
           "medal": "4",
-          "name": "Buubble Hotel – Ölvisholt（5 Million Star Hotel）",
+          "name": "Hestheimar（Hella西北）",
           "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 8.8／144則；Airbnb 4.88",
-          "priceText": "概估約NT$8,000–14,000／晚（同類型泡泡屋/glamping概估，非實際查得的房價） ｜ Airbnb查無房價（原連結已失效） 開啟Airbnb搜尋↗ ｜ Agoda查無房價 連結↗ ｜ Booking.com有房源，查無房價",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$8,000–14,000／晚（同類型泡泡屋/glamping概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "查無房價（原連結已失效）",
-              "url": "https://www.airbnb.com/s/homes?query=Buubble%20Hotel%20Olvisholt%20Selfoss&checkin=2026-10-05&checkout=2026-10-06&adults=2"
-            },
-            {
-              "platform": "Agoda",
-              "note": "查無房價",
-              "url": "https://www.agoda.com/bubble-hotel-olvisholt/hotel/selfoss-is.html?checkIn=2026-10-05&los=1&adults=2&rooms=1"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": null
-            }
-          ],
-          "why": "透明泡泡屋，官網明確提供「aurora wake-up call」極光晨喚服務，評論提到躺床上不用出門就能追極光",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Buubble+Hotel+Olvisholt+Selfoss+Iceland"
+          "scoreText": "✅Google 4.4／161則",
+          "priceText": "💰NT$4,418／晚（Agoda，Google Hotels日期實價，9/26查；⚠️Expedia NT$6,558超標，房型待確認）",
+          "platformLinks": [],
+          "why": "離隔天塞里雅蘭瀑布最近（約45分，繞路約8分）；🌌Google評論：「we saw the aurora right outside the hotel!」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hestheimar+Hella+Iceland"
         },
         {
           "groupName": "pick-d2",
           "pickKey": "d2-e",
           "medal": "5",
-          "name": "Mirror Lodge Iceland",
-          "scoreClass": "score-unknown",
-          "scoreText": "❓評分查無資料（僅官網可訂）",
-          "priceText": "概估約NT$9,000–15,000／晚（同類型玻璃屋/glamping概估，非實際查得的房價） ｜ 💰未上架Airbnb/Agoda/Booking/Bungalo，僅官網 mirrorlodge.com 可訂房價查無資料",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$9,000–15,000／晚（同類型玻璃屋/glamping概估，非實際查得的房價）",
-              "url": null
-            }
-          ],
-          "why": "官網明確標榜「the glass roof window over the bed gives you the opportunity to watch...the shy northern lights」，並附極光季（8月底至隔年4月初）說明，但無任何平台評分可交叉驗證",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mirror+Lodge+Geysir+Iceland"
+          "name": "Minniborgir Cottages（35號公路旁）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.3／473則",
+          "priceText": "💰NT$4,903／晚（Expedia，Google Hotels日期實價，9/26查，獨棟小屋）",
+          "platformLinks": [],
+          "why": "35號公路上繞路約2分；🌌Google評論：「The owner came to our cabin to make sure we were seeing the northern lights」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Minniborgir+Cottages+Iceland"
         },
         {
           "groupName": "pick-d2",
           "pickKey": "d2-f",
           "medal": "6",
-          "name": "Tiny Glass Lodge",
+          "name": "Hótel Skálholt",
           "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 9.9（則數資料有矛盾，待人工複核）",
-          "priceText": "概估約NT$8,000–13,000／晚（同類型玻璃屋/glamping概估，非實際查得的房價） ｜ Airbnb查無房價 連結↗ ｜ Booking.com有房源，查無房價",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$8,000–13,000／晚（同類型玻璃屋/glamping概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "查無房價",
-              "url": "https://www.airbnb.com/rooms/1289377828685253102?check_in=2026-10-05&check_out=2026-10-06&adults=2"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": null
-            }
-          ],
-          "why": "獨棟玻璃屋，評論原文「great views and perfect windows for watching Aurora」，官網稱可「watch the Northern Lights dancing...from bed」",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tiny+Glass+Lodge+Selfoss+Iceland"
-        },
-        {
-          "groupName": "pick-d2",
-          "pickKey": "d2-g",
-          "medal": "7",
-          "name": "Golden Circle Domes – Glamping Experience",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 7.9／559則",
-          "priceText": "概估約NT$7,000–12,000／晚（同類型glamping圓頂帳概估，非實際查得的房價） ｜ Booking.com有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$7,000–12,000／晚（同類型glamping圓頂帳概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": "https://www.booking.com/hotel/is/golden-circle-glamping-luxury-domes.html?checkin=2026-10-05&checkout=2026-10-06&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "評論標題「Amazing experience with aurora」，但也有評論指出穹頂朝向非正北、躺床不一定看得到，需走出戶外，證據有保留",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Golden+Circle+Domes+Glamping+Selfoss+Iceland"
-        },
-        {
-          "groupName": "pick-d2",
-          "pickKey": "d2-h",
-          "medal": "8",
-          "name": "Hótel Geysir",
-          "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 4／5，298則",
-          "priceText": "概估約NT$4,500–5,000／晚（參考Agoda搜尋片段約US$153含稅，非鎖定10月確切日期，僅供概估） ｜ Agoda查無房價 連結↗ ｜ Booking.com查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$4,500–5,000／晚（參考Agoda搜尋片段約US$153含稅，非鎖定10月確切日期，僅供概估）",
-              "url": null
-            },
-            {
-              "platform": "Agoda",
-              "note": "查無房價",
-              "url": "https://www.agoda.com/geysir-h26196690/hotel/hveragerdhi-is.html?checkIn=2026-10-05&los=1&adults=2&rooms=1"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "查無房價",
-              "url": "https://www.booking.com/hotel/is/geysir.html?checkin=2026-10-05&checkout=2026-10-06&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "正對Geysir間歇泉，官網描述有「unique Aurora-viewing windows」特製極光觀賞窗，但此為媒體轉述非住客第一手評論",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Geysir+Haukadalur+Iceland"
-        },
-        {
-          "groupName": "pick-d2",
-          "pickKey": "d2-i",
-          "medal": "9",
-          "name": "Héraðsskólinn Historic Guesthouse",
-          "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 4／5，487則",
-          "priceText": "概估約NT$4,500–5,500／晚（參考搜尋片段約£121，非鎖定10月確切日期，僅供概估） ｜ Agoda查無房價 連結↗ ｜ Booking.com有房源，查無房價",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$4,500–5,500／晚（參考搜尋片段約£121，非鎖定10月確切日期，僅供概估）",
-              "url": null
-            },
-            {
-              "platform": "Agoda",
-              "note": "查無房價",
-              "url": "https://www.agoda.com/en-gb/heradsskolinn-historic-guesthouse/hotel/laugarvatn-is.html?checkIn=2026-10-05&los=1&adults=2&rooms=1"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": null
-            }
-          ],
-          "why": "Laugarvatn湖畔1920年代老校舍改建，旅遊媒體引述「remote enough that you can see the Northern Lights in the winter」，證據強度弱於前幾項",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Heradsskolinn+Historic+Guesthouse+Laugarvatn+Iceland"
+          "scoreText": "✅Google 4.3／1,063則",
+          "priceText": "💰NT$4,514／晚（官網，Google Hotels日期實價，9/26查；Hotels.com／Expedia NT$5,763超標）",
+          "platformLinks": [],
+          "why": "繞路約8分；🌌評論：「great for relaxing and aurora hunting」（Trip.com）",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Skalholt+Iceland"
         }
       ]
     },
     {
-      "title": "D3・維克（Vík）小鎮（10/6）",
+      "title": "D3・維克（Vík）小鎮（10/6）⚠️查無NT$5,000以下，已放寬取最接近",
       "options": [
         {
           "groupName": "pick-d3",
           "pickKey": "d3-a",
           "medal": "🥇",
-          "name": "Hotel Katla by Keahotels",
-          "scoreClass": "score-warn",
-          "scoreText": "4.3／1465則（未達4.5）",
-          "priceText": "💰約ISK 26,000–54,000／晚（約NT$6,200–13,000）",
+          "name": "Hótel Vík",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.4／918則",
+          "priceText": "💰NT$9,109–9,674／晚（klook／Hotels.com含早餐，Google Hotels日期實價，9/26查；超出約NT$4,100）",
           "platformLinks": [],
-          "why": "維克鎮外開闊農場地帶，評論提及窗邊/停車場可直接看到，戶外地熱溫泉池",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Katla+by+Keahotels+Vik+Iceland"
+          "why": "維克鎮上，隔天往羽毛河峽谷完全順路；🌌Google評論「極光」主題13則；在「有房＋有極光評論＋順路」之中最接近預算",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Vik+Iceland"
         },
         {
           "groupName": "pick-d3",
           "pickKey": "d3-b",
           "medal": "🥈",
-          "name": "Volcano Hotel",
-          "scoreClass": "score-unknown",
-          "scoreText": "❓查無Google（Tripadvisor 4.0）",
-          "priceText": "💰約ISK 23,000–43,000／晚（約NT$5,500–10,300）",
+          "name": "Guesthouse Carina（維克）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.5／521則",
+          "priceText": "💰查無10/6房價（Google Hotels無報價，可能已客滿；請到Booking.com直接查）",
           "platformLinks": [],
-          "why": "老校舍改建，方圓幾英里內幾乎無其他建物與光源，僅7間房適合情侶",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Volcano+Hotel+Vik+Iceland"
+          "why": "維克鎮上；🌌Google評論：「The manager was also kind enough to go around letting everyone know that there was an aurora outside」；若還有房，價格可能比Hótel Vík接近預算",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Guesthouse+Carina+Vik+Iceland"
         },
         {
           "groupName": "pick-d3",
           "pickKey": "d3-c",
           "medal": "🥉",
-          "name": "Sólheimahjáleiga Guesthouse",
-          "scoreClass": "score-unknown",
-          "scoreText": "❓查無Google（Tripadvisor 4.0）",
-          "priceText": "💰約ISK 17,000–25,000／晚（約NT$4,100–6,000）",
+          "name": "Vík HI Hostel（維克）",
+          "scoreClass": "score-warn",
+          "scoreText": "✅Google 3.9／376則",
+          "priceText": "💰NT$7,357–8,443／晚（Vio／Booking.com雙床共用衛浴，Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "150年家族羊場民宿，開闊鄉間天際線無遮蔽，官網稱9月-4月為極光旺季",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Solheimahjaleiga+Guesthouse+Iceland"
-        },
-        {
-          "groupName": "pick-d3",
-          "pickKey": "d3-d",
-          "medal": "4",
-          "name": "Mið-Hvoll Cottages",
-          "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 4／5，237則",
-          "priceText": "概估約NT$4,000–7,000／晚（同類型農場小屋概估，非實際查得的房價） ｜ Airbnb查無房價 連結↗ ｜ Booking.com有房源，查無房價",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$4,000–7,000／晚（同類型農場小屋概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "查無房價",
-              "url": "https://www.airbnb.com.sg/rooms/26618612?check_in=2026-10-06&check_out=2026-10-07&adults=2"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": null
-            }
-          ],
-          "why": "評論標題「Fantastic Cottage equipped with Northern Lights!」，內文提到極光就在臥室窗外起舞；運作中酪農場土地，遠離光害",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mid-Hvoll+Cottages+Vik+Iceland"
-        },
-        {
-          "groupName": "pick-d3",
-          "pickKey": "d3-e",
-          "medal": "5",
-          "name": "Black Beach Suites",
-          "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 4／5，351則",
-          "priceText": "概估約NT$4,500–8,000／晚（同類型公寓套房概估，非實際查得的房價） ｜ Agoda查無房價 連結↗ ｜ Booking.com有房源，查無房價",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$4,500–8,000／晚（同類型公寓套房概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Agoda",
-              "note": "查無房價",
-              "url": "https://www.agoda.com/black-beach-suites/hotel/solheimahjaleiga-is.html?checkIn=2026-10-06&los=1&adults=2&rooms=1"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": null
-            }
-          ],
-          "why": "評論標題「amazing northern lights viewing」，往Reynisfjara黑沙灘路上，開闊鄉間、夜空極暗",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Black+Beach+Suites+Vik+Iceland"
-        },
-        {
-          "groupName": "pick-d3",
-          "pickKey": "d3-f",
-          "medal": "6",
-          "name": "Icelandair Hotel Vík（Hótel Vík í Mýrdal）",
-          "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 4／5，930則",
-          "priceText": "概估約NT$6,000–11,000／晚（同等級連鎖飯店概估，非實際查得的房價） ｜ 💰查無資料（多個第三方比價網站有列，未取得Booking.com直接連結與房價）",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$6,000–11,000／晚（同等級連鎖飯店概估，非實際查得的房價）",
-              "url": null
-            }
-          ],
-          "why": "評論標題「Stunning views and great for the Aurora Borealis」，另有評論提到「reception will call your room in the middle of the night if the lights do show」；位於維克鎮中心，落地窗可眺望海崖",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Icelandair+Hotel+Vik+Iceland"
-        },
-        {
-          "groupName": "pick-d3",
-          "pickKey": "d3-g",
-          "medal": "7",
-          "name": "Farmhouse Lodge",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 8.5／1508則",
-          "priceText": "概估約NT$5,500–10,000／晚（同等級鄉間旅館概估，非實際查得的房價） ｜ Airbnb查無房價（原連結已失效） 開啟Airbnb搜尋↗ ｜ Booking.com有房源，查無房價",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$5,500–10,000／晚（同等級鄉間旅館概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "查無房價（原連結已失效）",
-              "url": "https://www.airbnb.com/s/homes?query=Farmhouse%20Lodge%20Vik%20Iceland&checkin=2026-10-06&checkout=2026-10-07&adults=2"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": null
-            }
-          ],
-          "why": "鄉間農舍旅館，距維克約10分鐘，官網/旅遊平台綜合描述指其「without the light or traffic pollution」，證據屬綜合描述而非旅客第一手目擊",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Farmhouse+Lodge+Vik+Iceland"
-        },
-        {
-          "groupName": "pick-d3",
-          "pickKey": "d3-h",
-          "medal": "8",
-          "name": "Hótel Kría",
-          "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 4／5，約833則",
-          "priceText": "概估約NT$6,500–11,000／晚（同等級精品飯店概估，非實際查得的房價） ｜ 💰查無資料（未取得任一平台可靠連結）",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$6,500–11,000／晚（同等級精品飯店概估，非實際查得的房價）",
-              "url": null
-            }
-          ],
-          "why": "⚠️證據來自旅遊部落格評測文而非住客評論：「big windows in the rooms meaning you might even catch the aurora without leaving your bed」，證據強度弱於其他候選，僅供參考",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Kria+Vik+Iceland"
+          "why": "價格最接近預算；⚠️極光評論只在搜尋摘要看到（Tripadvisor：「great place to potentially watch the northern lights」），未能開啟原文確認",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vik+HI+Hostel+Iceland"
         }
       ]
     },
     {
-      "title": "D4-D5・冰河湖／赫本（Höfn）（10/7-10/8，連住2晚）",
+      "title": "D4・冰河湖以東 Hali（10/7）⚠️查無NT$5,000以下，已放寬取最接近",
       "options": [
         {
-          "groupName": "pick-d45",
-          "pickKey": "d45-a",
+          "groupName": "pick-d4",
+          "pickKey": "d4-a",
           "medal": "🥇",
-          "name": "Fosshotel Glacier Lagoon",
+          "name": "Hali Country Hotel（Hali）",
           "scoreClass": "score-ok",
-          "scoreText": "✅4.5／約2000則",
-          "priceText": "💰約ISK 43,600–95,000／晚（約NT$10,500–22,800）",
+          "scoreText": "✅Google 4.5／958則",
+          "priceText": "💰NT$16,853／晚（Agoda，Google Hotels日期實價，9/26查；⚠️超過NT$12,000，但冰河湖15分內只剩這間有房）",
           "platformLinks": [],
-          "why": "官方標註低光害區，北面房間可直接看到極光，精品飯店等級",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fosshotel+Glacier+Lagoon+Iceland"
-        },
-        {
-          "groupName": "pick-d45",
-          "pickKey": "d45-b",
-          "medal": "🥈",
-          "name": "Skyrhúsið Guesthouse",
-          "scoreClass": "score-ok",
-          "scoreText": "✅4.6／413則",
-          "priceText": "💰官網起價ISK 22,000／晚（共用衛浴）（約NT$5,280）",
-          "platformLinks": [],
-          "why": "偏僻農舍聚落，周邊完全無城鎮光害，平價民宿型態",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Skyrhusid+Guesthouse+Iceland"
-        },
-        {
-          "groupName": "pick-d45",
-          "pickKey": "d45-c",
-          "medal": "🥉",
-          "name": "Hali Country Hotel",
-          "scoreClass": "score-ok",
-          "scoreText": "✅4.5／909則",
-          "priceText": "💰官網價目表ISK 32,900／晚（約NT$7,896；2026年價目表未上架，供參考）",
-          "platformLinks": [],
-          "why": "員工會在極光出現時主動通知房客，面海景觀房",
+          "why": "冰河湖以東約13分（比10分鐘上限多約3分），隔天冰洞團在冰河湖集合；附設餐廳；🌌Tripadvisor評論標題「Amazing Location for the Aurora」、「Excellent location for Northern light」",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hali+Country+Hotel+Iceland"
         },
         {
-          "groupName": "pick-d45",
-          "pickKey": "d45-d",
-          "medal": "4",
-          "name": "Hótel Jökulsárlón（Glacier Lagoon Hotel, Reynivellir）",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 9.5／2030則",
-          "priceText": "概估約NT$10,500–11,000／晚（參考Agoda搜尋片段約US$346起，非鎖定10月確切日期，僅供概估） ｜ Agoda有房源，查無房價 ｜ Booking.com查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$10,500–11,000／晚（參考Agoda搜尋片段約US$346起，非鎖定10月確切日期，僅供概估）",
-              "url": null
-            },
-            {
-              "platform": "Agoda",
-              "note": "有房源，查無房價",
-              "url": null
-            },
-            {
-              "platform": "Booking.com",
-              "note": "查無房價",
-              "url": "https://www.booking.com/hotel/is/jokulsarlon.html?checkin=2026-10-07&checkout=2026-10-09&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "官方提供「Northern Lights wake-up call」極光晨喚服務；評論明確描述「the view from the windows provides a great view of the northern lights without needing to go outside」",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Jokulsarlon+Reynivellir+Iceland"
+          "groupName": "pick-d4",
+          "pickKey": "d4-b",
+          "medal": "🥈",
+          "name": "Hotel Smyrlabjörg",
+          "scoreClass": "score-warn",
+          "scoreText": "✅Google 4.2／839則",
+          "priceText": "💰NT$8,389–10,809／晚（klook／Expedia含早餐，Google Hotels日期實價，9/26查）",
+          "platformLinks": [],
+          "why": "價格最接近預算，但⚠️位於冰河湖以東約28–30分，不符合「最多繞10分鐘」的順路條件（隔天早上到冰洞集合點要約30分）；🌌Tripadvisor評論標題「Great place to see the Northern Lights」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Smyrlabjorg+Iceland"
         },
         {
-          "groupName": "pick-d45",
-          "pickKey": "d45-e",
-          "medal": "5",
-          "name": "Seljavellir Guesthouse",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 8.5／1834則",
-          "priceText": "概估約NT$3,500–6,500／晚（同等級平價民宿概估，非實際查得的房價） ｜ Airbnb有房源，查無房價（原連結已失效） 開啟Airbnb搜尋↗ ｜ Agoda有房源，查無房價 ｜ Booking.com有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$3,500–6,500／晚（同等級平價民宿概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "有房源，查無房價（原連結已失效）",
-              "url": "https://www.airbnb.com/s/homes?query=Seljavellir%20Guesthouse%20Hofn%20Iceland&checkin=2026-10-07&checkout=2026-10-09&adults=2"
-            },
-            {
-              "platform": "Agoda",
-              "note": "有房源，查無房價",
-              "url": null
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": "https://www.booking.com/hotel/is/guesthouse-seljavellir.html?checkin=2026-10-07&checkout=2026-10-09&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "評論明確提到「the owner has a policy to turn off all the lights during nighttime to give a better view for the Northern Lights」，且周邊光害極低",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Seljavellir+Guesthouse+Hofn+Iceland"
-        },
-        {
-          "groupName": "pick-d45",
-          "pickKey": "d45-f",
-          "medal": "6",
-          "name": "Aurora Cabins",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Airbnb 4.84／662則；Booking.com 9.0／626則",
-          "priceText": "概估約NT$5,000–9,000／晚（同等級獨立小木屋概估，非實際查得的房價） ｜ Airbnb查無房價 連結↗ ｜ Agoda有房源，查無房價 ｜ Booking.com有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$5,000–9,000／晚（同等級獨立小木屋概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "查無房價",
-              "url": "https://www.airbnb.com/rooms/28578479?check_in=2026-10-07&check_out=2026-10-09&adults=2"
-            },
-            {
-              "platform": "Agoda",
-              "note": "有房源，查無房價",
-              "url": null
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": "https://www.booking.com/hotel/is/aurora-cabins.html?checkin=2026-10-07&checkout=2026-10-09&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "獨立小木屋，鄰近Stokksness（車程15分）為熱門極光/星空攝影地點，評論明確提及此地光害極少適合賞極光",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Aurora+Cabins+Hofn+Iceland"
-        },
-        {
-          "groupName": "pick-d45",
-          "pickKey": "d45-g",
-          "medal": "7",
-          "name": "Brunnhóll Country Guesthouse",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 8.5／1006則",
-          "priceText": "概估約NT$4,000–7,500／晚（同等級農場旅館概估，非實際查得的房價） ｜ Airbnb有房源，查無房價 連結↗ ｜ Agoda有房源，查無房價 連結↗ ｜ Booking.com有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$4,000–7,500／晚（同等級農場旅館概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "有房源，查無房價",
-              "url": "https://www.airbnb.com/rooms/33716940?check_in=2026-10-07&check_out=2026-10-09&adults=2"
-            },
-            {
-              "platform": "Agoda",
-              "note": "有房源，查無房價",
-              "url": "https://www.agoda.com/en-ie/brunnholl-country-guesthouse/hotel/hofn-is.html?checkIn=2026-10-07&los=2&adults=2&rooms=1"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": "https://www.booking.com/hotel/is/brunnholl-country-guesthouse.html?checkin=2026-10-07&checkout=2026-10-09&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "冰河湖與赫本（Höfn）之間農場旅館，提供極光晨喚服務（if the sky comes alive after you have gone to bed, they will knock）；⚠️農場在11月中至1月底冬季最暗時段會歇業，需留意營運月份",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Brunnholl+Country+Guesthouse+Iceland"
+          "groupName": "pick-d4",
+          "pickKey": "d4-c",
+          "medal": "🥉",
+          "name": "Hotel Skaftafell（Freysnes）",
+          "scoreClass": "score-warn",
+          "scoreText": "✅Google 4.1／965則",
+          "priceText": "💰NT$15,309／晚（Agoda，Google Hotels日期實價，9/26查）",
+          "platformLinks": [],
+          "why": "⚠️冰河湖以西約45分，當晚要走回頭路，不順路；🌌Google評論：「tried to (unsuccessfully) catch the northern lights on the deck」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Skaftafell+Iceland"
         }
       ]
     },
     {
-      "title": "D6・維克（Vík）小鎮（第二晚，10/9）",
+      "title": "D5・冰河湖以東 Hali（10/8）⚠️查無NT$5,000以下，已放寬取最接近",
+      "options": [
+        {
+          "groupName": "pick-d5",
+          "pickKey": "d5-a",
+          "medal": "🥇",
+          "name": "Skyrhúsið Guesthouse（Hali）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.6／427則",
+          "priceText": "💰NT$7,715／晚（Agoda／Booking.com三人房共用衛浴，Google Hotels日期實價，9/26查）",
+          "platformLinks": [],
+          "why": "就在Hali Country Hotel隔壁，換住宿只要走幾步；隔天往Skaftafell繞路約13分；🌌Trip.com評論：「In an ideal location for Jorkulson glacier activities and to see the northern lights!」；⚠️共用衛浴，10/7已客滿所以只能住這晚",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Skyrhusid+Guesthouse+Iceland"
+        },
+        {
+          "groupName": "pick-d5",
+          "pickKey": "d5-b",
+          "medal": "🥈",
+          "name": "Hali Country Hotel（續住）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.5／958則",
+          "priceText": "💰NT$11,676／晚（Vio.com，Google Hotels日期實價，9/26查；官網NT$14,247）",
+          "platformLinks": [],
+          "why": "若不想換住宿可續住（兩晚合計約NT$28,500）；繞路約13分；🌌Tripadvisor評論標題「Amazing Location for the Aurora」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hali+Country+Hotel+Iceland"
+        },
+        {
+          "groupName": "pick-d5",
+          "pickKey": "d5-c",
+          "medal": "🥉",
+          "name": "Hotel Smyrlabjörg",
+          "scoreClass": "score-warn",
+          "scoreText": "✅Google 4.2／839則",
+          "priceText": "💰NT$7,541–7,587／晚（Vio.com／Agoda雙人房，Google Hotels日期實價，9/26查）",
+          "platformLinks": [],
+          "why": "⚠️冰河湖以東約28分，隔天往Skaftafell多開約30分，不符合順路條件；🌌Tripadvisor評論標題「Great place to see the Northern Lights」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Smyrlabjorg+Iceland"
+        }
+      ]
+    },
+    {
+      "title": "D6・維克（Vík）以西（10/9）⚠️查無NT$5,000以下，已放寬取最接近",
       "options": [
         {
           "groupName": "pick-d6",
           "pickKey": "d6b-a",
           "medal": "🥇",
-          "name": "Hotel Katla by Keahotels",
-          "scoreClass": "score-warn",
-          "scoreText": "4.3／1465則（未達4.5）",
-          "priceText": "💰約ISK 26,000–54,000／晚（約NT$6,200–13,000）",
+          "name": "Guesthouse Rauðafell",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.7／177則",
+          "priceText": "💰NT$6,326／晚（Booking.com，Google Hotels日期實價，9/26查；超出NT$1,326，最接近預算）",
           "platformLinks": [],
-          "why": "維克鎮外開闊農場地帶，評論提及窗邊/停車場可直接看到，戶外地熱溫泉池",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Katla+by+Keahotels+Vik+Iceland"
+          "why": "維克以西約35分，就在隔天往凱瑞斯火口湖的1號公路上（0繞路，隔天車程縮短為約1小時30分）；🌌Google評論：「a great way to watch the auroras from right there」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gistihusid+Raudafell+Iceland"
         },
         {
           "groupName": "pick-d6",
           "pickKey": "d6b-b",
           "medal": "🥈",
-          "name": "Volcano Hotel",
-          "scoreClass": "score-unknown",
-          "scoreText": "❓查無Google（Tripadvisor 4.0）",
-          "priceText": "💰約ISK 23,000–43,000／晚（約NT$5,500–10,300）",
+          "name": "Eystri Sólheimar",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.6／63則",
+          "priceText": "💰NT$7,904／晚（Booking.com雙人房共用衛浴含早餐，Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "老校舍改建，方圓幾英里內幾乎無其他建物與光源，僅7間房適合情侶",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Volcano+Hotel+Vik+Iceland"
+          "why": "維克以西約15–20分，繞路約8分；🌌Google評論：「we were also lucky enough to see the Northern Lights」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Eystri+Solheimar+Iceland"
         },
         {
           "groupName": "pick-d6",
           "pickKey": "d6b-c",
           "medal": "🥉",
-          "name": "Sólheimahjáleiga Guesthouse",
-          "scoreClass": "score-unknown",
-          "scoreText": "❓查無Google（Tripadvisor 4.0）",
-          "priceText": "💰約ISK 17,000–25,000／晚（約NT$4,100–6,000）",
+          "name": "Hótel Vík",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.4／918則",
+          "priceText": "💰NT$9,801／晚（Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "150年家族羊場民宿，開闊鄉間天際線無遮蔽，官網稱9月-4月為極光旺季",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Solheimahjaleiga+Guesthouse+Iceland"
+          "why": "維克鎮上；🌌Google評論「極光」主題13則",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Vik+Iceland"
         },
         {
           "groupName": "pick-d6",
           "pickKey": "d6b-d",
           "medal": "4",
-          "name": "Mið-Hvoll Cottages",
-          "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 4／5，237則",
-          "priceText": "概估約NT$4,000–7,000／晚（同類型農場小屋概估，非實際查得的房價） ｜ Airbnb查無房價 連結↗ ｜ Booking.com有房源，查無房價",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$4,000–7,000／晚（同類型農場小屋概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "查無房價",
-              "url": "https://www.airbnb.com.sg/rooms/26618612?check_in=2026-10-06&check_out=2026-10-07&adults=2"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": null
-            }
-          ],
-          "why": "評論標題「Fantastic Cottage equipped with Northern Lights!」，內文提到極光就在臥室窗外起舞；運作中酪農場土地，遠離光害",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mid-Hvoll+Cottages+Vik+Iceland"
+          "name": "Hótel Dyrhólaey",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.2／1,404則",
+          "priceText": "💰NT$10,020／晚（Expedia，Google Hotels日期實價，9/26查）",
+          "platformLinks": [],
+          "why": "1號公路旁繞路約4分；🌌Google評論「極光」主題69則（極光評論最多）",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Dyrholaey+Iceland"
         },
         {
           "groupName": "pick-d6",
           "pickKey": "d6b-e",
           "medal": "5",
-          "name": "Black Beach Suites",
+          "name": "Vík HI Hostel（維克）",
           "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 4／5，351則",
-          "priceText": "概估約NT$4,500–8,000／晚（同類型公寓套房概估，非實際查得的房價） ｜ Agoda查無房價 連結↗ ｜ Booking.com有房源，查無房價",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$4,500–8,000／晚（同類型公寓套房概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Agoda",
-              "note": "查無房價",
-              "url": "https://www.agoda.com/black-beach-suites/hotel/solheimahjaleiga-is.html?checkIn=2026-10-06&los=1&adults=2&rooms=1"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": null
-            }
-          ],
-          "why": "評論標題「amazing northern lights viewing」，往Reynisfjara黑沙灘路上，開闊鄉間、夜空極暗",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Black+Beach+Suites+Vik+Iceland"
-        },
-        {
-          "groupName": "pick-d6",
-          "pickKey": "d6b-f",
-          "medal": "6",
-          "name": "Icelandair Hotel Vík（Hótel Vík í Mýrdal）",
-          "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 4／5，930則",
-          "priceText": "概估約NT$6,000–11,000／晚（同等級連鎖飯店概估，非實際查得的房價） ｜ 💰查無資料（多個第三方比價網站有列，未取得Booking.com直接連結與房價）",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$6,000–11,000／晚（同等級連鎖飯店概估，非實際查得的房價）",
-              "url": null
-            }
-          ],
-          "why": "評論標題「Stunning views and great for the Aurora Borealis」，另有評論提到「reception will call your room in the middle of the night if the lights do show」；位於維克鎮中心，落地窗可眺望海崖",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Icelandair+Hotel+Vik+Iceland"
-        },
-        {
-          "groupName": "pick-d6",
-          "pickKey": "d6b-g",
-          "medal": "7",
-          "name": "Farmhouse Lodge",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 8.5／1508則",
-          "priceText": "概估約NT$5,500–10,000／晚（同等級鄉間旅館概估，非實際查得的房價） ｜ Airbnb查無房價（原連結已失效） 開啟Airbnb搜尋↗ ｜ Booking.com有房源，查無房價",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$5,500–10,000／晚（同等級鄉間旅館概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "查無房價（原連結已失效）",
-              "url": "https://www.airbnb.com/s/homes?query=Farmhouse%20Lodge%20Vik%20Iceland&checkin=2026-10-06&checkout=2026-10-07&adults=2"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": null
-            }
-          ],
-          "why": "鄉間農舍旅館，距維克約10分鐘，官網/旅遊平台綜合描述指其「without the light or traffic pollution」，證據屬綜合描述而非旅客第一手目擊",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Farmhouse+Lodge+Vik+Iceland"
-        },
-        {
-          "groupName": "pick-d6",
-          "pickKey": "d6b-h",
-          "medal": "8",
-          "name": "Hótel Kría",
-          "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 4／5，約833則",
-          "priceText": "概估約NT$6,500–11,000／晚（同等級精品飯店概估，非實際查得的房價） ｜ 💰查無資料（未取得任一平台可靠連結）",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$6,500–11,000／晚（同等級精品飯店概估，非實際查得的房價）",
-              "url": null
-            }
-          ],
-          "why": "⚠️證據來自旅遊部落格評測文而非住客評論：「big windows in the rooms meaning you might even catch the aurora without leaving your bed」，證據強度弱於其他候選，僅供參考",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Kria+Vik+Iceland"
+          "scoreText": "✅Google 3.9／376則",
+          "priceText": "💰NT$7,354／晚（Google Hotels日期實價，9/26查）",
+          "platformLinks": [],
+          "why": "⚠️極光評論只在搜尋摘要看到，未能確認原文",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vik+HI+Hostel+Iceland"
         }
       ]
     },
@@ -823,175 +387,90 @@
           "groupName": "pick-d7",
           "pickKey": "d7-a",
           "medal": "🥇",
-          "name": "Hraunsnef Country Hotel",
+          "name": "Blómasetrið Homestay（Borgarnes老城）",
           "scoreClass": "score-ok",
-          "scoreText": "✅4.7／619則",
-          "priceText": "💰約ISK 27,500–40,300／晚（約NT$6,600–9,700）",
+          "scoreText": "✅Google 4.7／66則",
+          "priceText": "💰NT$3,972／晚（Hotels.com／Expedia，Google Hotels日期實價，9/26查；雙床房共用衛浴）",
           "platformLinks": [],
-          "why": "多則評論提到泡戶外地熱溫泉浴缸時同時看到極光，獨立農莊四周無光害",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hraunsnef+Country+Hotel+Iceland"
+          "why": "定居博物館旁，隔天往教堂山0繞路；🌌評論：「getting the rare experience of seeing the Northern Lights! … from their parking lot at 2:00am」（Tripadvisor）；⚠️Google顯示「1張單人床」，訂前確認是2人房",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Blomasetrid+Homestay+Borgarnes+Iceland"
         },
         {
           "groupName": "pick-d7",
           "pickKey": "d7-b",
           "medal": "🥈",
-          "name": "Hótel Hamar",
-          "scoreClass": "score-unknown",
-          "scoreText": "❓查無Google（Tripadvisor 4.0）",
-          "priceText": "💰約ISK 18,900–31,000／晚（約NT$4,540–7,440）",
+          "name": "Hótel Snæfellsnes（Vegamót）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.6／787則",
+          "priceText": "💰NT$4,924／晚（Agoda／官網含早餐，Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "建於高爾夫球場中央，四周開闊無遮擋，提供極光叫醒服務，2座溫泉池",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Hamar+Borgarnes+Iceland"
+          "why": "就在隔天路線54/56號公路交叉口（0繞路，到教堂山約40分）；🌌Google評論：「Got lucky and had a great northern lights show from just outside my room」；⚠️但D7當天要從Borgarnes再多開約50分，當天總車程會超過4小時、約18:30才到，選這間需縮短Borgarnes行程",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Snaefellsnes+Vegamot+Iceland"
         },
         {
           "groupName": "pick-d7",
           "pickKey": "d7-c",
           "medal": "🥉",
-          "name": "Bjarg Borgarnes",
-          "scoreClass": "score-unknown",
-          "scoreText": "⚠️評分數據異常無法採信",
-          "priceText": "💰查無公開房價（建議直接洽詢或查即時訂房頁）",
+          "name": "Hótel Borgarnes",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.0／663則",
+          "priceText": "💰NT$4,943／晚（HomeToGo，Google Hotels日期實價，9/26查；⚠️Expedia NT$5,179、Booking NT$5,750超標）",
           "platformLinks": [],
-          "why": "查證時評論數明顯異常（可能搜尋引擎混淆），且較接近鎮上光害風險略高，僅列備選",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bjarg+Borgarnes+Iceland"
+          "why": "鎮中心0繞路；🌌Google評論：「We were able to see the aurora right outside the hotel doors」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Borgarnes+Iceland"
         },
         {
           "groupName": "pick-d7",
           "pickKey": "d7-d",
           "medal": "4",
-          "name": "Jaðar Farm",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Airbnb 4.98／82則",
-          "priceText": "概估約NT$6,000–11,000／晚（同等級含私人溫泉浴缸villa概估，非實際查得的房價） ｜ Airbnb查無房價 連結↗ ｜ Agoda有房源，查無房價 連結↗ ｜ Booking.com有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$6,000–11,000／晚（同等級含私人溫泉浴缸villa概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "查無房價",
-              "url": "https://www.airbnb.com/rooms/41423309?check_in=2026-10-09&check_out=2026-10-10&adults=2"
-            },
-            {
-              "platform": "Agoda",
-              "note": "有房源，查無房價",
-              "url": "https://www.agoda.com/ja-ar-house/hotel/borgarnes-is.html?checkIn=2026-10-09&los=1&adults=2&rooms=1"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": "https://www.booking.com/hotel/is/jadar.html?checkin=2026-10-09&checkout=2026-10-10&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "農場獨立石屋villa，官網與評論明確提到「a hot tub where you can watch the northern lights」，私人溫泉浴缸賞極光",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jadar+Farm+Borgarnes+Iceland"
-        },
-        {
-          "groupName": "pick-d7",
-          "pickKey": "d7-e",
-          "medal": "5",
-          "name": "Fossatún Country Hotel",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Tripadvisor 4／5，301則，地區B&B類#1",
-          "priceText": "概估約NT$5,000–9,000／晚（同等級鄉村飯店概估，非實際查得的房價） ｜ Booking.com有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$5,000–9,000／晚（同等級鄉村飯店概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": "https://www.booking.com/hotel/is/fossatun-guesthouse-borgarnes.html?checkin=2026-10-09&checkout=2026-10-10&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "評論標題「Amazing stay and seen the northern lights!!」，Norðurá河畔瀑布旁鄉間，無光害",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fossatun+Country+Hotel+Iceland"
-        },
-        {
-          "groupName": "pick-d7",
-          "pickKey": "d7-f",
-          "medal": "6",
-          "name": "Ensku Húsin Guesthouse",
+          "name": "Bjarg Borgarnes",
           "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 4／5，地區特色住宿#2/20",
-          "priceText": "概估約NT$6,800–7,200／晚（參考搜尋片段約US$225起，非鎖定10月確切日期，僅供概估） ｜ 💰查無資料（Booking.com確認有房源，但未取得可靠連結與房價）",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$6,800–7,200／晚（參考搜尋片段約US$225起，非鎖定10月確切日期，僅供概估）",
-              "url": null
-            }
-          ],
-          "why": "評論標題「Quaint little place with lots of privacy. We saw the most spactucular northern lights here!」，1884年老漁舍改建，Langá河畔無光害",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ensku+Husin+Guesthouse+Borgarnes+Iceland"
-        },
-        {
-          "groupName": "pick-d7",
-          "pickKey": "d7-g",
-          "medal": "7",
-          "name": "Lambalækur Guesthouse",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Airbnb 4.78／187則（Guest favorite）",
-          "priceText": "概估約NT$4,000–7,500／晚（同等級老屋民宿概估，非實際查得的房價） ｜ Airbnb有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$4,000–7,500／晚（同等級老屋民宿概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "有房源，查無房價",
-              "url": "https://www.airbnb.com/rooms/18336478?check_in=2026-10-09&check_out=2026-10-10&adults=2"
-            }
-          ],
-          "why": "19世紀老屋改建鄉間民宿，第三方旅遊平台（Guide to Iceland）描述「good possibility of spotting the Northern Lights, as there are no distracting light poles around」，證據強度中等（非住客第一手評論）",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lambalaekur+Guesthouse+Borgarnes+Iceland"
+          "scoreText": "✅Google 4.8／101則",
+          "priceText": "💰約NT$4,800／晚（Google曾顯示US$151，未能確認，需官網／電話詢價）",
+          "platformLinks": [],
+          "why": "鎮北緣繞路約2分；🌌評論：「we saw the Northern Lights! We walked 150 yards to the beach」（Tripadvisor）",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bjarg+Guesthouse+Borgarnes+Iceland"
         }
       ]
     },
     {
-      "title": "D8・斯奈山半島（10/11）",
+      "title": "D8・斯奈山半島 Ólafsvík／Rif（10/11）",
       "options": [
         {
           "groupName": "pick-d8",
           "pickKey": "d8-a",
           "medal": "🥇",
-          "name": "Adventure Hotel Hellissandur",
+          "name": "Við Hafið Guesthouse（Ólafsvík）",
           "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 8.5／484則；Google 3.7／87則",
-          "priceText": "💰約US$223／晚（約ISK 37,700）（約NT$9,000）",
+          "scoreText": "✅Google 4.5／289則",
+          "priceText": "💰NT$4,911／晚（Hotels.com，Google Hotels日期實價，9/26查；⚠️Agoda／Booking約NT$5,560超標）",
           "platformLinks": [],
-          "why": "住客評論原話「I saw the northern lights from my bedroom window!」，位於半島最西端，光害少",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Adventure+Hotel+Hellissandur+Iceland"
+          "why": "Ólafsvík鎮上、Kassinn超市旁，隔天到黑沙灘約40分順路；🌌Google評論：「We could even see the northern lights from the room」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vid+Hafid+Guesthouse+Olafsvik+Iceland"
         },
         {
           "groupName": "pick-d8",
           "pickKey": "d8-b",
           "medal": "🥈",
-          "name": "The Freezer Hostel & Culture Center",
+          "name": "Bikers Paradise（Ólafsvík）",
           "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 8.4／687則",
-          "priceText": "💰約US$32–100／晚（依房型，背包客通舖到獨立客房）（約NT$770–2,400）",
+          "scoreText": "✅Google 4.5／107則",
+          "priceText": "💰NT$4,301／晚（Booking.com／Agoda雙床房，10/3前免費取消，Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "Rif漁業加工廠改建的藝文青旅，員工評價9.1、性價比8.2，適合預算有限或想省錢留給其他行程的人",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Freezer+Hostel+Rif+Hellissandur+Iceland"
+          "why": "Ólafsvík鎮上0繞路；🌌評論：「you will be able to see the aurora boreal from your room」（Tripadvisor，較舊）；可能共用衛浴",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bikers+Paradise+Olafsvik+Iceland"
         },
         {
           "groupName": "pick-d8",
           "pickKey": "d8-c",
           "medal": "🥉",
-          "name": "VestMar（Ólafsvík）",
-          "scoreClass": "score-warn",
-          "scoreText": "Booking.com 8.0／226則；⚠️Google僅2.5／226則，落差大",
-          "priceText": "約US$196–331／晚（約NT$4,700–7,900）",
+          "name": "The Freezer Hostel & Culture Centre（Rif）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.4／578則",
+          "priceText": "💰NT$3,590–4,196／晚（Agoda／Trip.com，Google Hotels日期實價，9/26查；⚠️可能是床位價，訂前確認私人房）",
           "platformLinks": [],
-          "why": "評論提到房間大、附設餐廳，但Google評分明顯偏低，訂房前建議再查最新評論",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=VestMar+Olafsvik+Iceland"
+          "why": "Rif在往黑沙灘的574號公路旁，繞路約2分；🌌Google評論：「We also saw the Northern Lights 3 steps from the entrance」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Freezer+Hostel+Rif+Iceland"
         }
       ]
     },
@@ -1002,304 +481,66 @@
           "groupName": "pick-d910",
           "pickKey": "d910-a",
           "medal": "🥇",
-          "name": "住雷克雅維克市區＋開車追極光",
-          "scoreClass": "score-unknown",
-          "scoreText": "— 無指定飯店",
-          "priceText": "💰市區3星飯店約ISK 20,000–35,000／晚（約NT$4,800–8,400，以Fosshotel Reykjavik／Center Hotels Plaza等級估算）",
+          "name": "Snorri's Guesthouse",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.3／185則",
+          "priceText": "💰NT$4,229／晚（Google Hotels日期實價，9/26查，2晚NT$8,457）",
           "platformLinks": [],
-          "why": "市區沒有住宿本身能看極光又達標的選項；方便步行逛哈爾格林姆教堂等景點，晚上開車10-15分到Grótta燈塔等暗空點，是最務實的做法"
+          "why": "步行約5–6分到哈爾格林姆教堂，D10步行行程最方便；D11往火山湖走42號公路也順；🌌Tripadvisor評論標題「Northern lights splendor」；市區光害高，晚上開車10–15分到Grótta燈塔追極光",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Snorris+Guesthouse+Reykjavik+Iceland"
         },
         {
           "groupName": "pick-d910",
           "pickKey": "d910-b",
           "medal": "🥈",
-          "name": "Víðines Guesthouse",
-          "scoreClass": "score-unknown",
-          "scoreText": "❓查無Google（Booking 8.1，Tripadvisor 4.0）",
-          "priceText": "💰約ISK 12,000–12,750／晚（約NT$2,880–3,060）",
+          "name": "Fosshotel Rauðará",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.0／801則",
+          "priceText": "💰NT$4,656／晚（Google Hotels日期實價，9/26查，2晚NT$9,313）",
           "platformLinks": [],
-          "why": "Kjalarnes濱海獨立建築，距市區約15-20分，脫離市區光害但需每天通勤進城",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vidines+Guesthouse+Iceland"
-        },
-        {
-          "groupName": "pick-d910",
-          "pickKey": "d910-c",
-          "medal": "🥉",
-          "name": "Esjuberg Farm",
-          "scoreClass": "score-unknown",
-          "scoreText": "❓非Google（Airbnb 4.98）",
-          "priceText": "💰查無確切房價（Airbnb動態定價，同類冰島農場民宿約NT$3,600–6,000／晚可供參考）",
-          "platformLinks": [],
-          "why": "Kjalarnes馬場農舍型態，官網提及冬天可賞極光，但為Airbnb民宿設施較陽春",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Esjuberg+Farm+Kjalarnes+Iceland"
-        },
-        {
-          "groupName": "pick-d910",
-          "pickKey": "d910-d",
-          "medal": "4",
-          "name": "Hlid Fisherman's Village（Álftanes）",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com約8.8／1526-1548則；Hotels.com 9.2",
-          "priceText": "概估約NT$4,900–5,300／晚（參考聚合網站顯示約US$160–169/晚，非鎖定10月確切日期，僅供概估） ｜ Agoda有房源，查無10月確切房價 ｜ Booking.com有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$4,900–5,300／晚（參考聚合網站顯示約US$160–169/晚，非鎖定10月確切日期，僅供概估）",
-              "url": null
-            },
-            {
-              "platform": "Agoda",
-              "note": "有房源，查無10月確切房價",
-              "url": null
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": "https://www.booking.com/hotel/is/hlid-alftanes.en-gb.html?checkin=2026-10-11&checkout=2026-10-14&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "多則評論明確提及「Excellent location, saw northern lights there」「we saw the northern lights from outside our room」「We were able to see the Northern Lights 3 different nights」，濱海暗空海岸線，此輪證據最紮實的市區周邊新候選",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hlid+Fisherman+Village+Alftanes+Iceland"
-        },
-        {
-          "groupName": "pick-d910",
-          "pickKey": "d910-e",
-          "medal": "5",
-          "name": "Grótta Northern Lights Apartment & Rooms（Seltjarnarnes）",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 8.1–8.6",
-          "priceText": "概估約NT$3,500–6,500／晚（同等級公寓房型概估，非實際查得的房價） ｜ Airbnb有房源（子房型\"Aurora Lights - Room Vitinn\" 4.5／22則），查無房價 ｜ Agoda連結已失效（404），請改用下方Booking.com連結 ｜ Booking.com有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$3,500–6,500／晚（同等級公寓房型概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "有房源（子房型\"Aurora Lights - Room Vitinn\" 4.5／22則），查無房價",
-              "url": null
-            },
-            {
-              "platform": "Agoda",
-              "note": "連結已失效（404），請改用下方Booking.com連結",
-              "url": null
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": "https://www.booking.com/hotel/is/grotta-light-house-view-apartment.en-gb.html?checkin=2026-10-11&checkout=2026-10-14&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "鄰近Grótta燈塔暗空點，官網/評論提及「northern lights visibility from the back garden」，房型描述「on good conditions, guests can see northern lights from their bed」",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Grotta+Northern+Lights+Apartment+Seltjarnarnes+Iceland"
-        },
-        {
-          "groupName": "pick-d910",
-          "pickKey": "d910-f",
-          "medal": "6",
-          "name": "Icelandic Apartments by Heimaleiga（Kópavogur）",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Tripadvisor 4／5，182則",
-          "priceText": "概估約NT$3,700–11,300／晚（參考聚合網站均價約US$231（區間US$118–366），非鎖定10月確切日期，僅供概估） ｜ Agoda有房源，查無10月確切房價 ｜ Booking.com有房源，查無10月確切房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$3,700–11,300／晚（參考聚合網站均價約US$231（區間US$118–366），非鎖定10月確切日期，僅供概估）",
-              "url": null
-            },
-            {
-              "platform": "Agoda",
-              "note": "有房源，查無10月確切房價",
-              "url": null
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無10月確切房價",
-              "url": "https://www.booking.com/hotel/is/icelandic-apartments.html?checkin=2026-10-11&checkout=2026-10-14&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "評論提到「saw Northern Lights over the apartment one night and would stay again without hesitation」，並提及極光團可直接到公寓接客",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Icelandic+Apartments+Heimaleiga+Kopavogur+Iceland"
-        },
-        {
-          "groupName": "pick-d910",
-          "pickKey": "d910-g",
-          "medal": "7",
-          "name": "Gunnarsholmi Guesthouse（Kópavogur農場）",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Tripadvisor 4.6／5，42則",
-          "priceText": "概估約NT$3,500–6,000／晚（同等級農場民宿概估，非實際查得的房價） ｜ 💰查無資料（未查到Airbnb/Agoda/Bungalo房源，Booking.com僅確認第三方引用存在）",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$3,500–6,000／晚（同等級農場民宿概估，非實際查得的房價）",
-              "url": null
-            }
-          ],
-          "why": "評論明確描述「a perfect spot to observe the northern lights」，另有訪客表示連續3晚從房間窗戶看到極光",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gunnarsholmi+Guesthouse+Kopavogur+Iceland"
-        },
-        {
-          "groupName": "pick-d910",
-          "pickKey": "d910-h",
-          "medal": "8",
-          "name": "Hotel Viking（Hafnarfjörður港邊）",
-          "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 3／5，627則；Booking.com 8.0／2532則",
-          "priceText": "概估約NT$4,000–4,500／晚（參考搜尋片段約US$135起，非鎖定10月確切日期，僅供概估） ｜ Agoda有房源，查無10月確切房價 連結↗ ｜ Booking.com有房源，查無10月確切房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$4,000–4,500／晚（參考搜尋片段約US$135起，非鎖定10月確切日期，僅供概估）",
-              "url": null
-            },
-            {
-              "platform": "Agoda",
-              "note": "有房源，查無10月確切房價",
-              "url": "https://www.agoda.com/hotel-viking/hotel/hafnarfjordur-is.html?checkIn=2026-10-11&los=3&adults=2&rooms=1"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無10月確切房價",
-              "url": "https://www.booking.com/hotel/is/hotelviking.html?checkin=2026-10-11&checkout=2026-10-14&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "⚠️評論提到看過極光且員工會主動通知，但也有評論指出當晚因天候未見極光；港區光害可能略高於其他候選，評分中等，僅供備選",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Viking+Hafnarfjordur+Iceland"
-        },
-        {
-          "groupName": "pick-d910",
-          "pickKey": "d910-i",
-          "medal": "9",
-          "name": "North Star Apartments（Kópavogur）",
-          "scoreClass": "score-warn",
-          "scoreText": "Tripadvisor 3／5，90則",
-          "priceText": "概估約NT$3,500–6,000／晚（同等級公寓房型概估，非實際查得的房價） ｜ 💰查無資料（Booking.com確認有上架但未取得可靠連結與房價）",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$3,500–6,000／晚（同等級公寓房型概估，非實際查得的房價）",
-              "url": null
-            }
-          ],
-          "why": "⚠️評論原文簡短「we saw the northern lights!!!!」，證據具體但評分偏中等（含冷熱水/服務負評），僅供參考",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=North+Star+Apartments+Kopavogur+Iceland"
+          "why": "步行約8分到哈爾格林姆教堂；🌌Tripadvisor評論標題「Northern Lights visit」，住客提到櫃檯晚上指引大家到海邊看極光",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fosshotel+Raudara+Reykjavik"
         }
       ]
     },
     {
-      "title": "D11-D12・Reykjanes半島/機場周邊（10/14-10/15，連住2晚）",
+      "title": "D11-D12・Reykjanes半島 Sandgerði／Njarðvík（10/14-10/15，連住2晚）",
       "options": [
         {
           "groupName": "pick-d1112",
           "pickKey": "d1112-a",
           "medal": "🥇",
-          "name": "Lighthouse Inn Garður",
+          "name": "iStay Cottages（Sandgerði）",
           "scoreClass": "score-ok",
-          "scoreText": "✅4.70／634則",
-          "priceText": "💰約ISK 16,000–26,000／晚（約NT$3,840–6,240）",
+          "scoreText": "✅Google 4.5／228則",
+          "priceText": "💰NT$2,856／晚（Google Hotels日期實價，9/26查，2晚NT$5,712）",
           "platformLinks": [],
-          "why": "大窗景，躺床上就能看到極光，主人會主動叫醒房客；不在Grindavík火山警戒區內",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lighthouse+Inn+Gardur+Iceland"
+          "why": "從Grindavík約30分、到藍湖約25分、到機場約12分，都順路；不在Grindavík火山警戒區；🌌Google評論：「Saw the northern lights!!!! Highly recommend」，Tripadvisor標題「Best location for Aurora Borealis」；⚠️訂前確認房型有私人衛浴（廚房共用）",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=iStay+Cottages+Sandgerdi+Iceland"
         },
         {
           "groupName": "pick-d1112",
           "pickKey": "d1112-b",
           "medal": "🥈",
-          "name": "Reykjanes Guesthouse",
+          "name": "Raven's BnB（Njarðvík）",
           "scoreClass": "score-ok",
-          "scoreText": "4.7／56則（樣本少）",
-          "priceText": "💰約ISK 14,000–18,000／晚（約NT$3,360–4,320）",
+          "scoreText": "✅Google 4.5／267則",
+          "priceText": "💰NT$4,966／晚（Google Hotels日期實價，9/26查；10/15單晚NT$4,718）",
           "platformLinks": [],
-          "why": "⚠️位於Grindavík鎮中心，屬火山警戒區內，光害也較Garður高，需留意火山活動公告",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Reykjanes+Guesthouse+Grindavik+Iceland"
+          "why": "到機場約9分；有熱水池；🌌Tripadvisor評論：「I only had to cross a road to view the Northern Lights」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ravens+BnB+Njardvik+Iceland"
         },
         {
           "groupName": "pick-d1112",
           "pickKey": "d1112-c",
           "medal": "🥉",
-          "name": "Northern Light Inn",
-          "scoreClass": "score-unknown",
-          "scoreText": "❓查無確切Google",
-          "priceText": "💰約ISK 40,000–48,000／晚（約NT$9,600–11,500）",
+          "name": "Eldey Airport Hotel（Ásbrú）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.0／404則",
+          "priceText": "💰NT$4,273／晚（Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "⚠️同樣位於Grindavík火山警戒區內，但地形有「破雲帶」效應，官方提供極光叫醒服務",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Northern+Light+Inn+Grindavik+Iceland"
-        },
-        {
-          "groupName": "pick-d1112",
-          "pickKey": "d1112-d",
-          "medal": "4",
-          "name": "Hótel Berg（Keflavík）",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Tripadvisor 4／5，1154則（區域#2/12）；Booking.com 8.8",
-          "priceText": "概估約NT$7,000–7,500／晚（參考Agoda搜尋片段約US$232/晚，非鎖定10月確切日期，僅供概估） ｜ Agoda有房源，查無10月確切房價 連結↗ ｜ Booking.com有房源，查無10月確切房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$7,000–7,500／晚（參考Agoda搜尋片段約US$232/晚，非鎖定10月確切日期，僅供概估）",
-              "url": null
-            },
-            {
-              "platform": "Agoda",
-              "note": "有房源，查無10月確切房價",
-              "url": "https://www.agoda.com/en-sg/hotel-berg-by-keflavik-airport/hotel/keflavik-is.html?checkIn=2026-10-14&los=2&adults=2&rooms=1"
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無10月確切房價",
-              "url": "https://www.booking.com/hotel/is/berg.en-gb.html?checkin=2026-10-14&checkout=2026-10-16&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "不在火山警戒區內；官方旅遊網站描述「outside grass space with unobstructed sky views」，頂樓泳池提供無遮蔽夜空視野",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Berg+Keflavik+Iceland"
-        },
-        {
-          "groupName": "pick-d1112",
-          "pickKey": "d1112-e",
-          "medal": "5",
-          "name": "Ocean Break Cabins（Sandgerði）",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 9.2／869則",
-          "priceText": "概估約NT$5,500–6,000／晚（參考搜尋片段約US$185起，非鎖定10月確切日期，僅供概估） ｜ Booking.com有房源，查無10月確切房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$5,500–6,000／晚（參考搜尋片段約US$185起，非鎖定10月確切日期，僅供概估）",
-              "url": null
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無10月確切房價",
-              "url": "https://www.booking.com/hotel/is/sandgerdi-cottages.html?checkin=2026-10-14&checkout=2026-10-16&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "不在火山警戒區內；評論提到在地熱溫泉池中欣賞完日落接著看到極光，無光害寧靜暗黑環境",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ocean+Break+Cabins+Sandgerdi+Iceland"
-        },
-        {
-          "groupName": "pick-d1112",
-          "pickKey": "d1112-f",
-          "medal": "6",
-          "name": "The Retreat at Blue Lagoon Iceland",
-          "scoreClass": "score-unknown",
-          "scoreText": "❓評分則數查無確切數字",
-          "priceText": "概估約NT$25,000–60,000+／晚（藍湖度假村同等級奢華度假村概估，非實際查得的房價；此為冰島知名高端度假村，價位遠高於其他候選） ｜ Booking.com有房源，查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$25,000–60,000+／晚（藍湖度假村同等級奢華度假村概估，非實際查得的房價；此為冰島知名高端度假村，價位遠高於其他候選）",
-              "url": null
-            },
-            {
-              "platform": "Booking.com",
-              "note": "有房源，查無房價",
-              "url": "https://www.booking.com/hotel/is/the-retreat-at-blue-lagoon-iceland.html?checkin=2026-10-14&checkout=2026-10-16&group_adults=2&no_rooms=1"
-            }
-          ],
-          "why": "⚠️官方描述工作人員發現極光時會調暗燈光減少光害並提供晨喚服務，證據強，但地址在Grindavík火山警戒區系統內，2023年以來曾多次因火山活動被迫撤離／暫時關閉，風險高於其他候選，訂房前務必確認最新狀況",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Retreat+at+Blue+Lagoon+Iceland"
+          "why": "到機場約3分；有熱水池；⚠️極光證據較弱（評論提到的是參加極光團時看到）",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Eldey+Airport+Hotel+Iceland"
         }
       ]
     }
@@ -1384,11 +625,11 @@
     {
       "num": 1,
       "date": "10/4（日）",
-      "title": "抵達冰島 · 機場周邊安頓（可看極光）",
+      "title": "抵達冰島 · 雷克雅維克近郊安頓（可看極光）",
       "tags": [
         "抵達日"
       ],
-      "stay": "住宿：機場周邊（Garður） 建議：Lighthouse Inn Garður（✅Google 4.70／634則，櫃檯會通知極光）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：雷克雅維克近郊（Mosfellsbær） 建議：Hotel Laxnes（✅Google 4.4／502則，NT$4,395，評論提到從陽台看到極光）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -1418,17 +659,17 @@
         {
           "time": "19:55",
           "what": "超市採買（Nettó，Keflavík）約15分",
-          "note": "營業時間10:00–21:00；先買水、零食與隔天早餐（D2一早要開約1.5小時車到Þingvellir） 地圖↗",
+          "note": "營業時間10:00–21:00；先買水、零食與隔天早餐（D2黃金圈沿途與住宿周邊超市少，順便買好兩天份早餐） 地圖↗",
           "photo": null
         },
         {
           "time": "20:10",
-          "what": "車程前往 Garður 住宿約15分",
+          "what": "車程前往 Mosfellsbær 住宿約50分",
           "note": null,
           "photo": null
         },
         {
-          "time": "20:25",
+          "time": "21:00",
           "what": "Check-in 休息",
           "note": null,
           "photo": null
@@ -1436,13 +677,13 @@
         {
           "time": "夜間",
           "what": "視天氣在住宿外看極光",
-          "note": "Garður海岬燈塔區光害低，Lighthouse Inn櫃檯會在極光出現時敲門通知；也可步行到Garðskagi燈塔看 地圖↗",
+          "note": "Hotel Laxnes在雷克雅維克東北郊，住客評論提到從陽台就看到極光；市郊光害比市區低，天氣好可在停車場或附近空地觀察",
           "photo": null
         }
       ],
-      "lat": 64.0786,
-      "lon": -22.6848,
-      "regionName": "Garður（機場周邊）"
+      "lat": 64.167,
+      "lon": -21.6927,
+      "regionName": "Mosfellsbær（雷克雅維克近郊）"
     },
     {
       "num": 2,
@@ -1452,67 +693,61 @@
         "必玩景點",
         "短程步道"
       ],
-      "stay": "住宿：塞爾福斯（Selfoss）或黃金圈周邊 建議：Hótel Grímsborgir（✅Google 4.5／589則）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：黃金圈 雷克霍特（Reykholt）周邊 建議：Blue Hotel Fagrilundur（✅Google 4.8／536則，NT$4,884–4,970，評論提到在蓋錫爾看到極光）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
           "time": "10:00",
-          "what": "Garður出發",
-          "note": "從機場區出發第一段車程較長（約1.5小時），午餐時間會偏晚，可在Geysir Center先吃點輕食",
-          "photo": null
-        },
-        {
-          "time": "10:00",
-          "what": "車程前往 辛格韋德利國家公園約1小時30分",
+          "what": "Mosfellsbær出發",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:30",
+          "time": "10:00",
+          "what": "車程前往 辛格韋德利國家公園約45分",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "10:45",
           "what": "辛格韋德利國家公園（Þingvellir）約1小時",
           "note": "短程步道，可走到北美/歐亞板塊裂谷步道段；推薦拍照點：Almannagjá峽谷觀景台（掛冰島國旗處）與Öxarárfoss瀑布 地圖↗",
           "photo": "images/day2/row2.jpg"
         },
         {
-          "time": "12:30",
+          "time": "11:45",
           "what": "車程前往 Geysir蓋錫爾間歇泉約45分",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:15",
+          "time": "12:30",
           "what": "蓋錫爾間歇泉區（Geysir）約1小時",
           "note": "Geysir Center 內有伴手禮店（羊毛衣、紀念品）與咖啡廳，可順道逛逛 地圖↗",
           "photo": "images/day2/row4.jpg"
         },
         {
-          "time": "14:15",
+          "time": "13:30",
           "what": "車程前往 Gullfoss黃金瀑布約10分",
           "note": null,
           "photo": null
         },
         {
-          "time": "14:25",
+          "time": "13:40",
           "what": "黃金瀑布（Gullfoss） + 午餐約1小時45分",
           "note": "地圖↗",
           "photo": "images/day2/row6.jpg"
         },
         {
-          "time": "16:10",
-          "what": "車程前往 塞爾福斯（Selfoss）住宿區約50分",
+          "time": "15:25",
+          "what": "車程前往 雷克霍特（Reykholt）住宿約25分",
           "note": null,
           "photo": null
         },
         {
-          "time": "17:00",
+          "time": "15:50",
           "what": "Check-in 休息",
           "note": null,
-          "photo": null
-        },
-        {
-          "time": "17:15",
-          "what": "超市採買（Bónus，塞爾福斯 Selfoss）約20分",
-          "note": "備齊零食、水與隔天早餐；⚠️營業時間為 10:00–20:00（非全天到21:00，17:15到達仍在營業時間內） 地圖↗",
           "photo": null
         },
         {
@@ -1540,24 +775,24 @@
         "必玩景點",
         "短程步道"
       ],
-      "stay": "住宿：維克（Vík）小鎮 建議：Hotel Katla by Keahotels（Google 4.3／1465則，⚠️未達4.5）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：維克（Vík）小鎮 建議：Hótel Vík（✅Google 4.4／918則，⚠️NT$9,109起，當晚查無NT$5,000以下，已放寬取最接近）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
           "time": "10:00",
-          "what": "出發",
+          "what": "雷克霍特（Reykholt）出發",
           "note": null,
           "photo": null
         },
         {
           "time": "10:00",
-          "what": "車程前往 塞里雅蘭瀑布約1小時",
+          "what": "車程前往 塞里雅蘭瀑布約1小時30分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:00",
-          "what": "塞里雅蘭瀑布（Seljalandsfoss）約1小時30分",
+          "time": "11:30",
+          "what": "塞里雅蘭瀑布（Seljalandsfoss）約1小時",
           "note": "可走到瀑布後方，記得帶雨衣 地圖↗",
           "photo": "images/day3/row2.jpg"
         },
@@ -1627,7 +862,7 @@
       "tags": [
         "必玩景點"
       ],
-      "stay": "住宿：赫本（Höfn）或冰河湖周邊 建議：Fosshotel Glacier Lagoon（✅Google 4.5／約2000則）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：冰河湖以東 Hali（Suðursveit） 建議：Hali Country Hotel（✅Google 4.5／958則，⚠️NT$16,853，冰河湖15分內唯一有房）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -1680,20 +915,20 @@
         },
         {
           "time": "17:05",
-          "what": "車程往 赫本（Höfn）Check-in約50分",
+          "what": "車程往 Hali Check-in約15分",
           "note": null,
           "photo": null
         },
         {
           "time": "18:30",
-          "what": "晚餐（推薦龍蝦湯 Lobster Soup）",
-          "note": "⭐ Kaffi Hornið（赫本 Höfn，CP值高的平價龍蝦湯人氣店，離住宿區近，營業時間11:30–21:00）；想吃正式龍蝦大餐可改訂 Humarhöfnin（價位較高） 地圖↗ ｜ 餐廳附近步行可達 Nettó 超市（週一至五09:00–19:00，週六日10:00–19:00），飯後可順道補給 地圖↗",
+          "what": "晚餐（Hali Country Hotel 附設餐廳）",
+          "note": "住宿附設餐廳，招牌是北極紅點鮭（Arctic Char），晚上不用再開車；周邊沒有超市，零食飲水請在D3維克的Krónan先買好 地圖↗",
           "photo": null
         }
       ],
-      "lat": 64.2539,
-      "lon": -15.2082,
-      "regionName": "冰河湖/Höfn"
+      "lat": 64.1298,
+      "lon": -16.0179,
+      "regionName": "冰河湖/Hali"
     },
     {
       "num": 5,
@@ -1704,12 +939,12 @@
         "極光團",
         "需事先確認開放"
       ],
-      "stay": "住宿：赫本（Höfn）或冰河湖周邊 建議：Fosshotel Glacier Lagoon（同前一晚，✅Google 4.5）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：冰河湖以東 Hali（Suðursveit） 建議：Skyrhúsið Guesthouse（✅Google 4.6／427則，⚠️NT$7,715，共用衛浴；在Hali Country Hotel隔壁）在Maps開啟↗ ｜ 實際訂房：",
       "callout": "⚠️ 10月初部分冰洞可能尚未正式開團，出發前1–2週務必向業者確認並保留 Day10 作為備案調整日。",
       "rows": [
         {
-          "time": "08:00",
-          "what": "早餐後車程前往集合點約30–40分",
+          "time": "08:30",
+          "what": "退房寄放行李後，車程前往冰河湖集合點約15分",
           "note": null,
           "photo": null
         },
@@ -1728,7 +963,7 @@
         {
           "time": "19:30",
           "what": "極光導覽團接送出發時間依業者調整",
-          "note": null,
+          "note": "⚠️查到的赫本（Höfn）私人極光團只接赫本住宿，Hali一帶目前沒查到確定接送的團；訂團時請先問業者能否到Hali接送。若沒有，Hali本身是鄉間、無光害，也可直接在住宿外看",
           "photo": null
         },
         {
@@ -1744,9 +979,9 @@
           "photo": null
         }
       ],
-      "lat": 64.2539,
-      "lon": -15.2082,
-      "regionName": "冰河湖/Höfn"
+      "lat": 64.1298,
+      "lon": -16.0179,
+      "regionName": "冰河湖/Hali"
     },
     {
       "num": 6,
@@ -1756,24 +991,24 @@
         "長途移動",
         "必玩景點"
       ],
-      "stay": "住宿：維克（Vík）小鎮（第二晚） 建議：同D3候選名單（皆已依極光可見度篩選）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：維克（Vík）以西 Rauðafell 建議：Guesthouse Rauðafell（✅Google 4.7／177則，⚠️NT$6,326，當晚查無NT$5,000以下，已放寬取最接近）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
           "time": "10:00",
-          "what": "赫本（Höfn）出發，沿南岸原路西返",
-          "note": "⚠️原估算的Höfn→Kirkjubæjarklaustur單段車程有誤（實際約2.5小時，超過單段2小時上限），已改在Skaftafell中途拆成兩段拉車💡備案：若D5水晶冰洞還沒開放，維克附近的Katla冰洞（全年開放、離這裡住宿更近）是很好的替代方案，可考慮把冰洞行程改到這附近的日期參加",
+          "what": "Hali出發，沿南岸西返",
+          "note": "💡備案：若D5水晶冰洞還沒開放，維克附近的Katla冰洞（全年開放）是很好的替代方案，可考慮把冰洞行程改到這附近的日期參加",
           "photo": null
         },
         {
           "time": "10:00",
-          "what": "車程往 Skaftafell約1小時40分",
+          "what": "車程往 Skaftafell約1小時05分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:40",
-          "what": "短暫休息（Skaftafell遊客中心，上廁所/伸展）約15分",
+          "time": "11:05",
+          "what": "Skaftafell遊客中心（散步／上廁所）約50分",
           "note": "地圖↗",
           "photo": null
         },
@@ -1797,62 +1032,68 @@
         },
         {
           "time": "14:25",
-          "what": "黑沙灘（Reynisfjara）約1小時30分",
+          "what": "黑沙灘（Reynisfjara）約1小時",
           "note": "注意浪況警示牌，不靠近水際線 地圖↗",
           "photo": "images/day6/row6.jpg"
         },
         {
-          "time": "15:55",
-          "what": "車程往 Dyrhólaey迪霍拉里約15分",
-          "note": null,
-          "photo": null
-        },
-        {
-          "time": "16:10",
-          "what": "迪霍拉里燈塔景觀台（Dyrhólaey）約1小時",
-          "note": "地圖↗",
-          "photo": "images/day6/row8.jpg"
-        },
-        {
-          "time": "17:10",
+          "time": "15:25",
           "what": "車程進維克小鎮約15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "17:25",
+          "time": "15:40",
           "what": "私房景點：維克沙灘（Víkurfjara）約20分",
           "note": "Reynisfjall山另一側，跟Reynisfjara同樣的海蝕柱景觀但遊客少很多，海浪較平緩、免費停車，當地人更推薦這裡散步 地圖↗",
           "photo": null
         },
         {
-          "time": "17:45",
-          "what": "Check-in 休息",
-          "note": null,
-          "photo": null
-        },
-        {
-          "time": "17:45",
+          "time": "16:00",
           "what": "伴手禮：Icewear Vík 羊毛衣暢貨中心約25分",
           "note": "冰島羊毛衣（lopapeysa）等紀念品，維克最知名的暢貨中心；營業時間08:00–22:00 地圖↗",
           "photo": null
         },
         {
-          "time": "18:10",
+          "time": "16:25",
           "what": "超市採買（Krónan，維克）約15分",
-          "note": "⚠️查證後維克鎮上僅有Krónan（未確認有Nettó門市），營業時間09:00–21:00 地圖↗",
+          "note": "今晚住Rauðafell農場民宿，周邊沒有超市，晚餐食材在這裡一起買好；⚠️查證後維克鎮上僅有Krónan（未確認有Nettó門市），營業時間09:00–21:00 地圖↗",
+          "photo": null
+        },
+        {
+          "time": "16:40",
+          "what": "車程往 Dyrhólaey迪霍拉里約20分",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "17:00",
+          "what": "迪霍拉里燈塔景觀台（Dyrhólaey）約45分",
+          "note": "地圖↗",
+          "photo": "images/day6/row12.jpg"
+        },
+        {
+          "time": "17:45",
+          "what": "車程往 Rauðafell 住宿（維克以西，1號公路旁）約25分",
+          "note": null,
+          "photo": null
+        },
+        {
+          "time": "18:10",
+          "what": "Check-in 休息",
+          "note": "比18:00晚約10分；換來隔天往凱瑞斯火口湖少開約30分",
           "photo": null
         },
         {
           "time": "18:45",
-          "what": "晚餐推薦 Suður-Vík Restaurant（居高臨下可看黑沙灘海景） 地圖↗",
-          "note": "推薦 Suður-Vík Restaurant（居高臨下可看黑沙灘海景） 地圖↗",
+          "what": "晚餐住宿自炊（Krónan買好的食材），或開約10分到斯科加（Skógar）一帶用餐",
+          "note": "住宿自炊（Krónan買好的食材），或開約10分到斯科加（Skógar）一帶用餐",
           "photo": null
         },
         {
           "time": "夜間",
-          "what": "視天氣自駕追極光（維克周邊光害少，第二次入住）",
-          "note": "若想改參加當地團，做法同D3：目前查到的極光團多從雷克雅維克（Reykjavík）/塞里雅蘭瀑布（Seljalandsfoss）一帶出發，暫未查到穩定的維克鎮內出發團，建議出發前到GetYourGuide搜尋「Vik Northern Lights」查即時場次",
+          "what": "視天氣在住宿外看極光",
+          "note": "Rauðafell是鄉間農場民宿、周邊無光害，住客評論提到在住宿旁就能看極光",
           "photo": null
         }
       ],
@@ -1867,53 +1108,53 @@
       "tags": [
         "長途移動"
       ],
-      "stay": "住宿：博爾加內斯（Borgarnes）（斯奈山半島門戶） 建議：Hraunsnef Country Hotel（✅Google 4.7／619則）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：博爾加內斯（Borgarnes）（斯奈山半島門戶） 建議：Blómasetrið Homestay（✅Google 4.7／66則，NT$3,972，評論提到在停車場看到極光；共用衛浴）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
           "time": "10:00",
-          "what": "維克出發，續往西返程",
+          "what": "Rauðafell出發，續往西返程",
           "note": null,
           "photo": null
         },
         {
           "time": "10:00",
-          "what": "車程往 Kerið凱瑞斯火口湖／塞爾福斯（Selfoss）方向約2小時",
+          "what": "車程往 Kerið凱瑞斯火口湖／塞爾福斯（Selfoss）方向約1小時30分",
           "note": null,
           "photo": null
         },
         {
-          "time": "12:00",
+          "time": "11:30",
           "what": "凱瑞斯火口湖（Kerið）約1小時30分",
           "note": "環火山口步道走一圈或下到湖畔，紅黑火山岩配藍綠湖水，順路加碼💰入場費官網標示700 ISK（約NT$168，12歲以下免費），現場刷卡機自助付款即可，停車免費 地圖↗",
           "photo": "images/day7/row2.jpg"
         },
         {
-          "time": "13:30",
+          "time": "13:00",
           "what": "午餐（塞爾福斯 Selfoss 周邊）約1小時",
           "note": "推薦 Skalli（份量大、價位親民，漢堡/魚薯條/披薩） 地圖↗",
           "photo": null
         },
         {
-          "time": "14:30",
+          "time": "14:00",
           "what": "車程續往 博爾加內斯（Borgarnes）約2小時",
           "note": null,
           "photo": null
         },
         {
-          "time": "16:30",
+          "time": "16:00",
           "what": "Check-in 休息",
           "note": null,
           "photo": null
         },
         {
-          "time": "17:00",
+          "time": "16:30",
           "what": "冰島定居博物館（Landnámssetrið）・紀念品店＋咖啡約30分",
           "note": "博物館附設咖啡廳與紀念品店，博爾加內斯（Borgarnes）代表性順遊點；營業時間每日10:00–21:00；館外本身外觀與周邊小鎮景觀也很適合拍照，不進館也可以在外面拍 地圖↗",
           "photo": null
         },
         {
-          "time": "17:30",
+          "time": "17:00",
           "what": "超市採買（Bónus，博爾加內斯 Borgarnes）約15分",
           "note": "地圖↗",
           "photo": null
@@ -1936,7 +1177,7 @@
       "tags": [
         "必玩景點"
       ],
-      "stay": "住宿：海利桑度（Hellissandur）／Ólafsvík 建議：Adventure Hotel Hellissandur（✅Booking.com 8.5／484則）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：奧拉夫斯維克（Ólafsvík） 建議：Við Hafið Guesthouse（✅Google 4.5／289則，NT$4,911限Hotels.com，評論提到從房間看到極光）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -2000,18 +1241,18 @@
         "必玩景點",
         "長途移動"
       ],
-      "stay": "住宿：雷克雅維克（銜接隔天市區行程） 建議：住雷克雅維克市區方便步行觀光，晚上開車10-15分至Grótta燈塔等暗空點追極光 ｜ 實際訂房：",
+      "stay": "住宿：雷克雅維克（銜接隔天市區行程） 建議：Snorri's Guesthouse（✅Google 4.3／185則，NT$4,229，步行5分到哈爾格林姆教堂）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
           "time": "10:00",
-          "what": "出發",
-          "note": null,
+          "what": "Ólafsvík出發",
+          "note": "沿574號公路繞過半島西端到黑沙灘，約40分",
           "photo": null
         },
         {
-          "time": "10:30",
-          "what": "黑沙灘（Djúpalónssandur）約1小時",
+          "time": "10:40",
+          "what": "黑沙灘（Djúpalónssandur）約50分",
           "note": "地圖↗",
           "photo": "images/day9/row1.jpg"
         },
@@ -2095,7 +1336,7 @@
         "追極光",
         "溫泉"
       ],
-      "stay": "住宿：雷克雅維克 建議：同D9市區住宿，開車追極光 ｜ 實際訂房：",
+      "stay": "住宿：雷克雅維克 建議：同前一晚 Snorri's Guesthouse在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -2188,7 +1429,7 @@
       "tags": [
         "必玩景點"
       ],
-      "stay": "住宿：Garður（Reykjanes半島） 建議：Lighthouse Inn Garður（✅Google 4.70／634則，不在Grindavík火山警戒區內）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：Sandgerði（Reykjanes半島，近機場） 建議：iStay Cottages（✅Google 4.5／228則，NT$2,856，評論提到看到極光；不在火山警戒區）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -2253,14 +1494,14 @@
         },
         {
           "time": "16:40",
-          "what": "車程往 Garður Check-in約20分",
+          "what": "車程往 Sandgerði Check-in約30分",
           "note": null,
           "photo": null
         },
         {
           "time": "17:30",
           "what": "超市採買（Nettó，Keflavík）約15分",
-          "note": "⚠️原規劃誤植Grindavík超市，但今晚住宿是Garður、不是Grindavík，已改為順路的Keflavík機場周邊分店，營業時間10:00–21:00 地圖↗",
+          "note": "⚠️原規劃誤植Grindavík超市，但今晚住宿是Sandgerði、不是Grindavík，已改為順路的Keflavík機場周邊分店，營業時間10:00–21:00 地圖↗",
           "photo": null
         },
         {
@@ -2282,7 +1523,7 @@
         "溫泉",
         "壓軸行程"
       ],
-      "stay": "住宿：Garður（Reykjanes半島，近機場） 建議：同前一晚 Lighthouse Inn Garður（✅Google 4.70）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：Sandgerði（Reykjanes半島，近機場） 建議：同前一晚 iStay Cottages在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
