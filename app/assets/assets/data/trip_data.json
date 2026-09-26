@@ -494,12 +494,24 @@
       ]
     },
     {
-      "title": "D8・斯奈山半島 Ólafsvík／Rif（10/11）",
+      "title": "D8・斯奈山半島 Ólafsvík（10/11）",
       "options": [
         {
           "groupName": "pick-d8",
-          "pickKey": "d8-a",
+          "pickKey": "d8v-a",
           "medal": "🥇",
+          "name": "Hotel Vest Mar（Ólafsvík）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.7／32則（Booking.com 8.6／542則）",
+          "priceText": "💰NT$4,668／晚（Agoda，10/2前免費取消，Google Hotels 10/11日期實價，9/27查；Booking.com小型雙人房NT$5,241）",
+          "platformLinks": [],
+          "why": "📌依你指定排第一：Ólafsvík鎮中心（Ólafsbraut 19），隔天到黑沙灘約40分順路；一樓是同一家經營的Sker餐廳；免費停車、自助密碼入住（16:00–23:30，需先告知抵達時間）；⚠️目前查不到提到極光的評論（Google評論只載入到部分，Booking無法搜尋）；⚠️10月可能沒有早餐（業主回覆早餐只供應6/1–9/30）；沒有電梯、沒有廚房",
+          "mapUrl": "https://maps.app.goo.gl/c922Tz622wVVV4hH8"
+        },
+        {
+          "groupName": "pick-d8",
+          "pickKey": "d8-a",
+          "medal": "🥈",
           "name": "Við Hafið Guesthouse（Ólafsvík）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.5／289則",
@@ -511,7 +523,7 @@
         {
           "groupName": "pick-d8",
           "pickKey": "d8-b",
-          "medal": "🥈",
+          "medal": "🥉",
           "name": "Bikers Paradise（Ólafsvík）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.5／107則",
@@ -523,7 +535,7 @@
         {
           "groupName": "pick-d8",
           "pickKey": "d8-c",
-          "medal": "🥉",
+          "medal": "4",
           "name": "The Freezer Hostel & Culture Centre（Rif）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.4／578則",
@@ -1219,7 +1231,7 @@
       "tags": [
         "必玩景點"
       ],
-      "stay": "住宿：奧拉夫斯維克（Ólafsvík） 建議：Við Hafið Guesthouse（✅Google 4.5／289則，NT$4,911限Hotels.com，評論提到從房間看到極光）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：奧拉夫斯維克（Ólafsvík） 建議：Hotel Vest Mar（✅Google 4.7／32則，NT$4,668，16:00起入住；⚠️查無極光評論）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -1254,20 +1266,20 @@
         },
         {
           "time": "15:00",
-          "what": "Check-in 休息",
-          "note": null,
+          "what": "超市採買（Kassinn，Ólafsvík）約15分",
+          "note": "今日為週日，Kassinn週日營業時間13:00–17:00，先來採買 地圖↗",
           "photo": null
         },
         {
-          "time": "15:30",
-          "what": "超市採買（Kassinn，Ólafsvík）約15分",
-          "note": "今日為週日，Kassinn週日營業時間13:00–17:00，15:30抵達仍在營業時間內 地圖↗",
+          "time": "16:00",
+          "what": "Check-in 休息",
+          "note": "Hotel Vest Mar 16:00才開放入住（密碼門鎖，需先告知抵達時間）；15:15–16:00可在Ólafsvík港邊散步",
           "photo": null
         },
         {
           "time": "18:30",
           "what": "晚餐",
-          "note": null,
+          "note": "飯店一樓 Sker Restaurant（同一家經營），不用再開車",
           "photo": null
         }
       ],
