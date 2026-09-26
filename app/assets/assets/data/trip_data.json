@@ -104,12 +104,24 @@
       ]
     },
     {
-      "title": "D2・黃金圈 雷克霍特（Reykholt）周邊（10/5）",
+      "title": "D2・黃金圈→南岸 Hella（10/5）",
       "options": [
         {
           "groupName": "pick-d2",
-          "pickKey": "d2-a",
+          "pickKey": "d2h-a",
           "medal": "🥇",
+          "name": "Árhús Cottage - Camping & Restaurant（Hella）",
+          "scoreClass": "score-unknown",
+          "scoreText": "評分與極光評論未查",
+          "priceText": "💰NT$4,762／晚（你提供的訂房價）",
+          "platformLinks": [],
+          "why": "📌依你指定排第一：Hella鎮上、1號公路旁的河邊小木屋，附設餐廳；隔天到塞里雅蘭瀑布只要約35分，完全順路；⏰入住17:00–21:00／退房06:00–10:00",
+          "mapUrl": "https://maps.app.goo.gl/NfyHM4MuMswueuCx5"
+        },
+        {
+          "groupName": "pick-d2",
+          "pickKey": "d2-a",
+          "medal": "🥈",
           "name": "Blue Hotel Fagrilundur（Reykholt）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.8／536則",
@@ -121,7 +133,7 @@
         {
           "groupName": "pick-d2",
           "pickKey": "d2-b",
-          "medal": "🥈",
+          "medal": "🥉",
           "name": "Klettar Tower（Flúðir）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.8／117則",
@@ -133,7 +145,7 @@
         {
           "groupName": "pick-d2",
           "pickKey": "d2-c",
-          "medal": "🥉",
+          "medal": "4",
           "name": "Brekkugerði Guesthouse（Laugarás）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.7／287則",
@@ -145,7 +157,7 @@
         {
           "groupName": "pick-d2",
           "pickKey": "d2-d",
-          "medal": "4",
+          "medal": "5",
           "name": "Hestheimar（Hella西北）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.4／161則",
@@ -157,7 +169,7 @@
         {
           "groupName": "pick-d2",
           "pickKey": "d2-e",
-          "medal": "5",
+          "medal": "6",
           "name": "Minniborgir Cottages（35號公路旁）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.3／473則",
@@ -169,7 +181,7 @@
         {
           "groupName": "pick-d2",
           "pickKey": "d2-f",
-          "medal": "6",
+          "medal": "7",
           "name": "Hótel Skálholt",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.3／1,063則",
@@ -717,7 +729,7 @@
         "必玩景點",
         "短程步道"
       ],
-      "stay": "住宿：黃金圈 雷克霍特（Reykholt）周邊 建議：Blue Hotel Fagrilundur（✅Google 4.8／536則，NT$4,884–4,970，評論提到在蓋錫爾看到極光）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：海拉（Hella） 建議：Árhús Cottage - Camping & Restaurant（NT$4,762；入住17:00–21:00／退房06:00–10:00）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -764,20 +776,20 @@
         },
         {
           "time": "16:10",
-          "what": "車程前往 雷克霍特（Reykholt）住宿約25分",
+          "what": "車程前往 海拉（Hella）住宿約1小時15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "16:35",
+          "time": "17:25",
           "what": "Check-in 休息",
-          "note": null,
+          "note": "Árhús 入住17:00–21:00／退房06:00–10:00（17:00前到無法入住）；Hella鎮上有Kjarval超市可補貨",
           "photo": null
         },
         {
           "time": "19:00",
           "what": "晚餐",
-          "note": null,
+          "note": "住宿附設餐廳（Árhús Restaurant），不用再開車",
           "photo": null
         },
         {
@@ -787,9 +799,9 @@
           "photo": null
         }
       ],
-      "lat": 64.2559,
-      "lon": -20.901,
-      "regionName": "黃金圈"
+      "lat": 63.8331,
+      "lon": -20.4064,
+      "regionName": "黃金圈→Hella"
     },
     {
       "num": 3,
@@ -804,60 +816,60 @@
       "rows": [
         {
           "time": "10:00",
-          "what": "雷克霍特（Reykholt）出發",
-          "note": null,
+          "what": "海拉（Hella）出發",
+          "note": "退房最晚10:00",
           "photo": null
         },
         {
           "time": "10:00",
-          "what": "車程前往 塞里雅蘭瀑布約1小時30分",
+          "what": "車程前往 塞里雅蘭瀑布約35分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:30",
-          "what": "塞里雅蘭瀑布（Seljalandsfoss）約1小時",
+          "time": "10:35",
+          "what": "塞里雅蘭瀑布（Seljalandsfoss）約1小時30分",
           "note": "可走到瀑布後方，記得帶雨衣 地圖↗",
           "photo": "images/day3/row2.jpg"
         },
         {
-          "time": "12:30",
+          "time": "12:05",
           "what": "車程往 Skógafoss斯科加瀑布約25分",
           "note": null,
           "photo": null
         },
         {
-          "time": "12:55",
+          "time": "12:30",
           "what": "斯科加瀑布（Skógafoss）約1小時30分",
           "note": "底部觀景即可，不需爬371階頂部 地圖↗",
           "photo": "images/day3/row4.jpg"
         },
         {
-          "time": "14:25",
+          "time": "14:00",
           "what": "午餐（Skógar 周邊）約45分",
           "note": "推薦 Skógafoss Bistro & Bar（Hótel Skógafoss內），CP值高、可邊用餐邊看瀑布景 地圖↗",
           "photo": null
         },
         {
-          "time": "15:10",
+          "time": "14:45",
           "what": "車程往飛機殘骸停車場約10分",
           "note": "停車場即接駁車搭乘處 地圖↗",
           "photo": null
         },
         {
-          "time": "15:20",
+          "time": "14:55",
           "what": "飛機殘骸（Sólheimasandur）約1小時30分",
           "note": "停車750-1000 ISK（約台幣191–255元）＋搭接駁小巴來回(每30分一班，單程10-15分)＋拍照，不可自行開車進入、不建議步行(單程4km)；⚠️接駁車營業時間約10:00–17:00（依日照調整，10月建議提早出發保留彈性，實際班次以現場/官網為準） 地圖↗",
           "photo": "images/day3/row7.jpg"
         },
         {
-          "time": "16:50",
+          "time": "16:25",
           "what": "車程往 Rauðafell 住宿（往回開，1號公路旁）約20分",
           "note": null,
           "photo": null
         },
         {
-          "time": "17:10",
+          "time": "16:45",
           "what": "Check-in 休息",
           "note": "Rauðafell周邊沒有超市；D1在Nettó買的早餐還夠，隔天早上往東會經過維克，可停Krónan補貨（09:00–21:00）",
           "photo": null
