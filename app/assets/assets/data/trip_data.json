@@ -234,83 +234,107 @@
       ]
     },
     {
-      "title": "D4・冰河湖以東 Hali（10/7）⚠️查無NT$5,000以下，已放寬取最接近",
+      "title": "D4・赫本（Höfn）（10/7）",
       "options": [
         {
           "groupName": "pick-d4",
-          "pickKey": "d4-a",
+          "pickKey": "d4h-a",
           "medal": "🥇",
+          "name": "Central stay Höfn",
+          "scoreClass": "score-warn",
+          "scoreText": "✅Google 4.0／10則（Booking.com 8.7／480則）",
+          "priceText": "💰NT$10,843／晚（Booking.com會員價，Google Hotels日期實價，9/26查；Vio.com NT$10,856（9/29前免費取消））",
+          "platformLinks": [],
+          "why": "📌依你指定排第一（D4、D5連住2晚）：赫本鎮中心Hafnarbraut 11，步行可到Nettó超市與餐廳；新蓋的汽車旅館型住宿，私人衛浴、免費停車、自助密碼入住（16:00–24:00）；⚠️沒有廚房（有咖啡機、熱水壺、小冰箱）；⚠️目前查不到提到極光的評論（Google、Tripadvisor、Booking精選評論都沒有；Booking全部480則無法搜尋）；住赫本的好處是赫本私人極光團可到住宿接送",
+          "mapUrl": "https://maps.app.goo.gl/bFRJPiNg9QhnS9C17"
+        },
+        {
+          "groupName": "pick-d4",
+          "pickKey": "d4h-b",
+          "medal": "🥈",
           "name": "Hali Country Hotel（Hali）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.5／958則",
-          "priceText": "💰NT$16,853／晚（Agoda，Google Hotels日期實價，9/26查；⚠️超過NT$12,000，但冰河湖15分內只剩這間有房）",
+          "priceText": "💰NT$16,853／晚（Agoda，Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "冰河湖以東約13分（比10分鐘上限多約3分），隔天冰洞團在冰河湖集合；附設餐廳；🌌Tripadvisor評論標題「Amazing Location for the Aurora」、「Excellent location for Northern light」",
+          "why": "冰河湖以東約13分，隔天到冰洞集合點最近；附設餐廳；🌌Tripadvisor評論標題「Amazing Location for the Aurora」、「Excellent location for Northern light」",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hali+Country+Hotel+Iceland"
         },
         {
           "groupName": "pick-d4",
-          "pickKey": "d4-b",
-          "medal": "🥈",
+          "pickKey": "d4h-c",
+          "medal": "🥉",
           "name": "Hotel Smyrlabjörg",
-          "scoreClass": "score-warn",
+          "scoreClass": "score-ok",
           "scoreText": "✅Google 4.2／839則",
           "priceText": "💰NT$8,389–10,809／晚（klook／Expedia含早餐，Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "價格最接近預算，但⚠️位於冰河湖以東約28–30分，不符合「最多繞10分鐘」的順路條件（隔天早上到冰洞集合點要約30分）；🌌Tripadvisor評論標題「Great place to see the Northern Lights」",
+          "why": "冰河湖以東約28–30分（赫本方向）；🌌Tripadvisor評論標題「Great place to see the Northern Lights」",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Smyrlabjorg+Iceland"
         },
         {
           "groupName": "pick-d4",
-          "pickKey": "d4-c",
-          "medal": "🥉",
+          "pickKey": "d4h-d",
+          "medal": "4",
           "name": "Hotel Skaftafell（Freysnes）",
           "scoreClass": "score-warn",
           "scoreText": "✅Google 4.1／965則",
           "priceText": "💰NT$15,309／晚（Agoda，Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "⚠️冰河湖以西約45分，當晚要走回頭路，不順路；🌌Google評論：「tried to (unsuccessfully) catch the northern lights on the deck」",
+          "why": "⚠️冰河湖以西約45分，當晚要走回頭路；🌌Google評論：「tried to (unsuccessfully) catch the northern lights on the deck」",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Skaftafell+Iceland"
         }
       ]
     },
     {
-      "title": "D5・冰河湖以東 Hali（10/8）⚠️查無NT$5,000以下，已放寬取最接近",
+      "title": "D5・赫本（Höfn）（10/8）",
       "options": [
         {
           "groupName": "pick-d5",
-          "pickKey": "d5-a",
+          "pickKey": "d5h-a",
           "medal": "🥇",
+          "name": "Central stay Höfn",
+          "scoreClass": "score-warn",
+          "scoreText": "✅Google 4.0／10則（Booking.com 8.7／480則）",
+          "priceText": "💰NT$8,783／晚（Booking.com會員價，Google Hotels日期實價，9/26查；Agoda NT$8,786；2晚合計約NT$19,626）",
+          "platformLinks": [],
+          "why": "📌依你指定排第一（D4、D5連住2晚）：赫本鎮中心Hafnarbraut 11，步行可到Nettó超市與餐廳；新蓋的汽車旅館型住宿，私人衛浴、免費停車、自助密碼入住（16:00–24:00）；⚠️沒有廚房（有咖啡機、熱水壺、小冰箱）；⚠️目前查不到提到極光的評論（Google、Tripadvisor、Booking精選評論都沒有；Booking全部480則無法搜尋）；住赫本的好處是赫本私人極光團可到住宿接送",
+          "mapUrl": "https://maps.app.goo.gl/bFRJPiNg9QhnS9C17"
+        },
+        {
+          "groupName": "pick-d5",
+          "pickKey": "d5h-b",
+          "medal": "🥈",
           "name": "Skyrhúsið Guesthouse（Hali）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.6／427則",
           "priceText": "💰NT$7,715／晚（Agoda／Booking.com三人房共用衛浴，Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "就在Hali Country Hotel隔壁，換住宿只要走幾步；隔天往Skaftafell繞路約13分；🌌Trip.com評論：「In an ideal location for Jorkulson glacier activities and to see the northern lights!」；⚠️共用衛浴，10/7已客滿所以只能住這晚",
+          "why": "Hali Country Hotel隔壁；🌌Trip.com評論：「In an ideal location for Jorkulson glacier activities and to see the northern lights!」；⚠️共用衛浴",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Skyrhusid+Guesthouse+Iceland"
         },
         {
           "groupName": "pick-d5",
-          "pickKey": "d5-b",
-          "medal": "🥈",
+          "pickKey": "d5h-c",
+          "medal": "🥉",
           "name": "Hali Country Hotel（續住）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.5／958則",
-          "priceText": "💰NT$11,676／晚（Vio.com，Google Hotels日期實價，9/26查；官網NT$14,247）",
+          "priceText": "💰NT$11,676／晚（Vio.com，Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "若不想換住宿可續住（兩晚合計約NT$28,500）；繞路約13分；🌌Tripadvisor評論標題「Amazing Location for the Aurora」",
+          "why": "冰河湖以東約13分；🌌Tripadvisor評論標題「Amazing Location for the Aurora」",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hali+Country+Hotel+Iceland"
         },
         {
           "groupName": "pick-d5",
-          "pickKey": "d5-c",
-          "medal": "🥉",
+          "pickKey": "d5h-d",
+          "medal": "4",
           "name": "Hotel Smyrlabjörg",
-          "scoreClass": "score-warn",
+          "scoreClass": "score-ok",
           "scoreText": "✅Google 4.2／839則",
           "priceText": "💰NT$7,541–7,587／晚（Vio.com／Agoda雙人房，Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "⚠️冰河湖以東約28分，隔天往Skaftafell多開約30分，不符合順路條件；🌌Tripadvisor評論標題「Great place to see the Northern Lights」",
+          "why": "冰河湖以東約28分；🌌Tripadvisor評論標題「Great place to see the Northern Lights」",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Smyrlabjorg+Iceland"
         }
       ]
@@ -862,7 +886,7 @@
       "tags": [
         "必玩景點"
       ],
-      "stay": "住宿：冰河湖以東 Hali（Suðursveit） 建議：Hali Country Hotel（✅Google 4.5／958則，⚠️NT$16,853，冰河湖15分內唯一有房）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：赫本（Höfn） 建議：Central stay Höfn（Google 4.0／10則，NT$10,843，D4-D5連住2晚；⚠️查無極光評論）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -915,20 +939,20 @@
         },
         {
           "time": "17:10",
-          "what": "車程往 Hali Check-in約15分",
+          "what": "車程往 赫本（Höfn）Check-in約50分",
           "note": null,
           "photo": null
         },
         {
           "time": "18:30",
-          "what": "晚餐（Hali Country Hotel 附設餐廳）",
-          "note": "住宿附設餐廳，招牌是北極紅點鮭（Arctic Char），晚上不用再開車；周邊沒有超市，零食飲水請在D3維克的Krónan先買好 地圖↗",
+          "what": "晚餐（推薦龍蝦湯 Lobster Soup）",
+          "note": "⭐ Kaffi Hornið（赫本 Höfn，CP值高的平價龍蝦湯人氣店，營業時間11:30–21:00）；想吃正式龍蝦大餐可改訂 Humarhöfnin（價位較高） 地圖↗ ｜ 住宿沒有廚房，步行可達 Nettó 超市（週一至五09:00–19:00，週六日10:00–19:00）補零食飲水 地圖↗",
           "photo": null
         }
       ],
-      "lat": 64.1298,
-      "lon": -16.0179,
-      "regionName": "冰河湖/Hali"
+      "lat": 64.2507,
+      "lon": -15.2077,
+      "regionName": "冰河湖/Höfn"
     },
     {
       "num": 5,
@@ -939,12 +963,12 @@
         "極光團",
         "需事先確認開放"
       ],
-      "stay": "住宿：冰河湖以東 Hali（Suðursveit） 建議：Skyrhúsið Guesthouse（✅Google 4.6／427則，⚠️NT$7,715，共用衛浴；在Hali Country Hotel隔壁）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：赫本（Höfn） 建議：同前一晚 Central stay Höfn（NT$8,783）在Maps開啟↗ ｜ 實際訂房：",
       "callout": "⚠️ 10月初部分冰洞可能尚未正式開團，出發前1–2週務必向業者確認並保留 Day10 作為備案調整日。",
       "rows": [
         {
-          "time": "08:30",
-          "what": "退房寄放行李後，車程前往冰河湖集合點約15分",
+          "time": "08:00",
+          "what": "早餐後車程前往冰河湖集合點約50–55分",
           "note": null,
           "photo": null
         },
@@ -963,7 +987,7 @@
         {
           "time": "19:30",
           "what": "極光導覽團接送出發時間依業者調整",
-          "note": "⚠️查到的赫本（Höfn）私人極光團只接赫本住宿，Hali一帶目前沒查到確定接送的團；訂團時請先問業者能否到Hali接送。若沒有，Hali本身是鄉間、無光害，也可直接在住宿外看",
+          "note": "住在赫本（Höfn），赫本當地的私人極光團（如Marina Travel）可到住宿接送；訂團時告知住宿Central stay Höfn（Hafnarbraut 11）",
           "photo": null
         },
         {
@@ -979,9 +1003,9 @@
           "photo": null
         }
       ],
-      "lat": 64.1298,
-      "lon": -16.0179,
-      "regionName": "冰河湖/Hali"
+      "lat": 64.2507,
+      "lon": -15.2077,
+      "regionName": "冰河湖/Höfn"
     },
     {
       "num": 6,
@@ -996,19 +1020,19 @@
       "rows": [
         {
           "time": "10:00",
-          "what": "Hali出發，沿南岸西返",
-          "note": "💡備案：若D5水晶冰洞還沒開放，維克附近的Katla冰洞（全年開放）是很好的替代方案，可考慮把冰洞行程改到這附近的日期參加",
+          "what": "赫本（Höfn）出發，沿南岸西返",
+          "note": "⚠️改從赫本出發後，今天總車程約4小時25分，超過每天4小時的原則約25分；若想縮短，可略過維克鎮上的停留（Víkurfjara／Icewear／Krónan），從黑沙灘直接去迪霍拉里，約可省20分💡備案：若D5水晶冰洞還沒開放，維克附近的Katla冰洞（全年開放）是很好的替代方案，可考慮把冰洞行程改到這附近的日期參加",
           "photo": null
         },
         {
           "time": "10:00",
-          "what": "車程往 Skaftafell約1小時05分",
+          "what": "車程往 Skaftafell約1小時40分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:05",
-          "what": "Skaftafell遊客中心（散步／上廁所）約50分",
+          "time": "11:40",
+          "what": "短暫休息（Skaftafell遊客中心，上廁所/伸展）約15分",
           "note": "地圖↗",
           "photo": null
         },
