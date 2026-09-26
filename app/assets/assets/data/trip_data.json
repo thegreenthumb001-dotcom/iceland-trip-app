@@ -181,42 +181,54 @@
       ]
     },
     {
-      "title": "D3・維克（Vík）小鎮（10/6）⚠️查無NT$5,000以下，已放寬取最接近",
+      "title": "D3・斯科加瀑布以西 Rauðafell（10/6）",
       "options": [
         {
           "groupName": "pick-d3",
-          "pickKey": "d3-a",
+          "pickKey": "d3r-a",
           "medal": "🥇",
+          "name": "Guesthouse Rauðafell",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.7／177則",
+          "priceText": "💰10/6房價待查（同一間10/9查到NT$6,326，Booking.com；請用10/6日期再查）",
+          "platformLinks": [],
+          "why": "📌依你指定排第一：看完飛機殘骸往回開約20分（斯科加瀑布以西、1號公路旁），D6也住這間；隔天往羽毛河峽谷約1小時35分；🌌Google評論：「a great way to watch the auroras from right there」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gistihusid+Raudafell+Iceland"
+        },
+        {
+          "groupName": "pick-d3",
+          "pickKey": "d3r-b",
+          "medal": "🥈",
           "name": "Hótel Vík",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.4／918則",
           "priceText": "💰NT$9,109–9,674／晚（klook／Hotels.com含早餐，Google Hotels日期實價，9/26查；超出約NT$4,100）",
           "platformLinks": [],
-          "why": "維克鎮上，隔天往羽毛河峽谷完全順路；🌌Google評論「極光」主題13則；在「有房＋有極光評論＋順路」之中最接近預算",
+          "why": "維克鎮上，隔天往羽毛河峽谷完全順路；🌌Google評論「極光」主題13則",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Vik+Iceland"
         },
         {
           "groupName": "pick-d3",
-          "pickKey": "d3-b",
-          "medal": "🥈",
+          "pickKey": "d3r-c",
+          "medal": "🥉",
           "name": "Guesthouse Carina（維克）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.5／521則",
           "priceText": "💰查無10/6房價（Google Hotels無報價，可能已客滿；請到Booking.com直接查）",
           "platformLinks": [],
-          "why": "維克鎮上；🌌Google評論：「The manager was also kind enough to go around letting everyone know that there was an aurora outside」；若還有房，價格可能比Hótel Vík接近預算",
+          "why": "維克鎮上；🌌Google評論：「The manager was also kind enough to go around letting everyone know that there was an aurora outside」",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Guesthouse+Carina+Vik+Iceland"
         },
         {
           "groupName": "pick-d3",
-          "pickKey": "d3-c",
-          "medal": "🥉",
+          "pickKey": "d3r-d",
+          "medal": "4",
           "name": "Vík HI Hostel（維克）",
           "scoreClass": "score-warn",
           "scoreText": "✅Google 3.9／376則",
           "priceText": "💰NT$7,357–8,443／晚（Vio／Booking.com雙床共用衛浴，Google Hotels日期實價，9/26查）",
           "platformLinks": [],
-          "why": "價格最接近預算；⚠️極光評論只在搜尋摘要看到（Tripadvisor：「great place to potentially watch the northern lights」），未能開啟原文確認",
+          "why": "⚠️極光評論只在搜尋摘要看到（Tripadvisor：「great place to potentially watch the northern lights」），未能開啟原文確認",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vik+HI+Hostel+Iceland"
         }
       ]
@@ -763,7 +775,7 @@
         "必玩景點",
         "短程步道"
       ],
-      "stay": "住宿：維克（Vík）小鎮 建議：Hótel Vík（✅Google 4.4／918則，⚠️NT$9,109起，當晚查無NT$5,000以下，已放寬取最接近）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：斯科加瀑布以西 Rauðafell 建議：Guesthouse Rauðafell（✅Google 4.7／177則，10/6房價待查；D6也住這間）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -816,26 +828,26 @@
         },
         {
           "time": "16:50",
-          "what": "車程進維克小鎮 Check-in約25分",
+          "what": "車程往 Rauðafell 住宿（往回開，1號公路旁）約20分",
           "note": null,
           "photo": null
         },
         {
-          "time": "17:35",
-          "what": "超市採買（Krónan，維克）約15分",
-          "note": "⚠️查證後維克鎮上僅有Krónan（未確認有Nettó門市），營業時間09:00–21:00 地圖↗",
+          "time": "17:10",
+          "what": "Check-in 休息",
+          "note": "Rauðafell周邊沒有超市；D1在Nettó買的早餐還夠，隔天早上往東會經過維克，可停Krónan補貨（09:00–21:00）",
           "photo": null
         },
         {
           "time": "18:30",
           "what": "晚餐",
-          "note": null,
+          "note": "開約10分到斯科加（Skógar）一帶用餐，或住宿自炊",
           "photo": null
         },
         {
           "time": "夜間",
-          "what": "視天氣自駕追極光（維克周邊光害少）",
-          "note": "若想改參加當地團：目前查到的極光團多從雷克雅維克（Reykjavík）/塞里雅蘭瀑布（Seljalandsfoss）一帶出發（例如Brú Basecamp接駁範圍為850/851/860/861郵遞區號，不含維克的870），暫未查到穩定的維克鎮內出發團；建議出發前到GetYourGuide搜尋「Vik Northern Lights」查即時場次，或直接詢問入住旅館是否代訂接送",
+          "what": "視天氣在住宿外看極光",
+          "note": "Rauðafell是鄉間農場民宿、周邊無光害，住客評論提到在住宿旁就能看極光。若想改參加當地團：目前查到的極光團多從雷克雅維克（Reykjavík）/塞里雅蘭瀑布（Seljalandsfoss）一帶出發（例如Brú Basecamp接駁範圍為850/851/860/861郵遞區號，不含維克的870），暫未查到穩定的維克鎮內出發團；建議出發前到GetYourGuide搜尋「Vik Northern Lights」查即時場次，或直接詢問入住旅館是否代訂接送",
           "photo": null
         }
       ],
@@ -855,54 +867,54 @@
       "rows": [
         {
           "time": "10:00",
-          "what": "維克出發",
-          "note": null,
+          "what": "Rauðafell出發",
+          "note": "往東約35分會經過維克，可停Krónan補貨（09:00–21:00）",
           "photo": null
         },
         {
           "time": "10:00",
-          "what": "車程往 羽毛河峽谷約1小時",
+          "what": "車程往 羽毛河峽谷約1小時35分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:00",
+          "time": "11:35",
           "what": "羽毛河峽谷觀景步道（Fjaðrárgljúfur）約1小時",
           "note": "走到觀景台即可，不下切谷底 地圖↗",
           "photo": "images/day4/row2.jpg"
         },
         {
-          "time": "12:00",
+          "time": "12:35",
           "what": "車程往 Jökulsárlón傑古沙龍冰河湖約1小時20分",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:20",
+          "time": "13:55",
           "what": "午餐（遊客中心）約1小時",
           "note": "遊客中心內附設小型紀念品店，可順道採買伴手禮 地圖↗",
           "photo": null
         },
         {
-          "time": "14:20",
+          "time": "14:55",
           "what": "傑古沙龍冰河湖（Jökulsárlón）約1小時",
           "note": "湖畔平緩步道，浮冰拍照；與後面的鑽石沙灘是分開兩站（隔著馬路橋），此為冰河湖本身、非鑽石沙灘 地圖↗",
           "photo": "images/day4/row5.jpg"
         },
         {
-          "time": "15:20",
+          "time": "15:55",
           "what": "步行/車程往鑽石沙灘約15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "15:35",
-          "what": "鑽石沙灘（Diamond Beach）約1小時30分",
+          "time": "16:10",
+          "what": "鑽石沙灘（Diamond Beach）約1小時",
           "note": "黑沙灘／鑽石沙灘的最佳光線是日出日落，10月午後到傍晚這段時間光線已經偏斜柔和，比正中午平光更好看 地圖↗",
           "photo": "images/day4/row7.jpg"
         },
         {
-          "time": "17:05",
+          "time": "17:10",
           "what": "車程往 Hali Check-in約15分",
           "note": null,
           "photo": null
@@ -979,7 +991,7 @@
         "長途移動",
         "必玩景點"
       ],
-      "stay": "住宿：維克（Vík）以西 Rauðafell 建議：Guesthouse Rauðafell（✅Google 4.7／177則，⚠️NT$6,326，當晚查無NT$5,000以下，已放寬取最接近）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：維克（Vík）以西 Rauðafell 建議：Guesthouse Rauðafell（✅Google 4.7／177則，⚠️NT$6,326，D3也住這間，第二次入住）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
