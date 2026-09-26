@@ -63,55 +63,43 @@
   ],
   "lodging": [
     {
-      "title": "D1・雷克雅維克近郊 Mosfellsbær（10/4）",
+      "title": "D1・KEF機場周邊（10/4）",
       "options": [
         {
           "groupName": "pick-d1",
-          "pickKey": "d1-a",
+          "pickKey": "d1k-a",
           "medal": "🥇",
-          "name": "Hotel Laxnes（Mosfellsbær）",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Google 4.4／502則",
-          "priceText": "💰NT$4,395／晚（Google Hotels日期實價，9/26查）",
-          "platformLinks": [],
-          "why": "就在往辛格韋德利的36號公路起點，隔天到辛格韋德利約30分、完全順路（繞路約1–2分）；🌌Google評論：「We could observe northern lights from the balcony」，Google評論「極光」主題39則",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Laxnes+Mosfellsbaer+Iceland"
-        },
-        {
-          "groupName": "pick-d1",
-          "pickKey": "d1-b",
-          "medal": "🥈",
-          "name": "Snorri's Guesthouse（雷克雅維克）",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Google 4.3／185則",
-          "priceText": "💰NT$4,323／晚（Google Hotels日期實價，9/26查）",
-          "platformLinks": [],
-          "why": "市區，距穿城主幹道繞路約5分；🌌Tripadvisor評論標題「Northern lights splendor」；市區光害較高，要看極光需開車到郊外",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Snorris+Guesthouse+Reykjavik+Iceland"
-        },
-        {
-          "groupName": "pick-d1",
-          "pickKey": "d1-c",
-          "medal": "🥉",
-          "name": "Hotel Viking（Hafnarfjörður）",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Google 4.1／1,236則",
-          "priceText": "💰NT$4,976／晚（Google Hotels日期實價，9/26查；⚠️只比上限低NT$24，訂前再查）",
-          "platformLinks": [],
-          "why": "41號公路旁繞路約5分；維京主題旅館；🌌Tripadvisor評論標題「Northern Lights between the Years」",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Viking+Hafnarfjordur+Iceland"
-        },
-        {
-          "groupName": "pick-d1",
-          "pickKey": "d1-d",
-          "medal": "4",
           "name": "Eldey Airport Hotel（Ásbrú）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.0／404則",
-          "priceText": "💰NT$4,791／晚（Google Hotels日期實價，9/26查）",
+          "priceText": "💰NT$4,791／晚（Google Hotels 10/4日期實價，9/26查，全部房型私人衛浴）",
           "platformLinks": [],
-          "why": "機場旁，取車後最快入住；⚠️極光證據較弱（評論提到的是參加極光團時看到），隔天到辛格韋德利約1小時15分",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Eldey+Airport+Hotel+Iceland"
+          "why": "機場周邊唯一「NT$5,000以內＋有極光評論＋評分3.3以上」都符合的一間：距航廈約4分，取車後最快入住；有熱水池、三溫暖；🌌Tripadvisor評論提到住客「lucky enough to see the Northern Lights」（⚠️極光證據較弱，另一則是參加極光團時看到）",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Eldey+Airport+Hotel+Asbru+Iceland"
+        },
+        {
+          "groupName": "pick-d1",
+          "pickKey": "d1k-b",
+          "medal": "🥈",
+          "name": "Lighthouse Inn（Garður）",
+          "scoreClass": "score-warn",
+          "scoreText": "✅Google 4.7／860則",
+          "priceText": "💰NT$5,009／晚（Google Hotels 10/4日期實價，9/26查；⚠️超出預算NT$9）",
+          "platformLinks": [],
+          "why": "⚠️僅供參考（超出預算），但極光證據最強：🌌Google評論「saw the northern lights」，Google評論「極光」主題69則，住客提到櫃檯會叫醒大家看極光；距機場約15分，海岬燈塔區光害低",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lighthouse+Inn+Gardur+Iceland"
+        },
+        {
+          "groupName": "pick-d1",
+          "pickKey": "d1k-c",
+          "medal": "🥉",
+          "name": "Raven's BnB（Njarðvík）",
+          "scoreClass": "score-warn",
+          "scoreText": "✅Google 4.5／267則",
+          "priceText": "💰NT$5,076／晚（Google Hotels 10/4日期實價，9/26查；⚠️超出預算NT$76）",
+          "platformLinks": [],
+          "why": "⚠️僅供參考（超出預算）：距機場約9分，有熱水池；🌌Tripadvisor評論：「I only had to cross a road to view the Northern Lights」",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ravens+BnB+Njardvik+Iceland"
         }
       ]
     },
@@ -625,11 +613,11 @@
     {
       "num": 1,
       "date": "10/4（日）",
-      "title": "抵達冰島 · 雷克雅維克近郊安頓（可看極光）",
+      "title": "抵達冰島 · 機場周邊安頓（可看極光）",
       "tags": [
         "抵達日"
       ],
-      "stay": "住宿：雷克雅維克近郊（Mosfellsbær） 建議：Hotel Laxnes（✅Google 4.4／502則，NT$4,395，評論提到從陽台看到極光）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：KEF機場周邊（Ásbrú） 建議：Eldey Airport Hotel（✅Google 4.0／404則，NT$4,791，距航廈約4分）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -659,17 +647,17 @@
         {
           "time": "19:55",
           "what": "超市採買（Nettó，Keflavík）約15分",
-          "note": "營業時間10:00–21:00；先買水、零食與隔天早餐（D2黃金圈沿途與住宿周邊超市少，順便買好兩天份早餐） 地圖↗",
+          "note": "營業時間10:00–21:00；先買水、零食與隔天早餐（D2一早要開約1.5小時到辛格韋德利，黃金圈沿途超市少，順便買好兩天份早餐） 地圖↗",
           "photo": null
         },
         {
           "time": "20:10",
-          "what": "車程前往 Mosfellsbær 住宿約50分",
+          "what": "車程前往 Ásbrú 住宿約10分",
           "note": null,
           "photo": null
         },
         {
-          "time": "21:00",
+          "time": "20:20",
           "what": "Check-in 休息",
           "note": null,
           "photo": null
@@ -677,13 +665,13 @@
         {
           "time": "夜間",
           "what": "視天氣在住宿外看極光",
-          "note": "Hotel Laxnes在雷克雅維克東北郊，住客評論提到從陽台就看到極光；市郊光害比市區低，天氣好可在停車場或附近空地觀察",
+          "note": "Eldey附設熱水池可邊泡邊等；Ásbrú緊鄰機場、光害中等，若想更暗可開約15分到Garðskagi燈塔一帶海岬觀察",
           "photo": null
         }
       ],
-      "lat": 64.167,
-      "lon": -21.6927,
-      "regionName": "Mosfellsbær（雷克雅維克近郊）"
+      "lat": 63.9678,
+      "lon": -22.5884,
+      "regionName": "KEF機場周邊（Ásbrú）"
     },
     {
       "num": 2,
@@ -698,54 +686,54 @@
       "rows": [
         {
           "time": "10:00",
-          "what": "Mosfellsbær出發",
-          "note": null,
+          "what": "Ásbrú（機場周邊）出發",
+          "note": "從機場區出發第一段車程較長（約1.5小時），午餐時間會偏晚，可在Geysir Center先吃點輕食",
           "photo": null
         },
         {
           "time": "10:00",
-          "what": "車程前往 辛格韋德利國家公園約45分",
+          "what": "車程前往 辛格韋德利國家公園約1小時30分",
           "note": null,
           "photo": null
         },
         {
-          "time": "10:45",
+          "time": "11:30",
           "what": "辛格韋德利國家公園（Þingvellir）約1小時",
           "note": "短程步道，可走到北美/歐亞板塊裂谷步道段；推薦拍照點：Almannagjá峽谷觀景台（掛冰島國旗處）與Öxarárfoss瀑布 地圖↗",
           "photo": "images/day2/row2.jpg"
         },
         {
-          "time": "11:45",
+          "time": "12:30",
           "what": "車程前往 Geysir蓋錫爾間歇泉約45分",
           "note": null,
           "photo": null
         },
         {
-          "time": "12:30",
+          "time": "13:15",
           "what": "蓋錫爾間歇泉區（Geysir）約1小時",
           "note": "Geysir Center 內有伴手禮店（羊毛衣、紀念品）與咖啡廳，可順道逛逛 地圖↗",
           "photo": "images/day2/row4.jpg"
         },
         {
-          "time": "13:30",
+          "time": "14:15",
           "what": "車程前往 Gullfoss黃金瀑布約10分",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:40",
+          "time": "14:25",
           "what": "黃金瀑布（Gullfoss） + 午餐約1小時45分",
           "note": "地圖↗",
           "photo": "images/day2/row6.jpg"
         },
         {
-          "time": "15:25",
+          "time": "16:10",
           "what": "車程前往 雷克霍特（Reykholt）住宿約25分",
           "note": null,
           "photo": null
         },
         {
-          "time": "15:50",
+          "time": "16:35",
           "what": "Check-in 休息",
           "note": null,
           "photo": null
