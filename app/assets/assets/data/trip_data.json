@@ -433,8 +433,20 @@
       "options": [
         {
           "groupName": "pick-d7",
-          "pickKey": "d7-a",
+          "pickKey": "d7e-a",
           "medal": "🥇",
+          "name": "Englendingavík（Borgarnes老城）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.5／785則",
+          "priceText": "💰NT$4,977–5,532／晚（Google Hotels 10/10日期實價，9/26查：Wego NT$4,977；Booking.com NT$5,530、Agoda NT$5,532）",
+          "platformLinks": [],
+          "why": "📌依你指定排第一：Borgarnes老城海邊（Skúlagata 17），定居博物館步行即到，隔天往教堂山0繞路；🌌Google評論：「Super lucky to have saw one of the strongest auroras I've seen, with a dark backyard to see the aurora」；⚠️主要訂房網站（Booking／Agoda）價格比NT$5,000多約NT$530，只有Wego在預算內",
+          "mapUrl": "https://maps.app.goo.gl/F7x93svydD2emjfg8"
+        },
+        {
+          "groupName": "pick-d7",
+          "pickKey": "d7-a",
+          "medal": "🥈",
           "name": "Blómasetrið Homestay（Borgarnes老城）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.7／66則",
@@ -446,7 +458,7 @@
         {
           "groupName": "pick-d7",
           "pickKey": "d7-b",
-          "medal": "🥈",
+          "medal": "🥉",
           "name": "Hótel Snæfellsnes（Vegamót）",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.6／787則",
@@ -458,7 +470,7 @@
         {
           "groupName": "pick-d7",
           "pickKey": "d7-c",
-          "medal": "🥉",
+          "medal": "4",
           "name": "Hótel Borgarnes",
           "scoreClass": "score-ok",
           "scoreText": "✅Google 4.0／663則",
@@ -470,7 +482,7 @@
         {
           "groupName": "pick-d7",
           "pickKey": "d7-d",
-          "medal": "4",
+          "medal": "5",
           "name": "Bjarg Borgarnes",
           "scoreClass": "score-warn",
           "scoreText": "✅Google 4.8／101則",
@@ -1138,7 +1150,7 @@
       "tags": [
         "長途移動"
       ],
-      "stay": "住宿：博爾加內斯（Borgarnes）（斯奈山半島門戶） 建議：Blómasetrið Homestay（✅Google 4.7／66則，NT$3,972，評論提到在停車場看到極光；共用衛浴）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：博爾加內斯（Borgarnes）（斯奈山半島門戶） 建議：Englendingavík（✅Google 4.5／785則，NT$4,977起，評論提到後院暗處看到超強極光）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
