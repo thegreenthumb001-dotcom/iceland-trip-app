@@ -63,140 +63,67 @@
   ],
   "lodging": [
     {
-      "title": "D1・雷克雅維克近郊（10/4）",
+      "title": "D1・機場周邊 Garður（10/4）",
       "options": [
         {
           "groupName": "pick-d1",
           "pickKey": "d1-a",
           "medal": "🥇",
-          "name": "Hotel Laxnes",
-          "scoreClass": "score-warn",
-          "scoreText": "4.4／489則（未達4.5）",
-          "priceText": "💰約ISK 13,000–19,000／晚（約NT$3,100–4,600）",
+          "name": "Lighthouse Inn Garður",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Google 4.70／634則",
+          "priceText": "💰約US$100–155／晚（約NT$3,200–5,000）",
           "platformLinks": [],
-          "why": "郊區鄉間旅館，評論提及房間可看極光，距市區約10分鐘",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Laxnes+Mosfellsbaer+Iceland"
+          "why": "機場北方約12分車程，不在Grindavík火山警戒區；多則住客評論提到櫃檯晚上會敲門通知極光出現，周邊是海岬燈塔區、光害低；與D11-D12同一間",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lighthouse+Inn+Gardur+Iceland"
         },
         {
           "groupName": "pick-d1",
           "pickKey": "d1-b",
           "medal": "🥈",
-          "name": "ION Adventure Hotel Nesjavellir",
-          "scoreClass": "score-warn",
-          "scoreText": "4.1／673則",
-          "priceText": "💰約ISK 55,000–73,000／晚（約NT$13,200–17,500）",
+          "name": "Ocean Break Cabins（Sandgerði）",
+          "scoreClass": "score-ok",
+          "scoreText": "✅Booking.com 9.1／871則",
+          "priceText": "💰約US$237–322／晚（約NT$7,600–10,300）",
           "platformLinks": [],
-          "why": "荒僻熔岩台地，極光晨喚服務+觀景平台；價位較高、離市區約45分",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=ION+Adventure+Hotel+Nesjavellir+Iceland"
+          "why": "距機場約10公里，緊鄰高爾夫球場、周邊無路燈；住客評論原話「no intrusive light pollution」、極光「absolutely spectacular」；每棟小屋附私人熱水池可邊泡邊看",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ocean+Break+Cabins+Sandgerdi+Iceland"
         },
         {
           "groupName": "pick-d1",
           "pickKey": "d1-c",
           "medal": "🥉",
-          "name": "Kiðafell（農場民宿）",
+          "name": "Hótel Berg（Keflavík）",
           "scoreClass": "score-unknown",
-          "scoreText": "❓查無Google（Hotels.com 9.6）",
-          "priceText": "💰約ISK 16,300／晚（約NT$3,900；為整棟農舍6房出租價，非單間雙人房）",
+          "scoreText": "❓查無Google（Tripadvisor 4/5，Keflavík #2）",
+          "priceText": "💰約US$151–298／晚（約NT$4,800–9,500，旺淡季價差大）",
           "platformLinks": [],
-          "why": "Kjós暗空農業區獨立農場，遠離所有城鎮光源，但缺乏Google評分驗證",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kidafell+Kjos+Iceland"
+          "why": "距機場約5分鐘，屋頂溫水池可泡湯看極光；但在Keflavík鎮上港邊，光害比Garður/Sandgerði高，也有住客反映屋頂池比照片小、易擁擠",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Berg+Keflavik+Iceland"
         },
         {
           "groupName": "pick-d1",
           "pickKey": "d1-d",
           "medal": "4",
-          "name": "Minna-Mosfell Guesthouse",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Booking.com 9.5／Tripadvisor地區B&B類#1",
-          "priceText": "概估約NT$8,500–9,500／晚（參考搜尋片段中一則$290/晚報價，非鎖定10月確切日期，僅供概估） ｜ Booking.com查無房價（連結已失效會導至Mosfellsbær地區搜尋結果，非此民宿專屬頁） 開啟地區搜尋↗ ｜ Airbnb有房源，查無房價",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$8,500–9,500／晚（參考搜尋片段中一則$290/晚報價，非鎖定10月確切日期，僅供概估）",
-              "url": null
-            },
-            {
-              "platform": "Booking.com",
-              "note": "查無房價（連結已失效會導至Mosfellsbær地區搜尋結果，非此民宿專屬頁）",
-              "url": "https://www.booking.com/hotel/is/minna-mosfell-guesthouse-mosfellsbaer.html?checkin=2026-10-04&checkout=2026-10-05&group_adults=2&no_rooms=1"
-            },
-            {
-              "platform": "Airbnb",
-              "note": "有房源，查無房價",
-              "url": null
-            }
-          ],
-          "why": "Tripadvisor住客評論提到「in a perfect area to see the Northern Lights」，且民宿主人會主動留意極光並提醒房客；有完整地址可交叉驗證，非私人房源黑箱",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Minna-Mosfell+Guesthouse+Mosfellsbaer+Iceland"
+          "name": "Airport Hotel Aurora Star",
+          "scoreClass": "score-warn",
+          "scoreText": "HotelsCombined 8.3／9,490則；Tripadvisor評價兩極",
+          "priceText": "💰約US$150–255／晚（約NT$4,800–8,200）",
+          "platformLinks": [],
+          "why": "航廈旁步行100公尺，落地最省事；有住客提到在飯店門口看到極光，但緊鄰機場燈光、光害最重，也有「性價比差」的評論",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Aurora+Hotel+Keflavik+Airport+Iceland"
         },
         {
           "groupName": "pick-d1",
           "pickKey": "d1-e",
           "medal": "5",
-          "name": "Cabin home with a view, Northern light, hot tub",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Airbnb 4.89／130則",
-          "priceText": "概估約NT$4,500–8,500／晚（同類型Airbnb私人小屋概估，非實際查得的房價） ｜ Airbnb查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$4,500–8,500／晚（同類型Airbnb私人小屋概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "查無房價",
-              "url": "https://www.airbnb.com/rooms/24745866?check_in=2026-10-04&check_out=2026-10-05&adults=2"
-            }
-          ],
-          "why": "Airbnb官網標題直接寫「A GREAT PLACE FOR WATCHING THE NORTHERN LIGHTS」，露台可賞山景與極光；私人房源無完整地址，訂房後才提供精確位置",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mosfellsbaer+Iceland"
-        },
-        {
-          "groupName": "pick-d1",
-          "pickKey": "d1-f",
-          "medal": "6",
-          "name": "Northern Lights Villa",
-          "scoreClass": "score-ok",
-          "scoreText": "✅Airbnb 4.83／295則",
-          "priceText": "概估約NT$4,500–8,500／晚（同類型Airbnb私人小屋概估，非實際查得的房價） ｜ Airbnb查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$4,500–8,500／晚（同類型Airbnb私人小屋概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "查無房價",
-              "url": "https://www.airbnb.com/rooms/23332196?check_in=2026-10-04&check_out=2026-10-05&adults=2"
-            }
-          ],
-          "why": "Airbnb描述提及「world famous northern lights的私人專場」，主臥屋頂大窗可躺著賞極光；私人房源無完整地址",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mosfellsbaer+Iceland"
-        },
-        {
-          "groupName": "pick-d1",
-          "pickKey": "d1-g",
-          "medal": "7",
-          "name": "Northern Lights Cottage",
+          "name": "Northern Light Inn",
           "scoreClass": "score-warn",
-          "scoreText": "⚠️Airbnb 5.0／16則（樣本少）",
-          "priceText": "概估約NT$4,000–7,000／晚（同類型Airbnb私人小屋概估，非實際查得的房價） ｜ Airbnb查無房價 連結↗",
-          "platformLinks": [
-            {
-              "platform": "概估",
-              "note": "約NT$4,000–7,000／晚（同類型Airbnb私人小屋概估，非實際查得的房價）",
-              "url": null
-            },
-            {
-              "platform": "Airbnb",
-              "note": "查無房價",
-              "url": "https://www.airbnb.com/rooms/1289013921647372459?check_in=2026-10-04&check_out=2026-10-05&adults=2"
-            }
-          ],
-          "why": "Kjós地區獨立小屋，文案標榜「perfect for relaxation under the northern lights」，但評論僅16則樣本偏少，5.0分可信度需留意",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kjosarhreppur+Iceland"
+          "scoreText": "Tripadvisor 4.5／1,281則；Booking.com 8.4／940則",
+          "priceText": "💰約ISK 40,000–48,000／晚（約NT$9,600–11,500）",
+          "platformLinks": [],
+          "why": "官方提供極光叫醒服務、評論有「Northern lights 10/10」；⚠️位於Grindavík火山警戒區，火山有動靜時通往飯店的道路可能臨時封閉、短時間通知停業，距機場約20分",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Northern+Light+Inn+Grindavik+Iceland"
         }
       ]
     },
@@ -1457,11 +1384,11 @@
     {
       "num": 1,
       "date": "10/4（日）",
-      "title": "抵達冰島 · 市區安頓",
+      "title": "抵達冰島 · 機場周邊安頓（可看極光）",
       "tags": [
         "抵達日"
       ],
-      "stay": "住宿：雷克雅維克 建議：Hotel Laxnes（Google 4.4／489則，⚠️未達4.5）在Maps開啟↗ ｜ 實際訂房：",
+      "stay": "住宿：機場周邊（Garður） 建議：Lighthouse Inn Garður（✅Google 4.70／634則，櫃檯會通知極光）在Maps開啟↗ ｜ 實際訂房：",
       "callout": null,
       "rows": [
         {
@@ -1484,32 +1411,38 @@
         },
         {
           "time": "19:45",
-          "what": "車程前往超市約20分",
+          "what": "車程前往超市（Keflavík）約10分",
           "note": null,
           "photo": null
         },
         {
-          "time": "20:05",
-          "what": "超市採買（Bónus / Krónan，雷克雅維克）約15分",
-          "note": "建議先採買水、零食與隔天早餐，冰島超市多8-9點打烊，晚到store可能已關 地圖↗",
+          "time": "19:55",
+          "what": "超市採買（Nettó，Keflavík）約15分",
+          "note": "營業時間10:00–21:00；先買水、零食與隔天早餐（D2一早要開約1.5小時車到Þingvellir） 地圖↗",
           "photo": null
         },
         {
-          "time": "20:20",
-          "what": "車程前往住宿約10分",
+          "time": "20:10",
+          "what": "車程前往 Garður 住宿約15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "20:30",
+          "time": "20:25",
           "what": "Check-in 休息",
           "note": null,
           "photo": null
+        },
+        {
+          "time": "夜間",
+          "what": "視天氣在住宿外看極光",
+          "note": "Garður海岬燈塔區光害低，Lighthouse Inn櫃檯會在極光出現時敲門通知；也可步行到Garðskagi燈塔看 地圖↗",
+          "photo": null
         }
       ],
-      "lat": 64.1466,
-      "lon": -21.9426,
-      "regionName": "雷克雅維克近郊"
+      "lat": 64.0786,
+      "lon": -22.6848,
+      "regionName": "Garður（機場周邊）"
     },
     {
       "num": 2,
@@ -1524,62 +1457,62 @@
       "rows": [
         {
           "time": "10:00",
-          "what": "飯店出發",
-          "note": null,
+          "what": "Garður出發",
+          "note": "從機場區出發第一段車程較長（約1.5小時），午餐時間會偏晚，可在Geysir Center先吃點輕食",
           "photo": null
         },
         {
           "time": "10:00",
-          "what": "車程前往 辛格韋德利國家公園約45分",
+          "what": "車程前往 辛格韋德利國家公園約1小時30分",
           "note": null,
           "photo": null
         },
         {
-          "time": "10:45",
+          "time": "11:30",
           "what": "辛格韋德利國家公園（Þingvellir）約1小時",
           "note": "短程步道，可走到北美/歐亞板塊裂谷步道段；推薦拍照點：Almannagjá峽谷觀景台（掛冰島國旗處）與Öxarárfoss瀑布 地圖↗",
           "photo": "images/day2/row2.jpg"
         },
         {
-          "time": "11:45",
+          "time": "12:30",
           "what": "車程前往 Geysir蓋錫爾間歇泉約45分",
           "note": null,
           "photo": null
         },
         {
-          "time": "12:30",
+          "time": "13:15",
           "what": "蓋錫爾間歇泉區（Geysir）約1小時",
           "note": "Geysir Center 內有伴手禮店（羊毛衣、紀念品）與咖啡廳，可順道逛逛 地圖↗",
           "photo": "images/day2/row4.jpg"
         },
         {
-          "time": "13:30",
+          "time": "14:15",
           "what": "車程前往 Gullfoss黃金瀑布約10分",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:40",
+          "time": "14:25",
           "what": "黃金瀑布（Gullfoss） + 午餐約1小時45分",
           "note": "地圖↗",
           "photo": "images/day2/row6.jpg"
         },
         {
-          "time": "15:25",
+          "time": "16:10",
           "what": "車程前往 塞爾福斯（Selfoss）住宿區約50分",
           "note": null,
           "photo": null
         },
         {
-          "time": "16:15",
+          "time": "17:00",
           "what": "Check-in 休息",
           "note": null,
           "photo": null
         },
         {
-          "time": "17:00",
+          "time": "17:15",
           "what": "超市採買（Bónus，塞爾福斯 Selfoss）約20分",
-          "note": "備齊零食、水與隔天早餐；⚠️營業時間為 10:00–20:00（非全天到21:00，17:00到達仍在營業時間內） 地圖↗",
+          "note": "備齊零食、水與隔天早餐；⚠️營業時間為 10:00–20:00（非全天到21:00，17:15到達仍在營業時間內） 地圖↗",
           "photo": null
         },
         {
