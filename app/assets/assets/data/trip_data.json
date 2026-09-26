@@ -930,7 +930,7 @@
     {
       "num": 4,
       "date": "10/7（三）",
-      "title": "南岸東段：峽谷、冰河湖、鑽石沙灘",
+      "title": "南岸東段：峽谷、Skaftafell、鑽石沙灘",
       "tags": [
         "必玩景點"
       ],
@@ -945,49 +945,43 @@
         },
         {
           "time": "10:00",
-          "what": "車程往 羽毛河峽谷約1小時35分",
+          "what": "車程往 羽毛河峽谷約1小時45分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:35",
+          "time": "11:45",
           "what": "羽毛河峽谷觀景步道（Fjaðrárgljúfur）約1小時",
           "note": "走到觀景台即可，不下切谷底 地圖↗",
           "photo": "images/day4/row2.jpg"
         },
         {
-          "time": "12:35",
-          "what": "車程往 Jökulsárlón傑古沙龍冰河湖約1小時20分",
+          "time": "12:45",
+          "what": "車程往 Skaftafell 遊客中心約1小時15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "13:55",
-          "what": "午餐（遊客中心）約1小時",
-          "note": "遊客中心內附設小型紀念品店，可順道採買伴手禮 地圖↗",
+          "time": "14:00",
+          "what": "午餐（Skaftafell遊客中心）約45分",
+          "note": "遊客中心有咖啡輕食，也可以自帶午餐；順便上廁所、伸展，把兩小時以上的車程拆成兩段 地圖↗",
           "photo": null
         },
         {
-          "time": "14:55",
-          "what": "傑古沙龍冰河湖（Jökulsárlón）約1小時",
-          "note": "湖畔平緩步道，浮冰拍照；與後面的鑽石沙灘是分開兩站（隔著馬路橋），此為冰河湖本身、非鑽石沙灘 地圖↗",
-          "photo": "images/day4/row5.jpg"
-        },
-        {
-          "time": "15:55",
-          "what": "步行/車程往鑽石沙灘約15分",
+          "time": "14:45",
+          "what": "車程往 鑽石沙灘（途經冰河湖，冰河湖留到D5下午）約1小時",
           "note": null,
           "photo": null
         },
         {
-          "time": "16:10",
+          "time": "15:45",
           "what": "鑽石沙灘（Diamond Beach）約1小時",
           "note": "黑沙灘／鑽石沙灘的最佳光線是日出日落，10月午後到傍晚這段時間光線已經偏斜柔和，比正中午平光更好看 地圖↗",
-          "photo": "images/day4/row7.jpg"
+          "photo": "images/day4/row6.jpg"
         },
         {
-          "time": "17:10",
-          "what": "車程往 赫本（Höfn）Check-in約50分",
+          "time": "16:45",
+          "what": "車程往 赫本（Höfn）Check-in約1小時05分",
           "note": null,
           "photo": null
         },
@@ -1005,7 +999,7 @@
     {
       "num": 5,
       "date": "10/8（四）",
-      "title": "水晶冰洞探索團 · 夜間極光導覽團",
+      "title": "水晶冰洞 · 冰河湖 · 夜間極光導覽團",
       "tags": [
         "冰洞",
         "極光團",
@@ -1015,9 +1009,9 @@
       "callout": "⚠️ 10月初部分冰洞可能尚未正式開團，出發前1–2週務必向業者確認並保留 Day10 作為備案調整日。",
       "rows": [
         {
-          "time": "08:00",
-          "what": "早餐後車程前往冰河湖集合點約50–55分",
-          "note": null,
+          "time": "07:30",
+          "what": "早餐後車程前往冰河湖集合點約1小時20分",
+          "note": "日出約07:55，剛出發時天色還暗，前段請放慢車速",
           "photo": null
         },
         {
@@ -1028,8 +1022,32 @@
         },
         {
           "time": "13:00",
-          "what": "午餐約1小時",
+          "what": "午餐（冰河湖遊客中心）約1小時",
+          "note": "遊客中心內附設小型紀念品店，可順道採買伴手禮 地圖↗",
+          "photo": null
+        },
+        {
+          "time": "14:00",
+          "what": "傑古沙龍冰河湖（Jökulsárlón）約1小時30分",
+          "note": "湖畔平緩步道，浮冰拍照；冰洞團結束後就在同一個地方，不用再移動；鑽石沙灘D4已去過，就在馬路橋對面，想再去走走只要5分鐘 地圖↗",
+          "photo": "images/day5/row3.jpg"
+        },
+        {
+          "time": "15:30",
+          "what": "車程返回 赫本（Höfn）住宿約1小時20分",
           "note": null,
+          "photo": null
+        },
+        {
+          "time": "16:50",
+          "what": "回住宿休息",
+          "note": "續住，不用換房；為晚上極光團儲備體力",
+          "photo": null
+        },
+        {
+          "time": "18:00",
+          "what": "晚餐（赫本鎮上）",
+          "note": "極光團約19:30接送，晚餐早點吃；鎮上有 Kaffi Hornið（平價龍蝦湯）、Pakkhús 等",
           "photo": null
         },
         {
@@ -1042,7 +1060,7 @@
           "time": "20:00",
           "what": "極光觀測約3小時，依天況彈性",
           "note": "專業司機處理夜間路況，你只管拍照",
-          "photo": "images/day5/row4.jpg"
+          "photo": "images/day5/row8.jpg"
         },
         {
           "time": "23:00後",
@@ -1067,73 +1085,73 @@
       "callout": null,
       "rows": [
         {
-          "time": "10:00",
+          "time": "08:30",
           "what": "赫本（Höfn）出發，沿南岸西返",
-          "note": "⚠️今天總車程約4小時35分（從赫本出發、住宿在Hvolsvöllur），超過每天4小時的原則約35分；已略過維克鎮上的停留（維克沙灘／Icewear／Krónan）來縮短車程💡備案：若D5水晶冰洞還沒開放，維克附近的Katla冰洞（全年開放）是很好的替代方案，可考慮把冰洞行程改到這附近的日期參加",
+          "note": "⚠️今天全天車程約6小時（赫本→Hvolsvöllur），所以提早到08:30出發，才能在天黑前（日落約18:40）抵達；日出約07:55，出發時天已亮。維克鎮上的停留（維克沙灘／Icewear／Krónan）這天略過💡備案：若D5水晶冰洞還沒開放，維克附近的Katla冰洞（全年開放）是很好的替代方案，可考慮把冰洞行程改到這附近的日期參加",
           "photo": null
         },
         {
-          "time": "10:00",
-          "what": "車程往 Skaftafell約1小時40分",
+          "time": "08:30",
+          "what": "車程往 Skaftafell約1小時55分",
           "note": null,
           "photo": null
         },
         {
-          "time": "11:40",
+          "time": "10:25",
           "what": "短暫休息（Skaftafell遊客中心，上廁所/伸展）約15分",
           "note": "地圖↗",
           "photo": null
         },
         {
-          "time": "11:55",
-          "what": "車程往 Kirkjubæjarklaustur約50分",
+          "time": "10:40",
+          "what": "車程往 Kirkjubæjarklaustur約1小時05分",
           "note": null,
           "photo": null
         },
         {
-          "time": "12:45",
+          "time": "11:45",
           "what": "Kirkjubæjarklaustur 午餐/休息約45分",
-          "note": "推薦 Systrakaffi（每日12:00–21:00營業，北極紅點鮭Arctic Char評價高） 地圖↗",
+          "note": "推薦 Systrakaffi（每日12:00–21:00營業，11:45到可先在小鎮走走等開門，北極紅點鮭Arctic Char評價高） 地圖↗",
           "photo": null
         },
         {
-          "time": "13:30",
-          "what": "車程往 Reynisfjara約55分",
+          "time": "12:30",
+          "what": "車程往 Reynisfjara約1小時20分",
           "note": null,
           "photo": null
         },
         {
-          "time": "14:25",
+          "time": "13:50",
           "what": "黑沙灘（Reynisfjara）約1小時",
           "note": "注意浪況警示牌，不靠近水際線 地圖↗",
           "photo": "images/day6/row6.jpg"
         },
         {
-          "time": "15:25",
-          "what": "車程往 Dyrhólaey迪霍拉里約15分",
+          "time": "14:50",
+          "what": "車程往 Dyrhólaey迪霍拉里約25分",
           "note": null,
           "photo": null
         },
         {
-          "time": "15:40",
-          "what": "迪霍拉里燈塔景觀台（Dyrhólaey）約1小時",
+          "time": "15:15",
+          "what": "迪霍拉里燈塔景觀台（Dyrhólaey）約45分",
           "note": "地圖↗",
           "photo": "images/day6/row8.jpg"
         },
         {
-          "time": "16:40",
-          "what": "車程往 Hvolsvöllur 住宿（1號公路往西）約55分",
+          "time": "16:00",
+          "what": "車程往 Hvolsvöllur 住宿（1號公路往西）約1小時15分",
           "note": null,
           "photo": null
         },
         {
-          "time": "17:35",
+          "time": "17:15",
           "what": "Check-in 休息",
           "note": "Hótel Hvolsvöllur 15:00起可入住；有2座戶外熱水池",
           "photo": null
         },
         {
-          "time": "17:50",
+          "time": "17:30",
           "what": "超市採買（Krónan，Hvolsvöllur）約15分",
           "note": "每天09:00–19:00（kronan.is），同鎮上開車幾分鐘；💡維克的Icewear這次略過，雷克雅維克Laugavegur購物街也有門市，D10可以逛 地圖↗",
           "photo": null
